@@ -1,0 +1,3687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-06-01 Wed 14:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shanties</title>
+<meta name="author" content="Cassandra Keil" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style>p.verse{white-space: pre; font-family: monospace; line-height: 0.6;}</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Shanties</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org35e90e7">1. 1, 2, 3, 4</a></li>
+<li><a href="#org3329d26">2. A Pirates Life For Me</a></li>
+<li><a href="#org530b7ab">3. Barrett&rsquo;s Privateers</a></li>
+<li><a href="#org839149b">4. Beneath the Black Flag</a></li>
+<li><a href="#orgc5ae884">5. Binks&rsquo; Brew</a></li>
+<li><a href="#orgac7f1f3">6. <span class="todo TODO">TODO</span> Brave and Mighty Sailin&rsquo; Captain</a></li>
+<li><a href="#org3ab8b4c">7. Bully in the Alley</a></li>
+<li><a href="#org41689d0">8. Captain Kidd</a></li>
+<li><a href="#org1691fd9">9. Captain Morgan</a></li>
+<li><a href="#org172d610">10. Diggy Diggy Hole</a></li>
+<li><a href="#org6ba452b">11. Don&rsquo;t Forget Your Old Shipmate</a></li>
+<li><a href="#orgfe94c0a">12. Drunken Sailor</a></li>
+<li><a href="#org5db5b4e">13. Eight Bells</a></li>
+<li><a href="#org29729f2">14. Farewell and Adieu / Spanish Ladies</a></li>
+<li><a href="#org1a2cf56">15. Finnegan&rsquo;s Wake</a></li>
+<li><a href="#orge8d92ca">16. Flyin&rsquo; Dutchman</a>
+<ul>
+<li><a href="#org2c25aed">16.1. Lyrics</a></li>
+<li><a href="#org48d14a1">16.2. Chords</a></li>
+</ul>
+</li>
+<li><a href="#org94a67cf">17. Fucked with an Anchor</a></li>
+<li><a href="#orga9918fe">18. Haul Away Joe</a></li>
+<li><a href="#orgb81a97d">19. Health to the Company</a></li>
+<li><a href="#org3eb6c26">20. Hoist the Colors</a></li>
+<li><a href="#orgb1f73d8">21. Hoist Up the Thing</a></li>
+<li><a href="#org59ac984">22. I&rsquo;ll Have A Beer</a></li>
+<li><a href="#org81b5837">23. King of the Pirates (DaddyPhatSnaps)</a></li>
+<li><a href="#org3d04b39">24. Leave Her Johnny</a></li>
+<li><a href="#org544a0b5">25. Legend of Davy Jones</a></li>
+<li><a href="#org1ddb29a">26. My Jolly Sailor Bold</a></li>
+<li><a href="#orgf78ed97">27. Nord Mead</a></li>
+<li><a href="#org8865f31">28. Oh, Better Far to Live and Die - Pirate King</a></li>
+<li><a href="#org745afd7">29. Old Maui</a></li>
+<li><a href="#org7524a4d">30. Pirates of the Black Flag</a></li>
+<li><a href="#orgd147700">31. Pirates who don&rsquo;t do anything</a></li>
+<li><a href="#orgb6f2458">32. Professional Pirate</a></li>
+<li><a href="#org87ca541">33. Randy Dandy Oh</a></li>
+<li><a href="#org9f15307">34. Roll the Wood Pile Down</a></li>
+<li><a href="#org635645d">35. Row me Bully boys</a></li>
+<li><a href="#orgcd708c0">36. Sailing For Adventure</a></li>
+<li><a href="#org9dcd13f">37. Sally Brown/Roll Boys, Roll</a></li>
+<li><a href="#orgbf83166">38. Santiana</a></li>
+<li><a href="#org691f94b">39. Shiver Me Timbers</a></li>
+<li><a href="#org5dbe450">40. Space Shanty</a></li>
+<li><a href="#org377bbbc">41. The Last Shanty</a></li>
+<li><a href="#org36541f7">42. The Ship is Fine</a></li>
+<li><a href="#orgacf71ae">43. Twiddles</a></li>
+<li><a href="#org3dc8737">44. Tyme Flies When You&rsquo;re Having Rum</a></li>
+<li><a href="#orgdbf8d72">45. Voodoo Man</a></li>
+<li><a href="#org4c779d8">46. Wellerman</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org35e90e7" class="outline-2">
+<h2 id="org35e90e7"><span class="section-number-2">1.</span> 1, 2, 3, 4</h2>
+<div class="outline-text-2" id="text-1">
+<pre class="example">
+Artist: Alan Doyle
+</pre>
+<p class="verse">
+Whiskey, whiskey<br />
+The singer’s getting sore<br />
+We raised the roof<br />
+Now we’re lowering the floor<br />
+The band is blistered but we’ve got a little bit more<br />
+When I say 1,2 you say 3,4<br />
+1,2,3,4<br />
+<br />
+Altogether<br />
+Altogether gone<br />
+It’s now or never if you want another song<br />
+On and on goes the ringing of the bell<br />
+Off we go, this song won’t sing itself<br />
+So soldiers at my side<br />
+It’s you and me tonight<br />
+Whiskey, whiskey<br />
+The singer’s getting sore<br />
+We raised the roof<br />
+Now we’re lowering the floor<br />
+The band is blistered but we’ve got a little bit more<br />
+When I say 1,2 you say 3,4<br />
+1,2,3,4<br />
+<br />
+Mister moonlight<br />
+You gotta let ‘em play<br />
+If the devils wanna dance<br />
+Then the piper wants his pay<br />
+Hide me in a hiding place<br />
+Where good sense never goes<br />
+Take me to the fountain<br />
+Where the firewater flows<br />
+Find our alibies and lies<br />
+And lose ourselves tonight<br />
+<br />
+Whiskey, whiskey<br />
+The singer’s getting sore<br />
+We raised the roof<br />
+Now we’re lowering the floor<br />
+The band is blistered but we’ve got a little bit more<br />
+When I say 1,2 you say 3,4<br />
+1,2,3,4<br />
+Trying to get the whole room on the dance floor<br />
+Is like trying to put a square peg in a round hole<br />
+I’m not saying it ain’t something that we shouldn’t try to do<br />
+Don’t do it for me though, do it for you<br />
+You’ve been minding your manners and behaving yourself<br />
+But there’s still a lot of bottles left upon the shelf<br />
+So wet my little whistle now and give a dog a bone<br />
+I can take it up a notch, can’t do it alone<br />
+So soldiers at my side<br />
+It’s you and me tonight<br />
+<br />
+Whiskey, whiskey<br />
+The singer’s getting sore<br />
+We raised the roof<br />
+Now we’re lowering the floor<br />
+The band is blistered but we’ve got a little bit more<br />
+When I say 1,2 you say 3,4<br />
+1,2,3,4<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org3329d26" class="outline-2">
+<h2 id="org3329d26"><span class="section-number-2">2.</span> A Pirates Life For Me</h2>
+<div class="outline-text-2" id="text-2">
+<p class="verse">
+Yo ho, yo ho, a pirate&rsquo;s life for me<br />
+We pillage, we plunder, we rifle, and loot<br />
+Drink up, me &rsquo;earties, yo ho<br />
+We kidnap and ravage and don&rsquo;t give a hoot<br />
+Drink up me &rsquo;earties, yo ho<br />
+<br />
+Yo ho, yo ho, a pirate&rsquo;s life for me<br />
+We extort, we pilfer, we filch, and sack<br />
+Drink up, me &rsquo;earties, yo ho<br />
+Maraud and embezzle, and even high-jack<br />
+Drink up, me &rsquo;earties, yo ho<br />
+<br />
+Yo ho, yo ho, a pirate&rsquo;s life for me<br />
+We kindle and char, inflame and ignite<br />
+Drink up, me &rsquo;earties, yo ho<br />
+We burn up the city, we&rsquo;re really a fright<br />
+Drink up, me &rsquo;earties, yo ho<br />
+<br />
+We&rsquo;re rascals, scoundrels, villans, and knaves<br />
+Drink up, me &rsquo;earties, yo ho<br />
+We&rsquo;re devils and black sheep, really bad eggs<br />
+Drink up, me &rsquo;earties, yo ho<br />
+<br />
+Yo ho, yo ho, a pirate&rsquo;s life for me<br />
+We&rsquo;re beggars and blighters, ne&rsquo;er-do-well cads<br />
+Drink up, me &rsquo;earties, yo ho<br />
+Aye, but we&rsquo;re loved by our mommies and dads<br />
+Drink up, me &rsquo;earties, yo ho<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org530b7ab" class="outline-2">
+<h2 id="org530b7ab"><span class="section-number-2">3.</span> Barrett&rsquo;s Privateers</h2>
+<div class="outline-text-2" id="text-3">
+<p class="verse">
+[Verse 1]<br />
+Oh, the year was 1778<br />
+How I wish I was in Sherbrooke now<br />
+A letter of marque came from the king<br />
+To the scummiest vessel I&rsquo;ve ever seen<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+[Verse 2]<br />
+Oh, Elcid Barrett cried the town<br />
+How I wish I was in Sherbrooke now<br />
+For twenty brave men all fishermen who<br />
+Would make for him the Antelope&rsquo;s crew<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+<br />
+[Verse 3]<br />
+The Antelope sloop was a sickening sight<br />
+How I wish I was in Sherbrooke now<br />
+She&rsquo;d a list to the port and her sails in rags<br />
+And the cook in the scuppers with the staggers and jags<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+<br />
+[Verse 4]<br />
+On the King&rsquo;s birthday we put to sea<br />
+How I wish I was in Sherbrooke now<br />
+We were 91 days to Montego Bay<br />
+Pumping like madmen all the way<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+[Verse 5]<br />
+On the 96th day we sailed again<br />
+How I wish I was in Sherbrooke now<br />
+When a bloody great Yankee hove in sight<br />
+With our cracked four pounders we made to fight<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+<br />
+[Verse 6]<br />
+Now the Yankee lay low down with gold<br />
+How I wish I was in Sherbrooke now<br />
+She was broad and fat and loose in the stays<br />
+But to catch her took the Antelope two whole days<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+<br />
+[Verse 7]<br />
+Then at length we stood two cables away<br />
+How I wish I was in Sherbrooke now<br />
+Our cracked four pounders made an awful din<br />
+But with one fat ball, the Yank stove us in<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+[Verse 8]<br />
+The Antelope shook and pitched on her side<br />
+How I wish I was in Sherbrooke now<br />
+Barrett was smashed like a bowl of eggs<br />
+And the Main truck carried off both me legs<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+<br />
+[Verse 9]<br />
+So here I lay in my 23rd year<br />
+How I wish I was in Sherbrooke now<br />
+It&rsquo;s been 6 years since we sailed away<br />
+And I just made Halifax yesterday<br />
+God damn them all! I was told<br />
+We&rsquo;d cruise the seas for American gold<br />
+We&rsquo;d fire no guns, shed no tears<br />
+But I&rsquo;m a broken man on a Halifax pier<br />
+The last of Barrett&rsquo;s Privateers<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org839149b" class="outline-2">
+<h2 id="org839149b"><span class="section-number-2">4.</span> Beneath the Black Flag</h2>
+<div class="outline-text-2" id="text-4">
+<p class="verse">
+Out on the endless ocean<br />
+We tear along the gales<br />
+With rum inside our bellies warm<br />
+And freedom in our sails<br />
+<br />
+A wayward bunch of scoundrels<br />
+Assassins, thieves and slaves<br />
+The rich and blue-bloods fear us when<br />
+We hunt upon the waves<br />
+<br />
+And when you see it coming<br />
+That flag of baleful black<br />
+No point in turning tail there&rsquo;s no<br />
+Escaping our attack!<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We own the sea and sky<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We bleed the kingdoms dry!<br />
+<br />
+Defy the odds against us<br />
+A pirate knows no fear<br />
+Our steel is ready and our<br />
+Retribution is severe<br />
+<br />
+We plunder from the greedy<br />
+With blood and with our steel<br />
+We rob the rich of their<br />
+Ill-gotten gain and make them kneel<br />
+<br />
+Behold the ocean&rsquo;s mysteries<br />
+The tales of ancient deeds<br />
+We follow in the footsteps<br />
+Of a silent secret creed<br />
+Come on, lads!<br />
+<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We own the sea and sky<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We bleed the kingdoms dry!<br />
+<br />
+Hoist the black flag, lads!<br />
+<br />
+Justice runs in crimson rivers&#x2026;<br />
+<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We own the sea and sky<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We own the sea and sky<br />
+YO-HO!<br />
+YO-HO!<br />
+We row beneath the black flag<br />
+A rollickin&rsquo; we go!<br />
+We bleed the kingdoms dry!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5ae884" class="outline-2">
+<h2 id="orgc5ae884"><span class="section-number-2">5.</span> Binks&rsquo; Brew</h2>
+<div class="outline-text-2" id="text-5">
+<pre class="example">
+Artist: One Piece
+</pre>
+<p class="verse">
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Gather up all of the crew!<br />
+It&rsquo;s time to ship out Bink&rsquo;s brew!<br />
+Sea wind blows. To where?<br />
+Who knows?<br />
+The waves will be our guide!<br />
+O&rsquo;er across the ocean&rsquo;s tide,<br />
+Rays of sunshine far and wide,<br />
+Birds they sing of cheerful things, in circles passing by!<br />
+Bid farewell to weaver&rsquo;s town!<br />
+Say so long to port renowned!<br />
+Sing a song, it won&rsquo;t be long, before we&rsquo;re casting off!<br />
+Cross the gold and silver seas<br />
+The salty spray puts us at ease!<br />
+Day and night to our delight,<br />
+The voyage never ends!<br />
+Gather up all of the crew!<br />
+It&rsquo;s time to ship out Bink&rsquo;s brew!<br />
+Pirates we, eternally are challenging the sea!<br />
+With the waves to rest our heads,<br />
+ship beneath us as our beds!<br />
+Hoisted high upon the mast our Jolly Roger flies!<br />
+Somewhere in the endless sky,<br />
+Stormy winds are blowin&rsquo; by!<br />
+Waves are dancing, evening comes,<br />
+It&rsquo;s time to sound the drums!<br />
+But steady men may never fear!<br />
+Tomorrow&rsquo;s skies are always clear!<br />
+So pound your feet and clap your hands till sunny days return!<br />
+<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Gather up all of the crew!<br />
+It&rsquo;s time to ship out Bink&rsquo;s brew!<br />
+Wave good-bye, but don&rsquo;t you cry<br />
+Our memories remain.<br />
+Our days are but a passing dream, everlasting though they seem<br />
+&rsquo;neath the moon we&rsquo;ll meet again, the wind&rsquo;s our lullaby!<br />
+Gather up all of the crew!<br />
+It&rsquo;s time to ship out Bink&rsquo;s brew!<br />
+Sing a song and play along<br />
+For all the ocean&rsquo;s wide!<br />
+After all is said and done,<br />
+you&rsquo;ll end up a skeleton!<br />
+So spread your tale, from dawn till dusk, upon these foamy seas!<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho,<br />
+Yo-hohoho, Yo-hoho-ho.<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgac7f1f3" class="outline-2">
+<h2 id="orgac7f1f3"><span class="section-number-2">6.</span> <span class="todo TODO">TODO</span> Brave and Mighty Sailin&rsquo; Captain</h2>
+<div class="outline-text-2" id="text-6">
+<pre class="example">
+Artist: Musical Blades
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org3ab8b4c" class="outline-2">
+<h2 id="org3ab8b4c"><span class="section-number-2">7.</span> Bully in the Alley</h2>
+<div class="outline-text-2" id="text-7">
+<p class="verse">
+[Chorus]<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Way-hey, hey-hey, bully in the alley<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Bully down in shinbone al!<br />
+<br />
+[Verse 1]<br />
+Sally is the girl that I love dearly<br />
+Way-hey, hey-hey, bully in the alley<br />
+Sally is the girl that I spliced dearly<br />
+Bully down in shinbone al!<br />
+[Chorus]<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Way-hey, hey-hey, bully in the alley<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Bully down in shinbone al!<br />
+<br />
+[Verse 2]<br />
+For seven long years I courted little Sally<br />
+Way-hey, hey-hey, bully in the alley<br />
+But all she did was dilly and dally<br />
+Bully down in shinbone al!<br />
+<br />
+[Chorus]<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Way-hey, hey-hey, bully in the alley<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Bully down in shinbone al!<br />
+<br />
+[Verse 3]<br />
+I ever get back, I&rsquo;ll marry little Sally<br />
+Way-hey, hey-hey, bully in the alley<br />
+Have six kids and live in Shin-bone Alley<br />
+Bully down in shinbone al!<br />
+<br />
+[Chorus]<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Way-hey, hey-hey, bully in the alley<br />
+Help me, Bob, I&rsquo;m bully in the alley<br />
+Bully down in shinbone al!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org41689d0" class="outline-2">
+<h2 id="org41689d0"><span class="section-number-2">8.</span> Captain Kidd</h2>
+<div class="outline-text-2" id="text-8">
+<p class="verse">
+My name is Captain Kidd<br />
+As I sailed, as I sailed,<br />
+Oh my name is Captain Kidd as I sailed,<br />
+My name is Captain Kidd<br />
+And God&rsquo;s laws I did forbid,<br />
+And most wickedly I did as I sailed.<br />
+<br />
+My father taught me well<br />
+To shun the gates of hell,<br />
+But against him I rebelled as I sailed,<br />
+He shoved a bible in my hand<br />
+But I left it in the sand<br />
+And I pulled away from land,<br />
+As I sailed<br />
+<br />
+[Chorus]<br />
+<br />
+I murdered William Moore<br />
+And I left him in his gore<br />
+Twenty leagues away from shore<br />
+As I sailed,<br />
+And being crueler still, the gunner I did kill<br />
+All his precious blood did spill,<br />
+As I sailed,<br />
+<br />
+[Chorus]<br />
+<br />
+I was sick and nigh to death,<br />
+And I vowed at every breath,<br />
+Oh to walk in wisdom&rsquo;s path,<br />
+As I sailed<br />
+But my repentance lasted not,<br />
+My vows I soon forgot,<br />
+Oh damnation is my lot,<br />
+As I sailed.<br />
+<br />
+[Chorus]<br />
+<br />
+To the execution dock<br />
+Lay my head upon the block,<br />
+Laws no more I&rsquo;ll mock as I sail,<br />
+So take warning here and heed<br />
+To shun bad company<br />
+Or you&rsquo;ll wind up just like me<br />
+As I sailed.<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org1691fd9" class="outline-2">
+<h2 id="org1691fd9"><span class="section-number-2">9.</span> Captain Morgan</h2>
+<div class="outline-text-2" id="text-9">
+<pre class="example">
+Title: Captain Morgan
+Artist: Jolly Rogers
+</pre>
+<p class="verse">
+Eight months out, nothing to show<br />
+The crew&rsquo;s morale at an all time low<br />
+When we pulled in to Port Royal for repairs<br />
+The Captain went ashore for news<br />
+While we mended sails with the other crews<br />
+And talked about our sad state of affairs<br />
+<br />
+The captain, he came bounding back<br />
+He said &ldquo;Boys, there&rsquo;s no time to unpack<br />
+&lsquo;cause we&rsquo;re about to join our pirate fleet&rdquo;<br />
+This news should have been met with cheers<br />
+But the crew was plagued with doubt and fears<br />
+So the captain said without missing a beat:<br />
+<br />
+&ldquo;Don&rsquo;t avoid it, don&rsquo;t fear it<br />
+Embrace your pirate spirit<br />
+We sail with Captain Morgan tonight&rdquo;<br />
+<br />
+&ldquo;For adventure and glory<br />
+And an unforgettable story<br />
+We sail with Captain Morgan tonight!&rdquo;<br />
+<br />
+&ldquo;For Maracaibo we&rsquo;ll set sail<br />
+And there is no way we can fail<br />
+We&rsquo;ll have us a Navy of our own&rdquo;<br />
+<br />
+Like Portobello long before<br />
+We will sneak ourselves ashore<br />
+And we&rsquo;ll be rich before we come back home&ldquo;<br />
+<br />
+This got some cheers but not a lot<br />
+They knew the Cartagena plot<br />
+And all the pirates there that met their end<br />
+<br />
+&rdquo;Yes&ldquo; he says &rdquo;there&rsquo;s risk involved<br />
+But every problem can be solved<br />
+And we&rsquo;ll end up with more cash than we can spend&ldquo;<br />
+&rdquo;Don&rsquo;t avoid it, don&rsquo;t fear it<br />
+Embrace your pirate spirit<br />
+We sail with Captain Morgan tonight&ldquo;<br />
+<br />
+&rdquo;For adventure and glory<br />
+And an unforgettable story<br />
+We sail with Captain Morgan tonight!&ldquo;<br />
+<br />
+At last the crew they all agreed<br />
+As fear cannot win over greed<br />
+And we got our ship all ready and primed<br />
+<br />
+We set the sails and sharpened swords<br />
+We pulled the anchor and wound the cords<br />
+There was no way that we would lose this time<br />
+<br />
+With that the whole crew was met<br />
+Pledges made, and routes were set<br />
+Henry Morgan said &rdquo;Let not a thing go wrong!&ldquo;<br />
+<br />
+And as the fleet was heading out<br />
+You could hear our whole crew shout<br />
+&rdquo;Listen up ye scurvy dogs and sing along;<br />
+<br />
+&ldquo;Don&rsquo;t avoid it, don&rsquo;t fear it<br />
+Embrace your pirate spirit<br />
+We sail with Captain Morgan tonight&rdquo;<br />
+&ldquo;For adventure and glory<br />
+And an unforgettable story<br />
+We sail with Captain Morgan tonight!&rdquo;<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org172d610" class="outline-2">
+<h2 id="org172d610"><span class="section-number-2">10.</span> Diggy Diggy Hole</h2>
+<div class="outline-text-2" id="text-10">
+<pre class="example">
+Artist: Wind Rose
+</pre>
+<p class="verse">
+[Verse 1]<br />
+Brothers of the mine rejoice!<br />
+(Swing, swing, swing with me!)<br />
+Raise your pick and raise your voice!<br />
+(Sing, sing, sing with me!)<br />
+Down and down into the deep<br />
+Who knows what we&rsquo;ll find beneath?<br />
+Diamonds, rubies, gold, and more<br />
+Hidden in the mountain store<br />
+<br />
+[Pre-Chorus 1]<br />
+Born underground<br />
+Suckled from a teat of stone<br />
+Raised in the dark<br />
+The safety of our mountain home<br />
+Skin made of iron<br />
+Steel in our bones<br />
+To dig and dig makes us free<br />
+Come on, brothers, sing with me!<br />
+[Chorus]<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, diggy diggy hole<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, digging a hole<br />
+<br />
+[Verse 2]<br />
+The sunlight will not reach this low<br />
+(Deep, deep in the mine)<br />
+Never seen the blue moon glow<br />
+(Dwarves won&rsquo;t fly so high)<br />
+Fill a glass and down some mead<br />
+Stuff your bellies at the feast!<br />
+Stumble home and fall asleep<br />
+Dreaming in our mountain keep<br />
+<br />
+[Pre-Chorus 2]<br />
+Born underground<br />
+Grown inside a rocky womb<br />
+The Earth is our cradle<br />
+The mountain shall become our tomb<br />
+Face us on the battlefield<br />
+You will meet your doom<br />
+We do not fear what lies beneath<br />
+We can never dig too deep<br />
+[Chorus]<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, diggy diggy hole<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, digging a hole<br />
+<br />
+[Chorus]<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, diggy diggy hole<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, digging a hole<br />
+<br />
+[Instrumental]<br />
+<br />
+[Pre-Chorus 1]<br />
+Born underground<br />
+Suckled from a teat of stone<br />
+Raised in the dark<br />
+The safety of our mountain home<br />
+Skin made of iron<br />
+Steel in our bones<br />
+To dig and dig makes us free<br />
+Come on, brothers, sing with me!<br />
+<br />
+[Chorus]<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, diggy diggy hole<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, digging a hole<br />
+[Chorus]<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, diggy diggy hole<br />
+I am a dwarf and I&rsquo;m digging a hole<br />
+Diggy diggy hole, digging a hole<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org6ba452b" class="outline-2">
+<h2 id="org6ba452b"><span class="section-number-2">11.</span> Don&rsquo;t Forget Your Old Shipmate</h2>
+<div class="outline-text-2" id="text-11">
+<p class="verse">
+Safe and sound at home again, let the waters roar, Jack<br />
+Safe and sound at home again, let the waters roar, Jack<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+Since we sailed from Plymouth Sound, four years gone, or nigh, Jack<br />
+Was there ever chummies, now, such as you and I, Jack?<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+We have worked the self-same gun, quarterdeck division<br />
+Sponger I and loader you, through the whole commission<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+Oftentimes have we laid out, toil nor danger fearing<br />
+Tugging out the flapping sail to the weather earring<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+When the middle watch was on, and the time went slow, boy<br />
+Who could choose a rousing stave, who like Jack or Joe, boy?<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+There she swings, an empty hulk, not a soul below now<br />
+Number seven starboard mess misses Jack and Joe now<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+But the best of friends must part, fair or foul the weather<br />
+Hand yer flipper for a shake, now a drink together<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+<br />
+Long we&rsquo;ve tossed on the rolling main<br />
+Now we&rsquo;re safe ashore, Jack<br />
+Don&rsquo;t forget yer old shipmate<br />
+Faldee raldee raldee raldee rye-eye-doe!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe94c0a" class="outline-2">
+<h2 id="orgfe94c0a"><span class="section-number-2">12.</span> Drunken Sailor</h2>
+<div class="outline-text-2" id="text-12">
+<p class="verse">
+<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+Shave his belly with a rusty razor<br />
+Shave his belly with a rusty razor<br />
+Shave his belly with a rusty razor<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+Put him in the hold with the Captain&rsquo;s daughter<br />
+Put him in the hold with the Captain&rsquo;s daughter<br />
+Put him in the hold with the Captain&rsquo;s daughter<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+Put him in the back of the paddy wagon<br />
+Put him in the back of the paddy wagon<br />
+Put him in the back of the paddy wagon<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+Throw him in the lock-up &rsquo;til he&rsquo;s sober<br />
+Throw him in the lock-up &rsquo;til he&rsquo;s sober<br />
+Throw him in the lock-up &rsquo;til he&rsquo;s sober<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+What do you do with a drunken sailor<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning<br />
+<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Way hay and up she rises<br />
+Earl-eye in the morning!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org5db5b4e" class="outline-2">
+<h2 id="org5db5b4e"><span class="section-number-2">13.</span> Eight Bells</h2>
+<div class="outline-text-2" id="text-13">
+<pre class="example">
+Artist: Jolly Rogers
+</pre>
+<p class="verse">
+&ldquo;This will be our home me boys<br />
+So I trust you&rsquo;ll treat her right.&rdquo;<br />
+&rsquo;Twas how the captain speech began<br />
+Each voyage&rsquo;s first night<br />
+He smiled said &ldquo;It&rsquo;s tradition<br />
+But I asked that you refrain<br />
+From carving your name in the beam<br />
+Next to her lofty mane.&rdquo;<br />
+<br />
+The first night I was there<br />
+Her mates held me in the air<br />
+And let me carve my name with theirs<br />
+To show that I was there<br />
+From boy to man we grew up as<br />
+Across the waves we roamed<br />
+As she heard me sob likе sons who&rsquo;d lost their childhood home<br />
+Eight bells rang out in Dovеr<br />
+Eight bells rang out in Wales<br />
+Eight bells rang out in Liverpool<br />
+And Down to Murphy&rsquo;s scales<br />
+Eight bells rang out in Port Royale<br />
+Eight bells rang out in Boston town<br />
+Eight bells rang out in Nassau<br />
+The night the Merry Widow went down<br />
+<br />
+As a mere midshipman&rsquo;s mate<br />
+I&rsquo;d stare up at that beam<br />
+And knew that every name I saw<br />
+Was shared between a dream<br />
+Some of them so faded just a memory and a scratch<br />
+But they grew much clearer with every new batch<br />
+She made sure we made it back<br />
+To the lands we longed<br />
+And with the tide we all returned to the vessel we call home<br />
+There were parts we could have salvaged but I think we all agreed<br />
+That she deserved the honor of a burial at sea<br />
+<br />
+Eight bells rang out in Dover<br />
+Eight bells rang out in Wales<br />
+Eight Bells rang out in Liverpool<br />
+And down to murphy&rsquo;s scales<br />
+Eight bells rang out in Port Royale<br />
+Eight bells rang out in Boston town<br />
+Eight bells rang out in Nassau<br />
+The night the Merry Widow went down<br />
+By the time I was the bos&rsquo;n, the list was 3 yards long<br />
+Though she had seen so many years, she still stood tall and strong<br />
+But the name she took her spirit<br />
+Bold and strong and true<br />
+And she raced the wind and never failed her brave and loyal crew<br />
+<br />
+The ship she never floundered<br />
+Her defenses never breached<br />
+No matter her port of call her goal was always reached<br />
+When we were told her day had come and she had sailed her last<br />
+That they were tear her down for scrap<br />
+We couldn&rsquo;t let that pass<br />
+<br />
+Eight bells rang out in Dover<br />
+Eight bells rang out in Wales<br />
+Eight Bells rang out in Liverpool<br />
+And down to murphy&rsquo;s scales<br />
+Eight bells rang out in Port Royale<br />
+Eight bells rang out in Boston town<br />
+Eight bells rang out in Nassau<br />
+The night the Merry Widow went down<br />
+<br />
+Through our grief we&rsquo;d swore an oath<br />
+That we&rsquo;d carry out our plan<br />
+And damn the risk we would push on to the strength of our last man<br />
+And as we stared at all the names of those that came before<br />
+We cut the line and stole that ship and sailed her out once more<br />
+Beyond the reef we sailed her<br />
+And set our love alight<br />
+We jumped ship and watched her burn from the shore that night<br />
+As she sank beneath the waves, we knew one thing for sure<br />
+She made more of a mark on us<br />
+Than we ever did on her<br />
+Eight bells rang out in Dover<br />
+Eight bells rang out in Wales<br />
+Eight Bells rang out in Liverpool<br />
+And down to murphy&rsquo;s scales<br />
+Eight bells rang out in Port Royale<br />
+Eight bells rang out in Boston town<br />
+Eight bells rang out in Nassau<br />
+The night the Merry Widow went down<br />
+<br />
+Eight bells rang out…<br />
+Eight bells rang out…<br />
+The night the Merry Widow went down<br />
+The night the Merry Widow went down<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org29729f2" class="outline-2">
+<h2 id="org29729f2"><span class="section-number-2">14.</span> Farewell and Adieu / Spanish Ladies</h2>
+<div class="outline-text-2" id="text-14">
+<p class="verse">
+Farewell and adieu to you fair Spanish ladies<br />
+Farewell and adieu to you ladies of Spain<br />
+Cause we’ve received orders to sail for old England<br />
+But we hope in a short time to see you again<br />
+<br />
+We’ll rant and we’ll roar like true British sailors<br />
+We’ll rant and we’ll rave across the salt seas<br />
+Until we strike soundings in the Channel of England<br />
+From Ushant to Scilly is thirty-four leagues<br />
+<br />
+We hove our ship to, with the wind at southwest, boys<br />
+We hove our ship to, for to take soundings clear<br />
+In fifty-five fathoms with a fine sandy bottom<br />
+We filled our main tops’l, up Channel did steer<br />
+We’ll rant and we’ll roar like true British sailors<br />
+We’ll rant and we’ll rave across the salt seas<br />
+Until we strike soundings in the Channel of England<br />
+From Ushant to Scilly is thirty-four leagues<br />
+<br />
+The first land we made was a point called the Deadman<br />
+Next Ram&rsquo;s Head off Plymouth, Start, Portland, and Wight<br />
+We sailed then by Beachy, by Fairlee and Dover<br />
+Then bore straight away for the South Foreland Light<br />
+<br />
+We’ll rant and we’ll roar like true British sailors<br />
+We’ll rant and we’ll rave across the salt seas<br />
+Until we strike soundings in the Channel of England<br />
+From Ushant to Scilly is thirty-four leagues<br />
+<br />
+Now the signal was made for the Grand Fleet to anchor<br />
+We glued up our tops’ls, stuck out tacks and sheets<br />
+We stood by our stoppers, we brailed in our spankers<br />
+Then anchored ahead of the noblest of fleets<br />
+<br />
+We’ll rant and we’ll roar like true British sailors<br />
+We’ll rant and we’ll rave across the salt seas<br />
+Until we strike soundings in the Channel of England<br />
+From Ushant to Scilly is thirty-four leagues<br />
+<br />
+Let every man here drink up his full bumper<br />
+Let every man here drink up his full bowl<br />
+And let us be jolly and drown melancholy<br />
+Singing, here’s a good health to each true-hearted lass<br />
+We’ll rant and we’ll roar like true British sailors<br />
+We’ll rant and we’ll rave across the salt seas<br />
+Until we strike soundings in the Channel of England<br />
+From Ushant to Scilly is thirty-four leagues<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org1a2cf56" class="outline-2">
+<h2 id="org1a2cf56"><span class="section-number-2">15.</span> Finnegan&rsquo;s Wake</h2>
+<div class="outline-text-2" id="text-15">
+<p class="verse">
+Tim Finnegan lived in Walken&rsquo; Street<br />
+A gentleman Irishman mighty odd;<br />
+He seen a brogue so soft and sweet<br />
+And to rise in the world he carried the hod<br />
+<br />
+Tim had a sort of a tipplin&rsquo; way<br />
+With a love of the liquor now he was born<br />
+To help him on with his work each day<br />
+Had a &ldquo;drop of the cray-chur&rdquo; every morn<br />
+<br />
+Whack fol the da O, dance to your partner<br />
+Welt the floor, your trotters shake;<br />
+Wasn&rsquo;t it the truth I told you?<br />
+Lots of fun at Finnegan&rsquo;s wake!<br />
+One mornin&rsquo; Tim felt rather full<br />
+His head felt heavy which made him shake;<br />
+Fell from a ladder and he burst his skull<br />
+So they carried him home his corpse to wake<br />
+<br />
+Rolled him up in a nice clean sheet<br />
+Laid him out upon the bed;<br />
+A gallon of whiskey at his feet<br />
+A barrel of porter at his head<br />
+<br />
+Whack fol the da O, dance to your partner<br />
+Welt the floor, your trotters shake;<br />
+Wasn&rsquo;t it the truth I told you?<br />
+Lots of fun at Finnegan&rsquo;s wake!<br />
+<br />
+His friends assembled at the wake<br />
+And Mrs. Finnegan called for lunch<br />
+First they brung in tea and cake;<br />
+Then pipes, tobacco and whiskey punch<br />
+<br />
+Biddy O&rsquo;Brien began to cry<br />
+&ldquo;Such a nice clean corpse, did you ever see?<br />
+Tim mavournin, why did you die?&rdquo;<br />
+Arragh, shut your gob said Paddy McGhee!<br />
+<br />
+Whack fol the da O, dance to your partner<br />
+Welt the floor, your trotters shake;<br />
+Wasn&rsquo;t it the truth I told you?<br />
+Lots of fun at Finnegan&rsquo;s wake!<br />
+Patty O&rsquo;Connor took up the job<br />
+&ldquo;Ah Biddy,&rdquo; says she, &ldquo;You&rsquo;re wrong, I&rsquo;m sure&rdquo;<br />
+Biddy gave her a belt in the gob<br />
+Then left her sprawlin&rsquo; on the floor<br />
+<br />
+Then the war did soon enrage<br />
+Woman to woman and man to man<br />
+Shillelagh-law was all the rage<br />
+And a row and a ruction soon began<br />
+<br />
+Mickey Maloney lowered his head<br />
+And a bottle of whiskey flew at him<br />
+Missed, and fallin&rsquo; on the bed<br />
+The liquor scattered over Tim!<br />
+<br />
+Tim revives! See how he rises!<br />
+Timothy risin&rsquo; from the bed<br />
+Sayin&rsquo;, &ldquo;Whirl your liquor around like blazes<br />
+Thunderin&rsquo; Jaysus! Do you thunk I&rsquo;m dead?&rdquo;<br />
+<br />
+Whack fol the da O, dance to your partner<br />
+Welt the floor, your trotters shake;<br />
+Wasn&rsquo;t it the truth I told you?<br />
+Lots of fun at Finnegan&rsquo;s wake!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orge8d92ca" class="outline-2">
+<h2 id="orge8d92ca"><span class="section-number-2">16.</span> Flyin&rsquo; Dutchman</h2>
+<div class="outline-text-2" id="text-16">
+<pre class="example">
+Title: Flyin' Dutchman
+Artist: Jolly Rogers
+</pre>
+</div>
+<div id="outline-container-org2c25aed" class="outline-3">
+<h3 id="org2c25aed"><span class="section-number-3">16.1.</span> Lyrics</h3>
+<div class="outline-text-3" id="text-16-1">
+<p class="verse">
+The sky was grey and cloudy<br />
+And the wind was from the west<br />
+When we spied a battered frigate<br />
+With her tattered sail full dressed<br />
+They signaled they had letters home<br />
+They asked if we could take<br />
+They dropped them in a barrel<br />
+They left bobbing in their wake<br />
+We reefed the sails and slowed the ship<br />
+To fish they barrel out<br />
+The old ship sailed to the distance<br />
+And we saw her come about<br />
+The captain watched through a spy-glass<br />
+And we heard him catch his breath<br />
+And we saw the storm a-brewing<br />
+Had become a wall of death<br />
+<br />
+Turn this ship around me boys<br />
+Turn around and run!<br />
+That storm it wants a battle<br />
+And it&rsquo;s sure that were outgunned!<br />
+What of the ship that&rsquo;s out there<br />
+Do we leave her to the gale?<br />
+She&rsquo;s called the Flying Dutchman<br />
+And it&rsquo;s rage that fills her sails!<br />
+<br />
+The thunder growled like demons<br />
+And the lightning stabbed the waves<br />
+And the Dutchman she leapt t&rsquo;wards us<br />
+Riding fury from the graves<br />
+Our captain, he stayed at the wheel<br />
+The crew they manned the lines<br />
+And still that ship and storm<br />
+Were quickly closing in behind<br />
+Our ship we crest a giant wave<br />
+And crashed to the trough below<br />
+And the crew held on to what they could<br />
+They were damned if they let go<br />
+The rain and sea and storm winds<br />
+Crashed against our ship with wrath<br />
+And from the deck of that cursed ship<br />
+We could hear them laugh<br />
+<br />
+Turn this ship around me boys!<br />
+Turn around and run!<br />
+That storm it wants a battle<br />
+And it&rsquo;s sure that we&rsquo;re outgunned!<br />
+That ghostly ship is hunting us<br />
+It&rsquo;s bringing on the gale!<br />
+She&rsquo;s called the Flying Dutchman<br />
+And it&rsquo;s rage that fills her sails!<br />
+<br />
+That was when we sighted land<br />
+It became a race with time<br />
+We believed it Santa Marta<br />
+The Dutchman closing in behind<br />
+&ldquo;Risk it all!&rdquo; the captain cried<br />
+&ldquo;It&rsquo;s the only chance we got!&rdquo;<br />
+Salvation if we make it<br />
+And our souls if we get caught<br />
+The storm was all around us<br />
+And the Dutchman cut our wind<br />
+The beast nearly capsized up<br />
+And we watched our strong mast bend<br />
+We were almost to the harbor<br />
+We could see the natural break<br />
+And each man willed her forward<br />
+For they knew what was at stake<br />
+<br />
+Once we charged into that harbor<br />
+The Dutchman heaved away<br />
+And we heard their bitter screams<br />
+For the devil lost his prey<br />
+Once we made it safely<br />
+To the leeward of the bay<br />
+We cracked that barrel open<br />
+To see what those letters say<br />
+There must have been a hundred<br />
+And that&rsquo;s when we realized<br />
+These moldy parchments were addressed<br />
+To those who&rsquo;d long since died<br />
+If you see a battered frigate<br />
+‘neath a grey and stormy sky<br />
+Give way and watch behind you<br />
+Or you&rsquo;ll hear your captain cry<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org48d14a1" class="outline-3">
+<h3 id="org48d14a1"><span class="section-number-3">16.2.</span> Chords</h3>
+<div class="outline-text-3" id="text-16-2">
+<p class="verse">
+[Intro]<br />
+Dm Dm<br />
+<br />
+[Verse]<br />
+Dm<br />
+The sky was grey and cloudy and the wind was from the west<br />
+<br />
+When we spied a battered frigate with her tattered sail full dressed<br />
+<br />
+Gm<br />
+They signaled they had letters home they asked if we could take<br />
+<br />
+Dm<br />
+They dropped &rsquo;em in a barrel they left bobbing in their wake<br />
+<br />
+<br />
+Dm<br />
+We reefed the sails and slowed the ship to fish the barrel out<br />
+<br />
+The old ship sailed to the distance and we saw her come about<br />
+<br />
+Gm<br />
+The captain watched through a spyglass and we heard him catch his breath<br />
+<br />
+Dm<br />
+And we saw the storm a-brewing had become a wall of death<br />
+<br />
+[Chorus]<br />
+A                              G<br />
+Turn this ship around me boys, turn around and run<br />
+<br />
+A                                     G<br />
+This storm it wants a battle and it&rsquo;s sure that we&rsquo;re outgunned<br />
+<br />
+Dm                       F               G                A<br />
+What of the ship that&rsquo;s out there do we leave her to the gale?<br />
+<br />
+N.C.<br />
+She&rsquo;s called the Flying Dutchman and it&rsquo;s wraiths that fills her sails.<br />
+<br />
+Dm Dm Dm Dm<br />
+<br />
+[Verse]<br />
+Dm<br />
+The thunder growled like demons and the lightening stabbed the waves<br />
+<br />
+And the Dutchman she lept towards us riding fury from the graves<br />
+<br />
+Gm<br />
+Our captain he stayed at the wheel, the crew the manned the lines,<br />
+<br />
+Dm<br />
+And still that ship and storm were quickly closing in behind.<br />
+<br />
+<br />
+<br />
+Dm<br />
+Our ship we crest a giant wave and crash to the trough below<br />
+<br />
+The crew held on to what they could, they were damned if they let go.<br />
+<br />
+Gm<br />
+The rain and sea and storm winds crashed against our ship with wrath<br />
+<br />
+Dm<br />
+And from the deck of that cursed ship, we could hear them laugh<br />
+<br />
+[Chorus]<br />
+A                              G<br />
+Turn this ship around me boys, turn around and run<br />
+<br />
+A                                     G<br />
+This storm it wants a battle and it&rsquo;s sure that we&rsquo;re outgunned<br />
+<br />
+Dm                    F                G               A<br />
+That ghostly ship is hunting us, it&rsquo;s bringing on the gale,<br />
+<br />
+N.C.<br />
+She&rsquo;s called the Flying Dutchman and it&rsquo;s wraiths that fills her sails<br />
+<br />
+[Verse]<br />
+Dm<br />
+That was when we sighted land, it became a race wih time<br />
+<br />
+We believed it Santa Marta, the Dutchman closing in behind<br />
+<br />
+Gm<br />
+&ldquo;Risk it all&rdquo; the captain cried &ldquo;it&rsquo;s the only chance we&rsquo;ve got,<br />
+<br />
+Dm<br />
+Salvation if we make it and our souls if we get caught.&rdquo;<br />
+<br />
+Dm<br />
+The storm was all around us and the Dutchman cut our winds,<br />
+<br />
+The beast nearly capsized us, and we watched our strong mast bend<br />
+<br />
+Gm<br />
+We were almost to the harbour, we could see the natural break,<br />
+<br />
+Dm<br />
+And each man willed her forward, for they knew what was at stake<br />
+<br />
+[Chorus]<br />
+A                              G<br />
+Turn this ship around me boys, turn around and run<br />
+<br />
+A                                     G<br />
+This storm it wants a battle and it&rsquo;s sure that we&rsquo;re outgunned<br />
+<br />
+Dm                    F                G               A<br />
+That ghostly ship is hunting us, it&rsquo;s bringing on the gale,<br />
+<br />
+N.C.<br />
+She&rsquo;s called the Flying Dutchman and it&rsquo;s wraiths that fills her sails<br />
+<br />
+[Verse]<br />
+Dm<br />
+Once we charged into that harbour, the Dutchman heaved away<br />
+<br />
+And we heard their bitter screams, for the Devil lost his prey.<br />
+<br />
+Gm<br />
+Once we made it safely to the leeward of the bay,<br />
+<br />
+Dm<br />
+We cracked that barrel open to see what those letters say.<br />
+<br />
+<br />
+Dm<br />
+There must&rsquo;ve been a hundred and that&rsquo;s when we realized,<br />
+<br />
+Those moldy parchments were addressed to those who&rsquo;d long since died.<br />
+<br />
+Gm<br />
+If you see a battered frigate &rsquo;neath a grey and stormy sky,<br />
+<br />
+Dm<br />
+Give way and watch mehind you, or you&rsquo;ll hear your captain cry:<br />
+<br />
+<br />
+[Chorus]<br />
+A                              G<br />
+Turn this ship around me boys, turn around and run<br />
+<br />
+A                                     G<br />
+This storm it wants a battle and it&rsquo;s sure that we&rsquo;re outgunned<br />
+<br />
+Dm                    F                G               A<br />
+That ghostly ship is hunting us, it&rsquo;s bringing on the gale,<br />
+<br />
+N.C.<br />
+She&rsquo;s called the Flying Dutchman and it&rsquo;s wraiths that fills her sails<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org94a67cf" class="outline-2">
+<h2 id="org94a67cf"><span class="section-number-2">17.</span> Fucked with an Anchor</h2>
+<div class="outline-text-2" id="text-17">
+<pre class="example">
+Artist: Jolly Rogers
+</pre>
+<p class="verse">
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+<br />
+(Go!)<br />
+<br />
+For thirty odd years, I have lived with this curse<br />
+My vocabulary was stunted at birth<br />
+By a witch doctor from over the seas<br />
+Casting a strange voodoo magic on me<br />
+Now when I speak, it&rsquo;s rather absurd<br />
+An endless tirade of four letter words<br />
+I lash out in anger at all in my way<br />
+Shocking unspeakable things that I say<br />
+<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+<br />
+(Fuck you!)<br />
+<br />
+Long I have waited to have my revenge<br />
+To bring that witch doctor to his bitter end<br />
+So I have gathered a ship and a crew<br />
+We&rsquo;re sailing to find him, we know what to do<br />
+On a dark moonless night, when he least suspects<br />
+We&rsquo;ll creep up behind him, so hard to detect<br />
+We&rsquo;ll bring out our anchor by the light of the stars<br />
+And shove it inside of his big fuckin&rsquo; arse<br />
+<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+Fuck you, you&rsquo;re a fucking wanker<br />
+We&rsquo;re gonna punch you right in the balls<br />
+Fuck you with a fucking anchor<br />
+You&rsquo;re all cunts so fuck you all<br />
+<br />
+(Wank!)<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orga9918fe" class="outline-2">
+<h2 id="orga9918fe"><span class="section-number-2">18.</span> Haul Away Joe</h2>
+<div class="outline-text-2" id="text-18">
+<p class="verse">
+[Verse 1]<br />
+When I was just a little lad, or so me Mammi told me<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+That if I didn&rsquo;t kiss the girls me lips would grow all mouldy<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Chorus]<br />
+Away! HO! Haul away, we&rsquo;ll haul away together<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Away! HO! Haul away, we&rsquo;ll hope for better weather<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+[Verse 2]<br />
+I used to have an Irish girl but she got fat and lazy<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+But now I&rsquo;ve got a Bristol girl and she just drives me crazy<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Chorus]<br />
+Away! HO! Haul away, we&rsquo;ll haul away together<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Away! HO! Haul away, we&rsquo;ll hope for better weather<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Verse 3]<br />
+Oh Louis was the king of France before the Revolut-i-on<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Then he got his head chopped off &amp; it spoiled his constitut-i-on<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Chorus]<br />
+Away! HO! Haul away, we&rsquo;ll haul away together<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Away! HO! Haul away, we&rsquo;ll hope for better weather<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Verse 4]<br />
+Ya call yourself a &ldquo;Second Mate&rdquo;, ya cann&rsquo;e tie a bowline<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+You can&rsquo;t even stand up straight when the packet, she&rsquo;s a-rollin&rsquo;<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+[Chorus]<br />
+Away! HO! Haul away, we&rsquo;ll haul away together<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Away! HO! Haul away, we&rsquo;ll hope for better weather<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Verse 5]<br />
+Well now can&rsquo;t ya see&#x2026; the black clouds a-gatherin&rsquo;<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Well now can&rsquo;t ya see&#x2026; the storm clouds a-risin&rsquo;<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+<br />
+[Chorus]<br />
+Away! HO! Haul away, we&rsquo;ll haul away together<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+Away! HO! Haul away, we&rsquo;ll hope for better weather<br />
+Away Haul Away, we&rsquo;ll haul away, Joe<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgb81a97d" class="outline-2">
+<h2 id="orgb81a97d"><span class="section-number-2">19.</span> Health to the Company</h2>
+<div class="outline-text-2" id="text-19">
+<p class="verse">
+[Verse 1]<br />
+Kind friends and companions, come join me in rhyme<br />
+Come lift up your voices in chorus with mine;<br />
+Come lift up your voices all grief to refrain<br />
+For we may or might never all meet here again<br />
+<br />
+[Chorus]<br />
+Here&rsquo;s a health to the company and one to my lass<br />
+Let us drink and be merry all out of one glass;<br />
+Let us drink and be merry all grief to refrain<br />
+For we may or might never all meet here again<br />
+[Verse 2]<br />
+Here&rsquo;s a health to the dear lass that I love so well<br />
+For her style and her beauty, sure none can excel<br />
+There&rsquo;s a smile on her countenance as she sits on my knee<br />
+There&rsquo;s no man in this wide world as happy as me<br />
+<br />
+[Chorus]<br />
+Here&rsquo;s a health to the company and one to my lass<br />
+Let us drink and be merry all out of one glass;<br />
+Let us drink and be merry all grief to refrain<br />
+For we may or might never all meet here again<br />
+<br />
+[Verse 3]<br />
+Our ship lies at anchor, she&rsquo;s ready to dock<br />
+I wish her safe landing, without any shock<br />
+If ever I should meet you by land or by sea<br />
+(I will always remember your kindness to me.)<br />
+<br />
+[Chorus]<br />
+Here&rsquo;s a health to the company and one to my lass<br />
+Let us drink and be merry all out of one glass;<br />
+Let us drink and be merry all grief to refrain<br />
+For we may or might never all meet here again<br />
+<br />
+Here&rsquo;s a health to the company and one to my lass<br />
+Let us drink and be merry all out of one glass;<br />
+Let us drink and be merry all grief to refrain<br />
+For we may or might never all meet here again<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org3eb6c26" class="outline-2">
+<h2 id="org3eb6c26"><span class="section-number-2">20.</span> Hoist the Colors</h2>
+<div class="outline-text-2" id="text-20">
+<p class="verse">
+The king and his men<br />
+Stole the queen from her bed<br />
+And bound her in her bones<br />
+The seas be ours<br />
+And by the powers<br />
+Where we will, we&rsquo;ll roam<br />
+<br />
+Yo, ho, all together<br />
+Hoist the colours high<br />
+Heave ho, thieves and beggars<br />
+Never shall we die<br />
+Yo, ho, haul together<br />
+Hoist the colours high<br />
+Heave ho, thieves and beggars<br />
+Never shall we die<br />
+<br />
+Some men have died<br />
+And some are alive<br />
+And others sail on the sea<br />
+– With the keys to the cage&#x2026;<br />
+And the Devil to pay<br />
+We lay to Fiddler&rsquo;s Green!<br />
+<br />
+The bell has been raised<br />
+From it&rsquo;s watery grave&#x2026;<br />
+Do you hear it&rsquo;s sepulchral tone?<br />
+We are a call to all<br />
+Pay head the squall<br />
+And turn your sail toward home!<br />
+<br />
+Yo, ho, all together<br />
+Hoist the colours high<br />
+Heave ho, thieves and beggars<br />
+Never shall we die!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgb1f73d8" class="outline-2">
+<h2 id="orgb1f73d8"><span class="section-number-2">21.</span> Hoist Up the Thing</h2>
+<div class="outline-text-2" id="text-21">
+<pre class="example">
+Artist: The Longest Johns
+</pre>
+<p class="verse">
+Fresh out of college, with grades straight from Hell<br />
+I browsed for a trade at which I could excel<br />
+An ad for a ship in need of some manning<br />
+Men, sails, and purpose, but lacking a captain<br />
+<br />
+What luck, says I, to find such good fortune!<br />
+A few white lies later, I ran down the pier<br />
+Bought me a coat and a cutlass or two<br />
+Jumped on the deck, and I yelled at the crew:<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it!<br />
+Turn hard to port! (That&rsquo;s not port) Now I&rsquo;ve got it!<br />
+Trust me, I&rsquo;m in control!<br />
+<br />
+I can&rsquo;t sing the shanties, it has to be said<br />
+And all of that grog just goes right to my head<br />
+Whale meat is gross and I miss a girl&rsquo;s laugh<br />
+Five weeks at sea, even Dave seems a catch!<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it!<br />
+Turn hard to port! (That&rsquo;s not port) Now I&rsquo;ve got it!<br />
+Trust me, I&rsquo;m in control!<br />
+<br />
+We&rsquo;ve hit icy waters, no land to be seen<br />
+The food&rsquo;s getting low and the beer has gone green<br />
+There&rsquo;s murmurs of discontent under the deck<br />
+If I don&rsquo;t act fast, it could be my neck!<br />
+<br />
+So pull up the charts and those weird gold machines<br />
+I see what it says but no clue what it means!<br />
+Just pull on some levers and yank on some chains<br />
+Feign a bad back till we&rsquo;ve landed again<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it!<br />
+Turn hard to port! (That&rsquo;s not port) Now I&rsquo;ve got it!<br />
+Trust me, I&rsquo;m in control!<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it!<br />
+Turn hard to port! (That&rsquo;s not port) Now I&rsquo;ve got it!<br />
+Trust me, I&rsquo;m in control!<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it!<br />
+Turn hard to port! (That&rsquo;s not port) Now I&rsquo;ve got it!<br />
+Trust me, I&rsquo;m in control!<br />
+<br />
+Hoist up the thing! Batten down the whatsit!<br />
+What&rsquo;s that thing spinning? Somebody should stop it! (BLOODY HELL!)<br />
+Turn hard to port! (This is SHERRY!) Now I&rsquo;ve got it! (Screaming)<br />
+Trust me, I&rsquo;m in control! (MUMMY!)<br />
+Trust me, I&rsquo;m in control!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org59ac984" class="outline-2">
+<h2 id="org59ac984"><span class="section-number-2">22.</span> I&rsquo;ll Have A Beer</h2>
+<div class="outline-text-2" id="text-22">
+<pre class="example">
+Artist: Jolly Rogers
+Title: I'll Have A Beer
+</pre>
+<p class="verse">
+As a boy I led a sheltered life<br />
+The son of a farmer and his wife<br />
+I met a friend one day in town<br />
+Who offered to buy me a round<br />
+So we found a pub they call the Drum and Pipe<br />
+<br />
+Barkeep, he asked what will it be<br />
+So I said I think I&rsquo;ll have a tea<br />
+My friend said that will never do<br />
+Told me that I should have a brew<br />
+You wouldn&rsquo;t believe the effect it&rsquo;s had on me<br />
+<br />
+Now at every tavern, bar, and pub I go into<br />
+I know just exactly what I should do<br />
+I say in a voice that all can hear<br />
+Sir I think that I will have a beer<br />
+Yes, sir I think that I will have a beer<br />
+<br />
+Since then I have traveled far and wide<br />
+I have been all over the countryside<br />
+One day, while out, on a walk<br />
+I met a Scot who liked to talk<br />
+And he told me of a drink I&rsquo;ve never tried<br />
+<br />
+Now at every tavern, bar, and pub I go into<br />
+I know just exactly what I should do<br />
+I say in a voice that all can hear<br />
+Sir I think I&rsquo;ll have a scotch and beer<br />
+Yes, sir I think I&rsquo;ll have a scotch and beer<br />
+<br />
+Spent a Summer on a schooner out at sea<br />
+And one old sailor took a shine to me<br />
+He warned me of the awful food<br />
+But shared a drink he said was good<br />
+I&rsquo;m gonna have to say that I agree<br />
+<br />
+Now at every tavern, bar, and pub I go into<br />
+I know just exactly what I should do<br />
+I say in a voice that all can hear<br />
+Sir I think I&rsquo;ll have rum, scotch, and beer<br />
+Yes, sir I think I&rsquo;ll have rum, scotch, and beer<br />
+<br />
+So when I made it back home again<br />
+I met up with a dear, old friend<br />
+He took me with him too his pub<br />
+Which seemed to be a fancy pub<br />
+And taught me about the drink of gentlemen<br />
+<br />
+Now at every tavern, bar, and pub I go into<br />
+I know just exactly what I should do<br />
+I say in a voice that all can hear<br />
+Sir I&rsquo;ll have gin, rum, scotch, and beer<br />
+Yes, sir I&rsquo;ll have gin, rum, scotch, and beer<br />
+<br />
+I then met a nice, Irish lad<br />
+Who said that he thought it was sad<br />
+While I&rsquo;ve tried all the rest<br />
+He said that I had missed the best<br />
+And he offered me the last of what he had<br />
+<br />
+Now at every tavern, bar, and pub I go into<br />
+I know just exactly what I should do<br />
+I say in a voice that all can hear<br />
+I&rsquo;ll have whiskey, gin, rum, scotch, and beer<br />
+Yes, I&rsquo;ll have whiskey, gin, rum, scotch, and beer<br />
+I&rsquo;&rsquo;ll have whiskey, gin, rum, scotch and beer<br />
+I&rsquo;ll have whiskey, gin, rum, scotch and beer<br />
+<br />
+Whiskey<br />
+Gin, rum<br />
+Scotch and<br />
+A beer<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org81b5837" class="outline-2">
+<h2 id="org81b5837"><span class="section-number-2">23.</span> King of the Pirates (DaddyPhatSnaps)</h2>
+<div class="outline-text-2" id="text-23">
+<p class="verse">
+Chorus (GameboyJones):<br />
+I don&rsquo;t know why you all think that you should doubt me<br />
+I’m a pirate and i say that very proudly<br />
+When i pull up with my team we stay rowdy<br />
+Count it up we&rsquo;re just racking up our bounty<br />
+King of the pirates, that&rsquo;ll be me<br />
+I will be captain of the seas<br />
+King of the pirates, that’ll be me<br />
+I will be captain of the seas<br />
+<br />
+Verse 1 (GameboyJones):<br />
+When i gum gum stretch with my gum gum neck<br />
+I&rsquo;m just looking at the seas for these dumb scum pest<br />
+When i gum gum flex then you know what&rsquo;s next<br />
+Like a washed up ship you about to get wrecked<br />
+With a gum gum punch when i pull up to your boat<br />
+I don&rsquo;t need to brag i don&rsquo;t even to boast<br />
+But the Straw Hat crew is the greatest team of G.O.A.T.&rsquo;s<br />
+So when you face us you ain&rsquo;t leaving here afloat<br />
+Look at us, run seas<br />
+All about the money give us One Piece<br />
+Any thought that your crew was just all that<br />
+Then you learned a lesson stepping up to the Straw Hat<br />
+Got more flow than the navy<br />
+Making them sick now i&rsquo;m feeling real wavy<br />
+Others are wasting their time<br />
+I’ll get the riches that’s on the grand line<br />
+Never back down<br />
+All of these villains that bug me are clowns<br />
+They underestimate but when i go to gear forth<br />
+Not a single one lasting a round<br />
+Don&rsquo;t come around, ain’t no one stopping our quest<br />
+Not even when there&rsquo;s a hole in my chest<br />
+I&rsquo;ve got a mission and won&rsquo;t be denied<br />
+You will not get the bounty that’s dead or alive<br />
+Chorus (GameboyJones):<br />
+I don&rsquo;t know why you all think that you should doubt me<br />
+I&rsquo;m a pirate and i say that very proudly<br />
+When i pull up with my team we stay rowdy<br />
+Count it up we&rsquo;re just racking up our bounty<br />
+King of the pirates, that&rsquo;ll be me<br />
+I will be captain of the seas<br />
+King of the pirates, that&rsquo;ll be me<br />
+I will be captain of the seas<br />
+<br />
+Verse 2 (Rustage):<br />
+Uh, feeling all the pressure in my ligaments, i&rsquo;m willing to pummel up anybody who&rsquo;s hurting someone in my crew<br />
+Remind you<br />
+I&rsquo;m a jet engine when i&rsquo;m behind you<br />
+My muscles have been fine tuned breaking bones in your spine too<br />
+I&rsquo;ll find you like Foxy when you rap going too slow<br />
+Pop a pistol in your back like you&rsquo;re Blueno<br />
+Big mom on attack full of glucose<br />
+Too slow, bury Katakuri that&rsquo;s a tombstone<br />
+Oh, got a bounty in the billions<br />
+Oh, but it should be in the trillions<br />
+Oh, to me y&rsquo;all look like civilians<br />
+Oh, Yonkos, Marines, i be killing em<br />
+Training with the dark king<br />
+Capable of more than talking<br />
+I&rsquo;m saving Nami or Robin<br />
+Or my brother from his past hell<br />
+Enel, i&rsquo;m simply shocking<br />
+My Haki will leave em dropping<br />
+This pirate will not be stopping<br />
+Til i reach the end at Raftel<br />
+Pumping the gear and i&rsquo;m reaching the fourth<br />
+Chaos appears when i knock down your doors<br />
+Fill em with tears then i&rsquo;m coming to war<br />
+Blood will be smeared when your decked on the floor<br />
+Bet you want more? Punches be faster than Kizuru, rage in my eyes when i&rsquo;m on beat<br />
+Strength to my core, fighting until i get rid of you, limits the sky and the One Piece<br />
+Chorus (GameboyJones):<br />
+I don&rsquo;t know why you all think that you should doubt me<br />
+I&rsquo;m a pirate and i say that very proudly<br />
+When i pull up with my team we stay rowdy<br />
+Count it up we&rsquo;re just racking up our bounty<br />
+King of the pirates, that&rsquo;ll be me<br />
+I will be captain of the seas<br />
+King of the pirates, that&rsquo;ll be me<br />
+I will be captain of the seas<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org3d04b39" class="outline-2">
+<h2 id="org3d04b39"><span class="section-number-2">24.</span> Leave Her Johnny</h2>
+<div class="outline-text-2" id="text-24">
+<p class="verse">
+[Verse 1]<br />
+I thought I heard the Old Man say:<br />
+&ldquo;Leave her, Johnny, leave her.&rdquo;<br />
+Tomorrow you will get your pay<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Chorus]<br />
+Leave her, Johnny, leave her!<br />
+Oh, leave her, Johnny, leave her!<br />
+For the voyage is long and the winds don&rsquo;t blow<br />
+And it&rsquo;s time for us to leave her<br />
+[Verse 2]<br />
+Oh, the wind was foul and the sea ran high<br />
+&ldquo;Leave her, Johnny, leave her!&rdquo;<br />
+She shipped it green and none went by<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Chorus]<br />
+Leave her, Johnny, leave her!<br />
+Oh, leave her, Johnny, leave her!<br />
+For the voyage is long and the winds don&rsquo;t blow<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Verse 3]<br />
+I hate to sail on this rotten tub<br />
+&ldquo;Leave her, Johnny, leave her!&rdquo;<br />
+No grog allowed and rotten grub<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Chorus]<br />
+Leave her, Johnny, leave her!<br />
+Oh, leave her, Johnny, leave her!<br />
+For the voyage is long and the winds don&rsquo;t blow<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Verse 4]<br />
+We swear by rote for want of more<br />
+&ldquo;Leave her, Johnny, leave her!&rdquo;<br />
+But now we&rsquo;re through so we&rsquo;ll go on shore<br />
+And it&rsquo;s time for us to leave her<br />
+<br />
+[Chorus]<br />
+Leave her, Johnny, leave her!<br />
+Oh, leave her, Johnny, leave her!<br />
+For the voyage is long and the winds don&rsquo;t blow<br />
+And it&rsquo;s time for us to leave her<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org544a0b5" class="outline-2">
+<h2 id="org544a0b5"><span class="section-number-2">25.</span> Legend of Davy Jones</h2>
+<div class="outline-text-2" id="text-25">
+<p class="verse">
+Some say he steers a spectral ship<br />
+That&rsquo;s ghostly, grey, and grand<br />
+He&rsquo;s doomed to sail the seven seas<br />
+And ne&rsquo;er set foot on land<br />
+<br />
+And if you chance to see him<br />
+You&rsquo;ll soon be dead from fright<br />
+So sailors tell their children<br />
+On a dark and stormy night<br />
+<br />
+Oh Forty fathoms deep he walks<br />
+With rusty keys his locker locks<br />
+Just like he&rsquo;s half asleep he stalks<br />
+Forty fathoms deep<br />
+Forty fathoms deep he owns<br />
+Each sleeping sailor&rsquo;s soggy bones<br />
+The legend they call Davy Jones<br />
+At forty fathoms deep<br />
+<br />
+Nor east we sail to Brimstone head<br />
+The captain, crew, and I<br />
+At sixteen knots we fairly flew<br />
+Beneath a darkening sky<br />
+<br />
+Atop the main mast I rode<br />
+Near ten stories high<br />
+Went up there blew an icy squall<br />
+And overboard went I<br />
+<br />
+Oh Forty fathoms deep he walks<br />
+With rusty keys his locker locks<br />
+Just like he&rsquo;s half asleep he stalks<br />
+Forty fathoms deep<br />
+<br />
+Forty fathoms deep he owns<br />
+Each sleeping sailor&rsquo;s soggy bones<br />
+The legend they call Davy Jones<br />
+At forty fathoms deep<br />
+<br />
+I hold my breath I say a prayer<br />
+For all those mates who died<br />
+I turn my back on Davy Jones<br />
+And cast my fears aside<br />
+Raise up my head and kick my feet<br />
+And toward the light I go<br />
+The heartless jailer left behind<br />
+The locker far below<br />
+<br />
+Oh Forty fathoms deep he walks<br />
+With rusty keys his locker locks<br />
+Just like he&rsquo;s half asleep he stalks<br />
+Forty fathoms deep<br />
+<br />
+Forty fathoms deep he owns<br />
+Each sleeping sailor&rsquo;s soggy bones<br />
+The legend they call Davy Jones<br />
+At forty fathoms deep<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org1ddb29a" class="outline-2">
+<h2 id="org1ddb29a"><span class="section-number-2">26.</span> My Jolly Sailor Bold</h2>
+<div class="outline-text-2" id="text-26">
+<p class="verse">
+Upon one summer&rsquo;s morning<br />
+I carefully did stray<br />
+Down by the Walls of Wapping<br />
+Where I met a sailor gay<br />
+<br />
+Conversing with a young lass<br />
+Who seem&rsquo;d to be in pain<br />
+Saying, William, when you go<br />
+I fear you&rsquo;ll ne&rsquo;er return again<br />
+<br />
+My heart is pierced by Cupid<br />
+I disdain all glittering gold<br />
+There is nothing can console me<br />
+But my jolly sailor bold<br />
+<br />
+His hair it hangs in ringlets<br />
+His eyes as black as coal<br />
+My happiness attend him<br />
+Wherever he may go<br />
+<br />
+From Tower Hill to Blackwall<br />
+I&rsquo;ll wander, weep and moan<br />
+All for my jolly sailor<br />
+Until he sails home<br />
+<br />
+My heart is pierced by Cupid<br />
+I disdain all glittering gold<br />
+There is nothing can console me<br />
+But my jolly sailor bold<br />
+<br />
+My father is a merchant<br />
+The truth I now will tell<br />
+And in great London City<br />
+In opulence doth dwell<br />
+<br />
+His fortune doth exceed<br />
+300,000 gold<br />
+And he frowns upon his daughter<br />
+Who loves a sailor bold<br />
+<br />
+A fig for his riches<br />
+His merchandise and gold<br />
+True love has grafted my heart<br />
+Give me my sailor bold<br />
+<br />
+My heart is pierced by Cupid<br />
+I disdain all glittering gold<br />
+There is nothing can console me<br />
+But my jolly sailor bold<br />
+<br />
+Should he return in pov&rsquo;rty<br />
+From o&rsquo;er the ocean far<br />
+To my tender bosom<br />
+I&rsquo;ll press my jolly tar<br />
+<br />
+My sailor is as smiling<br />
+As the pleasant month of May<br />
+And often we have wandered<br />
+Through Ratcliffe Highway<br />
+<br />
+Many a pretty blooming<br />
+Young girl we did behold<br />
+Reclining on the bosom<br />
+Of her jolly sailor bold<br />
+<br />
+My heart is pierced by Cupid<br />
+I disdain all glittering gold<br />
+There is nothing can console me<br />
+But my jolly sailor bold<br />
+<br />
+My name it is Maria<br />
+A merchant&rsquo;s daughter fair<br />
+And I have left my parents<br />
+And three thousand pounds a year<br />
+<br />
+Come all you pretty fair maids<br />
+Whoever you may be<br />
+Who love a jolly sailor<br />
+That plows the raging sea<br />
+<br />
+While up aloft in storm<br />
+From me his absence mourn<br />
+And firmly pray arrive the day<br />
+He&rsquo;s never more to roam<br />
+<br />
+My heart is pierced by Cupid<br />
+I disdain all glittering gold<br />
+There is nothing can console me<br />
+But my jolly sailor bold<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgf78ed97" class="outline-2">
+<h2 id="orgf78ed97"><span class="section-number-2">27.</span> Nord Mead</h2>
+<div class="outline-text-2" id="text-27">
+<p class="verse">
+We&rsquo;re merry men of Skyrim<br />
+So sturdy and so stout<br />
+When the day is done<br />
+When it&rsquo;s time for fun<br />
+We&rsquo;ll drink and sing and shout<br />
+<br />
+You weak livered milk drinkers<br />
+Can let your throats run dry<br />
+Cause there&rsquo;s just one drink<br />
+That we will sink<br />
+Until the day we die<br />
+Drinking mead in the halls of Whiterun<br />
+The maidens and the men<br />
+We swig our brew<br />
+Until we spew<br />
+Then we fill our mugs again<br />
+<br />
+You can keep your filthy Skooma<br />
+It makes our bellies bleed<br />
+Cause when we raise our flagon<br />
+To another dead dragon<br />
+There is just one drink we need<br />
+Nord mead!<br />
+Nord mead!<br />
+<br />
+Chug a mug of mead<br />
+And another mug of mead<br />
+Chug another mug of mead<br />
+Till you fall down<br />
+Chug a mug of mead<br />
+And another mug of mead<br />
+Chug another mug of mead, warrior<br />
+<br />
+After the long hard days<br />
+Of hunting and of war<br />
+Our throats are tired and thirsty<br />
+And our bodies drenched in gore<br />
+But we won&rsquo;t waste our evenings<br />
+Feeling tired and feeling spent<br />
+We perk right up when we breathe in<br />
+That wholesome honey scent<br />
+<br />
+That Cyrodilic Brandy<br />
+Too fruity for these tongues<br />
+You can keep your fancy alto wine<br />
+It tastes like horker dung!<br />
+<br />
+Balmora Blue tastes great to you<br />
+But here we like it plain<br />
+Just fill my mug<br />
+With the mighty jug<br />
+Of honey, heart and grain<br />
+<br />
+Drinking mead in the halls of Whiterun<br />
+The maidens and the men<br />
+We swig our brew<br />
+Until we spew<br />
+Then we fill our mugs again<br />
+<br />
+You can keep your filthy Skooma<br />
+It makes our bellies bleed<br />
+Cause when we raise our flagon<br />
+To another dead dragon<br />
+There is just one drink we need<br />
+Nord mead!<br />
+Nord mead!<br />
+Nord mead!<br />
+Chug a mug of mead<br />
+And another mug of mead<br />
+Chug another mug of mead<br />
+Till you fall down (Nord mead!)<br />
+Chug a mug of mead<br />
+And another mug of mead<br />
+Chug another mug of mead, warrior!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org8865f31" class="outline-2">
+<h2 id="org8865f31"><span class="section-number-2">28.</span> Oh, Better Far to Live and Die - Pirate King</h2>
+<div class="outline-text-2" id="text-28">
+<p class="verse">
+King.<br />
+Oh, better far to live and die<br />
+Under the brave black flag I fly,<br />
+Than play a sanctimonious part,<br />
+With a pirate head and a pirate heart.<br />
+Away to the cheating world go you,<br />
+Where pirates all are well-to-do;<br />
+But I?ll be true to the song I sing,<br />
+And live and die a Pirate King.<br />
+<br />
+For I am a Pirate King!<br />
+And it is, it is a glorious thing<br />
+To be a Pirate King!<br />
+<br />
+For I am a Pirate King!<br />
+Chorus.<br />
+You are!<br />
+Hurrah for our Pirate King!<br />
+King.<br />
+And it is, it is a glorious thing<br />
+To be a Pirate King.<br />
+Chorus.<br />
+It is!<br />
+Hurrah for our Pirate King!<br />
+King &amp; Chorus.<br />
+Hurrah for the/our Pirate King!<br />
+<br />
+King. Darrell Fancourt as the Pirate King<br />
+1926<br />
+<br />
+When I sally forth to seek my prey<br />
+I help myself in a royal way.<br />
+I sink a few more ships, it?s true,<br />
+Than a well-bred monarch ought to do;<br />
+But many a king on a first-class throne,<br />
+If he wants to call his crown his own,<br />
+Must manage somehow to get through<br />
+More dirty work than ever I do,<br />
+<br />
+For I am a Pirate King!<br />
+And it is, it is a glorious thing<br />
+To be a Pirate King!<br />
+<br />
+For I am a Pirate King!<br />
+Chorus.<br />
+You are!<br />
+Hurrah for the Pirate King!<br />
+King.<br />
+And it is, it is a glorious thing<br />
+To be a Pirate King.<br />
+Chorus.<br />
+It is!<br />
+Hurrah for our Pirate King!<br />
+King &amp; Chorus.<br />
+Hurrah for the/our Pirate King!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org745afd7" class="outline-2">
+<h2 id="org745afd7"><span class="section-number-2">29.</span> Old Maui</h2>
+<div class="outline-text-2" id="text-29">
+<p class="verse">
+It&rsquo;s a damn tough life full of toil and strife<br />
+We whalermen undergo<br />
+And we won&rsquo;t give a damn when the gales are done<br />
+How hard the winds did blow<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+With a good ship taut and free<br />
+And we won&rsquo;t give a damn when we drink our rum<br />
+With the girls of Old Maui<br />
+<br />
+Rolling down to Old Maui, me boys<br />
+Rolling down to Old Maui<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+<br />
+Once more we sail with a Northerly gale<br />
+Through the ice, and wind, and rain<br />
+Them coconut fronds, them tropical shores<br />
+We soon shall see again<br />
+For six hellish months we passed away<br />
+On the cold Kamchatka sea<br />
+But now we&rsquo;re bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+<br />
+Rolling down to Old Maui, me boys<br />
+Rolling down to Old Maui<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+<br />
+Once more we sail with the Northerly gale<br />
+Towards our Island home<br />
+Our whaling done, our mainmast sprung<br />
+And we ain&rsquo;t got far to roam<br />
+Our stans&rsquo;l booms is carried away<br />
+What care we for that sound<br />
+A living gale is after us<br />
+Thank God we&rsquo;re homeward bound<br />
+<br />
+Rolling down to Old Maui, me boys<br />
+Rolling down to Old Maui<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+<br />
+How soft the breeze through the island trees<br />
+Now the ice is far astern<br />
+Them native maids, them tropical glades<br />
+Is awaiting our return<br />
+Even now their big, brown eyes look out<br />
+Hoping some fine day to see<br />
+Our baggy sails running &rsquo;fore the gales<br />
+Rolling down to Old Maui<br />
+<br />
+Rolling down to Old Maui, me boys<br />
+Rolling down to Old Maui<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+Rolling down to Old Maui, me boys<br />
+Rolling down to Old Maui<br />
+We&rsquo;re homeward bound from the Arctic Grounds<br />
+Rolling down to Old Maui<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org7524a4d" class="outline-2">
+<h2 id="org7524a4d"><span class="section-number-2">30.</span> Pirates of the Black Flag</h2>
+<div class="outline-text-2" id="text-30">
+<p class="verse">
+We welcome the night as black as our heart<br />
+Can&rsquo;t see, don&rsquo;t want, never had a naval chart<br />
+The thief&rsquo;s rule of law<br />
+Is an appropriation bill<br />
+We&rsquo;re the pirates of the Black Tide<br />
+Sailors if you will<br />
+<br />
+It&rsquo;s no birthday cake if you want our employ<br />
+And to be like us is a mistake you will enjoy<br />
+When pirates rule the seas<br />
+The world&rsquo;s a better place<br />
+We&rsquo;re the pirates of the Black Tide<br />
+We&rsquo;re a wonderful disgrace<br />
+We&rsquo;re the mythical, pinnacle statement of<br />
+Your worst-est dream or vocabulary word<br />
+We&rsquo;re tyrannical, mechanical and people say<br />
+That we smell like death, you can&rsquo;t take that away<br />
+<br />
+Yes, we&rsquo;re your worst fear and we know where you hide<br />
+We&rsquo;ve hidden there before, we don&rsquo;t care how hard you&rsquo;ve cried<br />
+We&rsquo;re the bottom of the barrel<br />
+When it comes to raising kids<br />
+We&rsquo;re pirates from the North Pole<br />
+We know just what you did<br />
+<br />
+We have nightmares too, but we just call them dreams<br />
+We&rsquo;ve taken this yachting thing out to the extreme<br />
+We&rsquo;re Type-A personalities, our therapy&rsquo;s a sword<br />
+We&rsquo;re the pirates of the Black Tide<br />
+We will not be ignored<br />
+<br />
+We&rsquo;re the black-hearted, swashbuckled, never take a shower<br />
+Kind of guys obsessed a bit with fame and power<br />
+We&rsquo;re deplorable, horrible, scull and cross-bone ridden<br />
+Living on the ship where nothing is forbidden<br />
+<br />
+Yes, we&rsquo;re your worst fear and we know where you sleep<br />
+So tucky, tuck in I wouldn&rsquo;t sleep too deep<br />
+We&rsquo;re the worst father figure<br />
+Figure out how not to scream<br />
+We&rsquo;re the pirates of the Black Tide<br />
+Hope you have sweet dreams<br />
+We&rsquo;re the Pirates of the Black Tide<br />
+Hope you have sweet dreams<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgd147700" class="outline-2">
+<h2 id="orgd147700"><span class="section-number-2">31.</span> Pirates who don&rsquo;t do anything</h2>
+<div class="outline-text-2" id="text-31">
+<p class="verse">
+[Intro: Narrator]<br />
+And now it&rsquo;s time for silly songs with Larry<br />
+The part of the show where Larry comes out and sings a silly song<br />
+<br />
+Joining Larry are Pa Grape and Mister Lunt, who together, make up the infamous gang of scallywags &ldquo;The Pirates Who Don&rsquo;t Do Anything&rdquo;<br />
+<br />
+[Chorus: Pirates]<br />
+We are the pirates who don&rsquo;t do anything<br />
+We just stay at home and lie around<br />
+And if you ask us to do anything<br />
+We&rsquo;ll just tell you we don&rsquo;t do anything<br />
+[Verse 1: Pa Grape]<br />
+Well, I&rsquo;ve never been to Greenland<br />
+And I&rsquo;ve never been to Denver<br />
+And I&rsquo;ve never buried treasure in St. Louie or St. Paul<br />
+And I&rsquo;ve never been to Moscow<br />
+And I&rsquo;ve never been to Tampa<br />
+And I&rsquo;ve never been to Boston in the fall<br />
+<br />
+[Chorus: Pirates]<br />
+Cause we&rsquo;re the pirates who don&rsquo;t do anything<br />
+We just stay at home and lie around<br />
+And if you ask us to do anything<br />
+We&rsquo;ll just tell you we don&rsquo;t do anything<br />
+<br />
+[Verse 2: Mr. Lunt]<br />
+And I never hoist the mainstay<br />
+And I never swab the poop deck<br />
+And I never veer to starboard<br />
+&rsquo;Cause I never sail at all<br />
+And I&rsquo;ve never walked the gangplank<br />
+And I&rsquo;ve never owned a parrot<br />
+And I&rsquo;ve never been to Boston in the fall<br />
+<br />
+[Chorus: Pirates]<br />
+&rsquo;Cause we&rsquo;re the pirates who don&rsquo;t do anything<br />
+We just stay at home and lie around<br />
+And if you ask us to do anything<br />
+We&rsquo;ll just tell you we don&rsquo;t do anything<br />
+[Verse 3: Larry]<br />
+Well, I&rsquo;ve never plucked a rooster<br />
+And I&rsquo;m not too good at ping pong<br />
+And I&rsquo;ve never thrown my mashed potatoes<br />
+Up against the wall<br />
+And I&rsquo;ve never kissed a chipmunk<br />
+And I&rsquo;ve never gotten head lice<br />
+And I&rsquo;ve never been to Boston in the fall<br />
+<br />
+[Spoken Interlude: Pa Grape (Mr. Lunt)]<br />
+Huh? What are you talking about? What does a rooster or mashed potatoes have to do with being a pirate?<br />
+(Hey, that&rsquo;s right! We&rsquo;re supposed to sing about pirate-y things)<br />
+And who&rsquo;s ever kissed a chipmunk? That&rsquo;s just nonsense, why even bring it up? Am I right? What do you think?<br />
+(I think you look like Cap&rsquo;n Crunch)<br />
+Huh? No I don&rsquo;t<br />
+(Do too)<br />
+Do not<br />
+(You&rsquo;re making me hungry)<br />
+That&rsquo;s it, you&rsquo;re walking the plank<br />
+(Says who?)<br />
+Says the Captain<br />
+(Oh yeah? Aye, aye, Cap&rsquo;n Crunch! Hee hee hee)<br />
+Arrrgh<br />
+(Yikes)<br />
+<br />
+[Verse 4: Larry]<br />
+And I&rsquo;ve never licked a spark plug<br />
+And I&rsquo;ve never sniffed a stinkbug<br />
+And I&rsquo;ve never painted daisies<br />
+On a big red rubber ball<br />
+And I&rsquo;ve never bathed in yogurt<br />
+And I don&rsquo;t look good in leggings<br />
+(You just don&rsquo;t get it)<br />
+[All:] And we&rsquo;ve never been to Boston in the fall<br />
+[Outro]<br />
+Pa: Pass the chips! Who’s got the remote?<br />
+Larry: Here it is!<br />
+Lunt: Time for Geraldo!<br />
+Pa: It’s definitely time for Wapner<br />
+Lunt: Oh, I don’t like this show<br />
+Larry: Hey, look! I found a quarter!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgb6f2458" class="outline-2">
+<h2 id="orgb6f2458"><span class="section-number-2">32.</span> Professional Pirate</h2>
+<div class="outline-text-2" id="text-32">
+<pre class="example">
+Artist: Muppet Treasure Island
+</pre>
+<p class="verse">
+[LONG JOHN]<br />
+When I was just a lad looking for my true vocation<br />
+My father said &ldquo;Now son, this choice deserves deliberation<br />
+Though you could be a doctor or perhaps a financier<br />
+My boy, why not consider a more challenging career?&rdquo;<br />
+<br />
+[PIRATES]<br />
+Hey ho ho!<br />
+You&rsquo;ll cruise to foreign shores<br />
+And you&rsquo;ll keep your mind and body sound<br />
+By working out of doors<br />
+[LONG JOHN]<br />
+True friendship and adventure are what we can&rsquo;t live without<br />
+<br />
+[PIRATES]<br />
+And when you&rsquo;re a professional pirate<br />
+<br />
+[POLLY]<br />
+That&rsquo;s what the job&rsquo;s about<br />
+<br />
+[LONG JOHN]<br />
+(spoken)<br />
+Upstage, lads. This is my only number<br />
+<br />
+(sung)<br />
+Now take Sir Francis Drake, the Spanish all despise him<br />
+But to the British, he&rsquo;s a hero and they idolize him<br />
+It&rsquo;s how you look at buccaneers that makes them bad or good<br />
+And I see us as members of a noble brotherhood<br />
+<br />
+[PIRATES]<br />
+Hey ho ho!<br />
+We&rsquo;re honorable men<br />
+And before we lose our tempers we will<br />
+Always count to ten<br />
+<br />
+[LONG JOHN]<br />
+On occasion, there may be someone you have to execute<br />
+[PIRATES]<br />
+And when you&rsquo;re a professional pirate<br />
+<br />
+[CLUELESS]<br />
+You don&rsquo;t have to wear a suit<br />
+<br />
+&#x2026;What?<br />
+<br />
+[MONTY]<br />
+I could have been a surgeon, I like taking things apart<br />
+<br />
+[POLLY]<br />
+I could have been a lawyer, but I just had too much heart<br />
+<br />
+[CLUELESS]<br />
+I could have been in politics &rsquo;cause I&rsquo;ve always been a big spender<br />
+<br />
+[BLACK-EYED PEA]<br />
+(spoken)<br />
+And me, I could&rsquo;ve been a contender<br />
+<br />
+[LONG JOHN]<br />
+Some say that pirates steal and should be feared and hated<br />
+I say we&rsquo;re victims of bad press that&rsquo;s all exaggerated<br />
+We never stab you in the back, we never lie or cheat<br />
+We&rsquo;re just, in fact, the nicest guy you ever want to meet<br />
+(spoken)<br />
+Tell the truth, lad. Do you really think the Captain and the Squire are planning to share the treasure with the likes of us? Can&rsquo;t hear ya. No? And we being the rightful owners, Flint&rsquo;s own crew, who shed our blood getting it here. Join us lad. Donate your compass to the treasure hunt and get a full share!<br />
+<br />
+[LONG JONG and PIRATES]<br />
+Hey ho ho!<br />
+It&rsquo;s one for all for one<br />
+And we&rsquo;ll share and share alike with you<br />
+And love you like a son<br />
+We&rsquo;re gentlemen of fortune and that&rsquo;s what we&rsquo;re bound to be<br />
+And when you&rsquo;re a professional pirate-<br />
+<br />
+[LONG JOHN]<br />
+You&rsquo;ll be honest, brave, and free!<br />
+The soul of decency!<br />
+You&rsquo;ll be loyal and fair and on the square<br />
+But most importantly<br />
+<br />
+[LONG JOHN and PIRATES]<br />
+When you&rsquo;re a professional pirate<br />
+You are always in the best of company!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org87ca541" class="outline-2">
+<h2 id="org87ca541"><span class="section-number-2">33.</span> Randy Dandy Oh</h2>
+<div class="outline-text-2" id="text-33">
+<p class="verse">
+Now we are ready to head for the Horn<br />
+Weigh, hey, roll an&rsquo; go!<br />
+Our boots an&rsquo; our clothes boys are all in the pawn<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Heave a pawl, oh, heave away<br />
+Weigh, hey, roll and go!<br />
+The anchor&rsquo;s on board an&rsquo; the cable&rsquo;s all stored<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Oh, man the stout caps&rsquo;n and heave with a will<br />
+Weigh, hey, roll an&rsquo; go!<br />
+Soon we&rsquo;ll be drivin&rsquo; her &rsquo;way up the hill<br />
+To be rollickin&rsquo; randy dandy O!<br />
+Heave a pawl, oh, heave away<br />
+Weigh, hey, roll and go!<br />
+The anchor&rsquo;s on board an&rsquo; the cable&rsquo;s all stored<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Heave away, bullies, ye parish-rigged bums<br />
+Weigh, hey, roll and go!<br />
+Take yer hands from yer pockets and don&rsquo;t suck yer thumbs<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Heave a pawl, oh, heave away<br />
+Weigh, hey, roll and go!<br />
+The anchor&rsquo;s on board an&rsquo; the cable&rsquo;s all stored<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+We&rsquo;re outward bound for Vallipo Bay<br />
+Weigh, hey, roll and go!<br />
+Get crackin&rsquo;, me lads, it&rsquo;s a hell of a way!<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Heave a pawl, oh, heave away<br />
+Weigh, hey, roll and go!<br />
+The anchor&rsquo;s on board an&rsquo; the cable&rsquo;s all stored<br />
+To be rollickin&rsquo; randy dandy O!<br />
+<br />
+Heave a pawl, oh, heave away<br />
+Weigh, hey, roll and go!<br />
+The anchor&rsquo;s on board an&rsquo; the cable&rsquo;s all stored<br />
+To be rollickin&rsquo; randy dandy O!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org9f15307" class="outline-2">
+<h2 id="org9f15307"><span class="section-number-2">34.</span> Roll the Wood Pile Down</h2>
+<div class="outline-text-2" id="text-34">
+<pre class="example">
+Artist: The Dreadnoughts
+</pre>
+<p class="verse">
+Away down South where the cocks do crow<br />
+Way down in Florida<br />
+Them girls all dance to the old banjo<br />
+And we&rsquo;ll roll the woodpile down<br />
+<br />
+Rollin! Rollin! Rollin the whole world round<br />
+That brown gal of mine&rsquo;s on the Georgia line!<br />
+And we&rsquo;ll roll the woodpile down!<br />
+<br />
+Oh, what can you do in Tampa bay?<br />
+Way down in Florida<br />
+But give them yellow girls all your pay<br />
+And we&rsquo;ll roll the woodpile down<br />
+<br />
+Rollin! Rollin! Rollin the whole world round<br />
+That brown gal of mine&rsquo;s on the Georgia line!<br />
+And we&rsquo;ll roll the woodpile down!<br />
+<br />
+Them Cardiff girls ain&rsquo;t got no frills<br />
+Way down in Florida<br />
+They&rsquo;re skinny and tight as catfish gills<br />
+And we&rsquo;ll roll the woodpile down<br />
+<br />
+Rollin! Rollin! Rollin the whole world round<br />
+That brown gal of mine&rsquo;s on the Georgia line!<br />
+And we&rsquo;ll roll the woodpile down!<br />
+<br />
+Oh, why do them little girls love me so?<br />
+Way down in Florida<br />
+Because I don&rsquo;t tell all I know<br />
+And we&rsquo;ll roll the woodpile down<br />
+<br />
+Rollin! Rollin! Rollin the whole world round<br />
+That brown gal of mine&rsquo;s on the Georgia line!<br />
+And we&rsquo;ll roll the woodpile down!<br />
+<br />
+Oh, one more pull and that will do<br />
+Way down in Florida<br />
+For we&rsquo;re the boys to kick her through<br />
+And we&rsquo;ll roll the woodpile down<br />
+<br />
+Rollin! Rollin! Rollin the whole world round<br />
+That brown gal of mine&rsquo;s on the Georgia line!<br />
+And we&rsquo;ll roll the woodpile down!<br />
+That brown gal of mine&rsquo;s on the Georgia line<br />
+And we&rsquo;ll roll the woodpile down!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org635645d" class="outline-2">
+<h2 id="org635645d"><span class="section-number-2">35.</span> Row me Bully boys</h2>
+<div class="outline-text-2" id="text-35">
+<p class="verse">
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+I&rsquo;ll sing you a song, it&rsquo;s a song of the sea<br />
+Row me bully boys row<br />
+I&rsquo;ll sing you a song if you&rsquo;ll sing it with me<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+While the first mate is plating the captain aboard<br />
+Row me bully boys row<br />
+He looks like a peacock with pistols and sword<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+The captain likes whiskey, the mate, he likes rum<br />
+Row me bully boys row<br />
+Us sailers like both but we can&rsquo;t get us none<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+Well farewell my love it is time for to roam<br />
+Row me bully boys row<br />
+The old blue peters are calling us home<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+<br />
+And it&rsquo;s row me bully boys<br />
+We&rsquo;re in a hurry boys<br />
+We got a long way to go<br />
+And we&rsquo;ll sing and we&rsquo;ll dance<br />
+And bid farewell to France<br />
+And it&rsquo;s row me bully boys row<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd708c0" class="outline-2">
+<h2 id="orgcd708c0"><span class="section-number-2">36.</span> Sailing For Adventure</h2>
+<div class="outline-text-2" id="text-36">
+<pre class="example">
+Artist: Muppet Treasure Island
+</pre>
+<p class="verse">
+[PIRATES]<br />
+When the course is laid and the anchor&rsquo;s weighed<br />
+A sailor&rsquo;s blood begins racing<br />
+With our hearts unbound and our flag unfurled<br />
+<br />
+[PIRATE]<br />
+We&rsquo;re on our way and off to see the world<br />
+<br />
+[COMPANY]<br />
+On our way and off to see the world<br />
+Hey, ho, we&rsquo;ll go<br />
+Anywhere the wind is blowing<br />
+<br />
+[PIRATE]<br />
+Manly men are we<br />
+<br />
+[COMPANY]<br />
+Sailing for adventure on the deep blue sea<br />
+<br />
+[SAM/MR. ARROW]<br />
+(spoken)<br />
+Safely now, Mr. Silver! Let&rsquo;s not get sloppy just because we&rsquo;re singing!<br />
+<br />
+[PIRATES]<br />
+Danger walks the deck, we say what the heck<br />
+We laugh at the perils we&rsquo;re facing<br />
+<br />
+[GONZO]<br />
+Every storm we ride is its own reward<br />
+<br />
+[RIZZO]<br />
+And people die by falling overboard<br />
+[COMPANY]<br />
+People die by falling overboard<br />
+<br />
+Hey, ho, we&rsquo;ll go<br />
+Anywhere the wind is blowing<br />
+Hoist the sails and sing<br />
+[FOZZIE/SQUIRE TRELAWNEY]<br />
+Sailing for adventure on the big blue wet thing<br />
+<br />
+[POLLY]<br />
+I love to see them cry when they walk the plank<br />
+<br />
+[CLUELESS]<br />
+I prefer to cut a throat<br />
+<br />
+[MAD MONTY]<br />
+I love to hang &rsquo;em high and watch their little feet try to walk in the air while their faces turn blue<br />
+<br />
+[CLUELESS]<br />
+(spoken)<br />
+Just kidding. Haha<br />
+<br />
+[ALL THREE]<br />
+It&rsquo;s a good life on a boat<br />
+<br />
+[COMPANY]<br />
+There are distant lands with burning sands<br />
+That call across the ocean<br />
+<br />
+[RATS]<br />
+There are bingo games every fun-filled day<br />
+[FEMALE RAT]<br />
+And margaritas at the midnight buffet<br />
+<br />
+[COMPANY]<br />
+Margaritas at the midnight buffet<br />
+<br />
+Hey, ho, we&rsquo;ll go<br />
+Anywhere the wind is blowing<br />
+<br />
+[STATLER and WALDORF/FIGUREHEADS]<br />
+Should have took the train!<br />
+<br />
+[COMPANY]<br />
+Sailing for adventure on the bounding main<br />
+<br />
+[JIM]<br />
+The salty breezes whisper<br />
+Who knows what lies ahead?<br />
+I just know I was born to lead<br />
+The life my father led<br />
+<br />
+[LONG JOHN]<br />
+The stars will be our compass<br />
+Wherever we may roam<br />
+And our mates will always be<br />
+Just like a family<br />
+And though we may put in to port<br />
+The sea is always home<br />
+<br />
+[FOZZIE/SQUIRE TRELAWNEY]<br />
+(spoken)<br />
+All right, Mr. Bimbo. I didn&rsquo;t know you had such a good singing voice! &#x2026; You&rsquo;re welcome!<br />
+<br />
+[COMPANY]<br />
+We&rsquo;ll chase our dreams standing on our own<br />
+Over the horizon to the great unknown<br />
+<br />
+Hey, ho, we&rsquo;ll go<br />
+Anywhere the wind is blowing<br />
+Home and brave and free!<br />
+<br />
+[COMPANY]<br />
+Sailing for adventure-<br />
+<br />
+[RIZZO]<br />
+It&rsquo;s so nauseating!<br />
+<br />
+[COMPANY]<br />
+Sailing for adventure-<br />
+[GONZO]<br />
+So exhilarating!<br />
+<br />
+[COMPANY]<br />
+Sailing for adventure-<br />
+<br />
+[RATS]<br />
+We&rsquo;re all celebrating!<br />
+<br />
+[COMPANY]<br />
+On the deep blue sea!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org9dcd13f" class="outline-2">
+<h2 id="org9dcd13f"><span class="section-number-2">37.</span> Sally Brown/Roll Boys, Roll</h2>
+<div class="outline-text-2" id="text-37">
+<p class="verse">
+[Verse 1]<br />
+Oh! Sally Brown, she&rsquo;s the gal for me, boys<br />
+Roll, boys! Roll, boys, roll!<br />
+Sally Brown, she&rsquo;s the girl for me, boys<br />
+Weigh high, Miss Sally Brown!<br />
+<br />
+[Verse 2]<br />
+It&rsquo;s down to Trinidad to see Sally Brown, boys<br />
+Roll, boys! Roll, boys, roll!<br />
+Down to Trinidad to see Sally Brown, boys<br />
+Weigh high, Miss Sally Brown!<br />
+[Verse 3]<br />
+She&rsquo;s lovely on the foreyard, and she&rsquo;s lovely down below, boys<br />
+Roll, boys! Roll, boys, roll!<br />
+She&rsquo;s lovely cause she loves me, that&rsquo;s all I want to know, boys<br />
+Weigh high, Miss Sally Brown!<br />
+<br />
+[Verse 4]<br />
+Old Captain Baker, how do you store yer cargo?<br />
+Roll, boys! Roll, boys, roll!<br />
+Some I stow forward, and some I stow after<br />
+Weigh high, Miss Sally Brown!<br />
+<br />
+[Verse 5]<br />
+Forty fathoms or more below, boys<br />
+Roll, boys! Roll, boys, roll!<br />
+There&rsquo;s forty fathoms or more below, boys<br />
+Weigh high, Miss Sally Brown!<br />
+<br />
+[Verse 6]<br />
+Oh, weigh high ya, and up she rises<br />
+Roll, boys! Roll, boys, roll!<br />
+Weigh high ya, and the blocks is different sizes<br />
+Weigh high, Miss Sally Brown!<br />
+<br />
+[Verse 7]<br />
+Oh, one more pull, don&rsquo;t ya hear the mate a-bawling?<br />
+Roll, boys! Roll, boys, roll!<br />
+One more pull, that&rsquo;s the end of all our hauling<br />
+Weigh high, Miss Sally Brown!<br />
+[Verse 8]<br />
+Sally Brown, she&rsquo;s the gal for me, boys<br />
+Roll, boys! Roll, boys, roll!<br />
+Sally Brown, she&rsquo;s the girl for me, boys<br />
+Weigh high, Miss Sally Brown!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgbf83166" class="outline-2">
+<h2 id="orgbf83166"><span class="section-number-2">38.</span> Santiana</h2>
+<div class="outline-text-2" id="text-38">
+<pre class="example">
+Artist: The Longest Johns
+</pre>
+<p class="verse">
+[Verse 1]<br />
+Oh! Santiana gained a day<br />
+Away Santiana!<br />
+&ldquo;Napoleon of the West&rdquo;, they say<br />
+Along the plains of Mexico<br />
+<br />
+[Chorus]<br />
+Well, heave &rsquo;er up and away we&rsquo;ll go<br />
+Away Santiana!<br />
+Heave &rsquo;er up and away we&rsquo;ll go<br />
+Along the plains of Mexico<br />
+[Verse 2]<br />
+She&rsquo;s a fast clipper ship and a bully good crew<br />
+Away Santiana!<br />
+And an old salty yank for a captain too<br />
+Along the plains of Mexico<br />
+<br />
+[Chorus]<br />
+Well, heave &rsquo;er up and away we&rsquo;ll go<br />
+Away Santiana!<br />
+Heave &rsquo;er up and away we&rsquo;ll go<br />
+Along the plains of Mexico<br />
+<br />
+[Verse 3]<br />
+Santiana fought for gold<br />
+Away Santiana!<br />
+Around Cape Horn through the ice and snow<br />
+Along the plains of Mexico<br />
+<br />
+[Chorus]<br />
+Well, heave &rsquo;er up and away we&rsquo;ll go<br />
+Away Santiana!<br />
+Heave &rsquo;er up and away we&rsquo;ll go<br />
+Along the plains of Mexico<br />
+<br />
+[Verse 4]<br />
+T&rsquo;was on the field of Molly-Del-Ray<br />
+Away Santiana!<br />
+Well both his legs got blown away<br />
+Along the plains of Mexico<br />
+[Chorus]<br />
+Well, heave &rsquo;er up and away we&rsquo;ll go<br />
+Away Santiana!<br />
+Heave &rsquo;er up and away we&rsquo;ll go<br />
+Along the plains of Mexico<br />
+<br />
+[Verse 5]<br />
+It was a fierce and bitter strife<br />
+Away Santiana!<br />
+The general Taylor took his life<br />
+Along the plains of Mexico<br />
+<br />
+[Chorus]<br />
+Well, heave &rsquo;er up and away we&rsquo;ll go<br />
+Away Santiana!<br />
+Heave &rsquo;er up and away we&rsquo;ll go<br />
+Along the plains of Mexico<br />
+<br />
+[Verse 6]<br />
+Santiana, now we mourn<br />
+Away Santiana!<br />
+We left him buried off Cape Horn<br />
+Along the plains of Mexico<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org691f94b" class="outline-2">
+<h2 id="org691f94b"><span class="section-number-2">39.</span> Shiver Me Timbers</h2>
+<div class="outline-text-2" id="text-39">
+<pre class="example">
+Artist: Muppet Treasure Island
+</pre>
+<p class="verse">
+Shiver my timbers, shiver my soul<br />
+Yo ho heave ho<br />
+There are men whose hearts are as black as coal<br />
+Yo ho heave ho<br />
+<br />
+And they sailed their ship cross the ocean blue<br />
+A blood-thirsty captain and a cut-throat crew<br />
+It&rsquo;s as dark a tale as was ever told<br />
+Of the lust for treasure and the love of gold<br />
+<br />
+Shiver my timbers, shiver my sides<br />
+Yo ho heave ho<br />
+There are hungers as strong as the wind and tides<br />
+Yo ho heave ho<br />
+And those buccaneers drowned their sins in rum<br />
+The devil himself would have to call them scum<br />
+Every man aboard would have killed his mate<br />
+For a bag of guineas or a piece of eight<br />
+(A piece of eight)<br />
+(A piece of eight)<br />
+<br />
+Five, six, seven, eight!<br />
+<br />
+Hoola wacka! Oola wacka! Something not right<br />
+Many wicked icky things gonna happen tonight<br />
+Hoola wacka! Oola wacka! Sailor man beware<br />
+When there&rsquo;s money in the ground there&rsquo;s murder in the air<br />
+(Murder in the air)<br />
+<br />
+One more time now<br />
+<br />
+Shiver my timbers, shiver my bones<br />
+Yo ho heave ho<br />
+There are secrets that sleep with old Davy Jones<br />
+Yo ho heave ho<br />
+<br />
+When the mainsail&rsquo;s set and the anchor&rsquo;s weighed<br />
+There&rsquo;s no turning back from any course that&rsquo;s laid<br />
+And when greed and villainy sail the sea<br />
+You can bet your boots there&rsquo;ll be treachery<br />
+Shiver my timbers, shiver my sails<br />
+Dead men tell no tales<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org5dbe450" class="outline-2">
+<h2 id="org5dbe450"><span class="section-number-2">40.</span> Space Shanty</h2>
+<div class="outline-text-2" id="text-40">
+<pre class="example">
+Artist: The Senate
+</pre>
+<p class="verse">
+[Verse 1]<br />
+Oh the whiskey is floating won&rsquo;t stay in ye glass<br />
+I&rsquo;m weightless and spinning and drunk off me ass<br />
+Oh the whiskey is floating in a sphere o&rsquo;er me head<br />
+If we don&rsquo;t clear this wormhole we&rsquo;re surely be dead<br />
+<br />
+[Chorus]<br />
+So reach for the whiskey boys reach for the stars<br />
+They won&rsquo;t stop us drinking on Venus or Mars<br />
+So reach for the whiskey boys reach for the sky<br />
+For the vacuum of space sucks the bottles all dry<br />
+[Verse 2]<br />
+Oh infinite booty awaits us in space<br />
+We&rsquo;ll pillage and plunder with fervor and grace<br />
+That&rsquo;s what my astronomical unit is for<br />
+Let&rsquo;s party where no one has partied before<br />
+<br />
+[Chorus]<br />
+So reach for the whiskey boys reach for the stars<br />
+They won&rsquo;t stop us drinking on Venus or Mars<br />
+So reach for the whiskey boys reach for the sky<br />
+For the vacuum of space sucks the bottles all dry<br />
+<br />
+[Verse 3]<br />
+Alone in the cockpit I gaze at the stars<br />
+I drink and I think of my home<br />
+(He thinks of his home)<br />
+Of my home<br />
+<br />
+[Verse 4]<br />
+Our thrusters are the hottest that you&rsquo;ve ever felt<br />
+They might just unbuckle your asteroid belt<br />
+We&rsquo;re honing our moonwalking skills as we speak<br />
+We&rsquo;ll dance on Uranus by this time next week<br />
+<br />
+[Chorus] x2<br />
+So reach for the whiskey boys reach for the stars<br />
+They won&rsquo;t stop us drinking on Venus or Mars<br />
+So reach for the whiskey boys reach for the sky<br />
+For the vacuum of space sucks the bottles all dry<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org377bbbc" class="outline-2">
+<h2 id="org377bbbc"><span class="section-number-2">41.</span> The Last Shanty</h2>
+<div class="outline-text-2" id="text-41">
+<p class="verse">
+[Verse 1]<br />
+Well me father often told me when I was just a lad<br />
+A sailor&rsquo;s life is very hard, the food is always bad<br />
+But now I&rsquo;ve joined the navy, I&rsquo;m aboard a man-o-war<br />
+And now I&rsquo;ve found a sailor ain&rsquo;t a sailor any more<br />
+<br />
+[Chorus]<br />
+Don&rsquo;t haul on the rope, don&rsquo;t climb up the mast<br />
+If you see a sailing ship it might be your last<br />
+Just get your civvies ready for another run-ashore<br />
+A sailor ain&rsquo;t a sailor, ain&rsquo;t a sailor anymore<br />
+[Verse 2]<br />
+Well the killick of our mess he says we had it soft<br />
+It wasn&rsquo;t like that in his day when we were up aloft<br />
+We like our bunks and sleeping bags, but what&rsquo;s a hammock for?<br />
+Swinging from the deckhead, or lying on the floor?<br />
+<br />
+[Chorus]<br />
+Don&rsquo;t haul on the rope, don&rsquo;t climb up thе mast<br />
+If you see a sailing ship it might be your last<br />
+Just get your civvies rеady for another run-ashore<br />
+A sailor ain&rsquo;t a sailor, ain&rsquo;t a sailor anymore<br />
+<br />
+[Verse 3]<br />
+They gave us an engine that first went up and down<br />
+Then with more technology the engine went around<br />
+We know our steam and diesels but what&rsquo;s a mainyard for?<br />
+A stoker ain&rsquo;t a stoker with a shovel anymore<br />
+<br />
+[Chorus]<br />
+Don&rsquo;t haul on the rope, don&rsquo;t climb up the mast<br />
+If you see a sailing ship it might be your last<br />
+Just get your civvies ready for another run-ashore<br />
+A sailor ain&rsquo;t a sailor, ain&rsquo;t a sailor anymore<br />
+<br />
+[Verse 4]<br />
+Two cans of beer a day and that&rsquo;s your bleeding lot<br />
+And now we&rsquo;ve got an extra one because they stopped The Tot<br />
+So we&rsquo;ll put on our civvy-clothes find a pub ashore<br />
+A sailor&rsquo;s just a sailor just like he was before<br />
+[Chorus]<br />
+Don&rsquo;t haul on the rope, don&rsquo;t climb up the mast<br />
+If you see a sailing ship it might be your last<br />
+Just get your civvies ready for another run-ashore<br />
+A sailor ain&rsquo;t a sailor, ain&rsquo;t a sailor anymore<br />
+Don&rsquo;t haul on the rope, don&rsquo;t climb up the mast<br />
+If you see a sailing ship it might be your last<br />
+Just get your civvies ready for another run-ashore<br />
+A sailor ain&rsquo;t a sailor, ain&rsquo;t a sailor anymore<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org36541f7" class="outline-2">
+<h2 id="org36541f7"><span class="section-number-2">42.</span> The Ship is Fine</h2>
+<div class="outline-text-2" id="text-42">
+<pre class="example">
+Artist: Jolly Rogers
+</pre>
+<p class="verse">
+<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+<br />
+I would have a great big deck<br />
+Plated in solid gold!<br />
+&rsquo;Cause being teased about my little deck<br />
+Is really gettin&rsquo; old! (happens a lot)<br />
+I&rsquo;d sail from south tortuga<br />
+All the way up to Quebec<br />
+And in each port I&rsquo;d shout: Hey, sailor!<br />
+Wanna ride my great big deck?<br />
+(It&rsquo;s enormous! - it&rsquo;s okay, it&rsquo;s okay)<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+<br />
+Let&rsquo;s see, uh<br />
+I&rsquo;d get rid of all the water<br />
+From down in the ballast hole (but we&rsquo;ll tip over!)<br />
+And replace it with some good dark rum<br />
+Where it can stay nice and cold!<br />
+Every man aboard the ship can drink<br />
+Until he&rsquo;s had his fill<br />
+And the only rude we&rsquo;d enforce<br />
+Is that noone&rsquo;s allowed to spill!<br />
+(How about that? Take that, you&rsquo;d have to replace it later)<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+<br />
+I&rsquo;d strip her down just to a rudder<br />
+A mast and a wheel (minimalism!)<br />
+I&rsquo;d make her long and hard - and hollow<br />
+And cover her in steel! (urr!)<br />
+She&rsquo;d be a giant floating cannon<br />
+No need for cabins and walls! (we-we need them)<br />
+And everyone would shiver<br />
+When they saw the size of my balls!<br />
+(I&rsquo;m shivering already, you&rsquo;ve seen them? They&rsquo;re huge!)<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+<br />
+I&rsquo;d replace the bunks and hammocks<br />
+With big four-poster beds (ooh, okay!)<br />
+And I&rsquo;d get rid of most the crew like you, lot<br />
+And hire trollops on instead<br />
+She&rsquo;d be a floating brothel<br />
+And I&rsquo;d be her captain bow<br />
+I&rsquo;d have more fun than any pirate<br />
+And I&rsquo;d make a lot more gold (arrogant jerk)<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+<br />
+I&rsquo;d get rid of all the sails<br />
+And find something better than the wind (what?)<br />
+Perhaps some sort of intermittent combustion engine<br />
+With reciprocating pistons<br />
+And a fuel source based on heat!<br />
+We could - hey! - woah, woah, woah!<br />
+Well, forget it you mooks<br />
+Let&rsquo;s go with devin&rsquo;s brothel plan<br />
+Wouldn&rsquo;t that be sweet? (Yeaah!)<br />
+<br />
+There&rsquo;s not a thing wrong with this ship<br />
+In fact, she is just fine<br />
+But there would be some changes<br />
+If if this vessel it were mine<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+Nothing unrealistic or too drastic or severe<br />
+Just some subtle tweaks to improve the atmosphere!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgacf71ae" class="outline-2">
+<h2 id="orgacf71ae"><span class="section-number-2">43.</span> Twiddles</h2>
+<div class="outline-text-2" id="text-43">
+<pre class="example">
+Artist: Misbehavin' Maidens
+</pre>
+<p class="verse">
+Oh you hear a lot of stories &rsquo;bout the sailors and their sport<br />
+About how every sailor has a girl in every port<br />
+But if you added 2 and 2 you’d figure out right quick<br />
+It&rsquo;s just because the girls all have a lad on every ship<br />
+<br />
+[Chorus]<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It’s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+Lucky Annie was a lady who&rsquo;d been pleased by many men<br />
+They all would sail away but then they&rsquo;d come right back again<br />
+But if they never sailed her way she really didn&rsquo;t care<br />
+Cause I know that you don&rsquo;t need a man to twiddle under there<br />
+<br />
+[Chorus]<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It’s often times a man will leave you broken with dismay<br />
+And it’s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+<br />
+Saber had her lovers, they came in at every door<br />
+You could even say that she was really quite a whore<br />
+But when she needs some pleasing, she knows just where to go<br />
+I grab my good friend Madam Rouge and we go down below<br />
+<br />
+[Chorus]<br />
+And it’s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It&rsquo;s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+There was a time when Rouge she found the sailor men a bore<br />
+Each new one was more tiresome than the one she had before<br />
+Now she finds more joy in breeches than she ever did of old<br />
+I’m more fond of their bulges when they&rsquo;re pouches full of gold<br />
+<br />
+[Chorus]<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It&rsquo;s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+<br />
+Why the boys would look at her, it puzzled poor Flint Locke<br />
+She would sit and smile and nod and let them brag and talk<br />
+But if they tried to touch her well she&rsquo;d put them on the run<br />
+Cause why would I need a lover when I&rsquo;ve got myself a gun<br />
+<br />
+[Chorus]<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It&rsquo;s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+So next time you&rsquo;re with a lady and she takes you to her bed<br />
+Be sure to please her well, and remember what we&rsquo;ve said<br />
+For if you do not treat her right then know that this is true<br />
+Us ladies all can have our fun without involving you<br />
+<br />
+[Chorus x2]<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It&rsquo;s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+It&rsquo;s often times a man will leave you broken with dismay<br />
+And it&rsquo;s Twiddle ee ai dee ai dee ai<br />
+Twiddle ee ai dee ei<br />
+There&rsquo;s other things to twiddle when the men have sailed away<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org3dc8737" class="outline-2">
+<h2 id="org3dc8737"><span class="section-number-2">44.</span> Tyme Flies When You&rsquo;re Having Rum</h2>
+<div class="outline-text-2" id="text-44">
+<pre class="example">
+Artist: Pirates for Sail
+</pre>
+<p class="verse">
+No future was there in London for a poor man&rsquo;s son like me<br />
+So I left my home and I went to seek my fortune on the sea<br />
+I signed aboard a merchant ship bound for the west indies<br />
+And six weeks out we tapped into the winds of piracy<br />
+<br />
+There we sails on the horizon and we tried to make a run<br />
+And when we saw that black flag then our running it was done<br />
+And when those pirates boarded us they told us one by one<br />
+&ldquo;You can die or join our crew me boys<br />
+Time flies whеn you&rsquo;re having rum!&rdquo;<br />
+Time flies whеn you&rsquo;re having rum me boys<br />
+Time flies when you&rsquo;re having rum<br />
+When you&rsquo;re sailing under the black flag<br />
+And you&rsquo;re firing all your guns<br />
+When you take a spanish treasure ship<br />
+You divide by the rule of thumb<br />
+Our voyage will be over soon enough<br />
+Time flies when you&rsquo;re having rum<br />
+<br />
+With a pistol to my forehead<br />
+Then my choice was all too clear<br />
+I took leave of that merchant ship and became a buccaneer<br />
+And though they spared my life I think that if the truth be told<br />
+I joined them for the promise of<br />
+Adventure, rum and gold<br />
+<br />
+The quartermaster handed me a cutlass and a gun<br />
+And as I signed their articles the captain told me &ldquo;Son<br />
+Us gentlemen of fortune live life fast and on the run<br />
+So step right up and take your share<br />
+Time flies when you&rsquo;re having rum!&rdquo;<br />
+<br />
+Time flies when you&rsquo;re having rum me boys<br />
+Time flies when you&rsquo;re having rum<br />
+When you&rsquo;re sailing under the black flag<br />
+And you&rsquo;re firing all your guns<br />
+When you take a spanish treasure ship<br />
+You divide by the rule of thumb<br />
+Our voyage will be over soon enough<br />
+Time flies when you&rsquo;re having rum<br />
+For two long years I sailed with them<br />
+Around the Spanish Main<br />
+And capture ships from Portugal<br />
+From England, France and Spain<br />
+We took what we could and we gave none back<br />
+For that&rsquo;s the pirate&rsquo;s code<br />
+And in our wake the Caribbean Sea ran red with blood<br />
+<br />
+The admiralty in London sent a fleet to hunt us down<br />
+A traitor in Port Royal told them where we could be found<br />
+They surrounded us in Nassau, the captain shouted<br />
+&ldquo;Let &lsquo;em come! The fight will be over soon enough<br />
+Time flies when you&rsquo;re having rum.&rdquo;<br />
+<br />
+<br />
+Time flies when you&rsquo;re having rum me boys<br />
+Time flies when you&rsquo;re having rum<br />
+When you&rsquo;re sailing under the black flag<br />
+And you&rsquo;re firing all your guns<br />
+When you take a spanish treasure ship<br />
+You divide by the rule of thumb<br />
+The voyage will be over soon enough<br />
+Time flies when you&rsquo;re having rum<br />
+<br />
+We ran the red flag up and then we readied all our guns<br />
+No quarter would we give and in turn expected none<br />
+We got off one good broadside<br />
+But outnumbered ten to one<br />
+They took out half our crew<br />
+And then our pirating was done<br />
+They took us back to London Town nder key and lock<br />
+The hangman&rsquo;s noose was swinging at the execution dock<br />
+The captain turned and said to me, &ldquo;We had fine sailing son<br />
+The voyage it was over all too soon<br />
+Time flies when you&rsquo;re having rum.&rdquo;<br />
+<br />
+Time flies when you&rsquo;re having rum me boys<br />
+Time flies when you&rsquo;re having rum<br />
+When you&rsquo;re sailing under the black flag<br />
+And you&rsquo;re firing all your guns<br />
+When you take a spanish treasure ship<br />
+You divide by the rule of thumb<br />
+Our voyage will be over soon enough<br />
+Time flies when you&rsquo;re having rum<br />
+<br />
+Now as you&rsquo;ve listened to this tale by know<br />
+I&rsquo;m sure you have surmised<br />
+That I slipped the hangman&rsquo;s cable<br />
+And escaped him with my life<br />
+But how I got away<br />
+That&rsquo;s another story son<br />
+My voyages they aren’t over yet<br />
+Time flies when you&rsquo;re having rum!<br />
+<br />
+<br />
+Time flies when you&rsquo;re having rum me boys<br />
+Time flies when you&rsquo;re having rum<br />
+When you&rsquo;re sailing under the black flag<br />
+And you&rsquo;re firing all your guns<br />
+When you take a spanish treasure ship<br />
+You divide by the rule of thumb<br />
+Our voyage will be over soon enough<br />
+Time flies when you&rsquo;re having rum<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgdbf8d72" class="outline-2">
+<h2 id="orgdbf8d72"><span class="section-number-2">45.</span> Voodoo Man</h2>
+<div class="outline-text-2" id="text-45">
+<pre class="example">
+Artist: Jolly Rogers
+</pre>
+<p class="verse">
+He was a nice young sailor lad, as green as green could be<br />
+When he first joined our crew for a life of piracy<br />
+When a storm nearly capsized us, he was thrown from the ship<br />
+Stranded on Hispaniola, right there on the western tip<br />
+When the crew next saw him they could not believe their eyes<br />
+There was little left of the young man that one could recognize<br />
+His hair was long a braided, and he looked ready for war<br />
+But he smiled and said &ldquo; Hello mates. I&rsquo;m your new bokor<br />
+<br />
+Now he wears more tattoos than clothes<br />
+With a ring on every finger and bone in his nose<br />
+When he starts his chanting we don&rsquo;t always understand<br />
+But we always listen to him, cause he&rsquo;s our voodoo man<br />
+The captain said &rdquo;Now listen boys, I think we should turn back<br />
+There&rsquo;s a storm a brewing and that beast is building fast.&ldquo;<br />
+The bokur said &rdquo;Just wait a minute and Captain keep your course&ldquo;<br />
+And he went back to his cabin but the storm it just got worse<br />
+<br />
+We heard howls, and moans, and a bang, and a crash<br />
+We saw thick black smoke and a fiery flash<br />
+We could smell the lighting and we just stared at his door<br />
+And when we started to relax, it started up once more<br />
+<br />
+He rushed out and said &rdquo;We&rsquo;ll need every inch of sail.&ldquo;<br />
+And a swath of clear blue sky split the monstrous gale<br />
+The wind filed every sail and tightened every line<br />
+As we passed we saw the storm crashed back in behind<br />
+<br />
+Now he wears more tattoos than clothes<br />
+With a ring on every finger and bone in his nose<br />
+When he starts his chanting we don&rsquo;t always understand<br />
+But we always listen to him, cause he&rsquo;s our voodoo man<br />
+<br />
+While hunting down a merchant ship around the rocky shore<br />
+We came around the island to a massive Man o&rsquo; War<br />
+The captain said &rdquo; Now listen boys. We&rsquo;re about to meet our doom.&ldquo;<br />
+And the bokor shouted &rdquo;Never fear&ldquo;<br />
+And he ran down to his room<br />
+We heard howls, and moans, and a bang, and a crash<br />
+We saw thick black smoke and a fiery flash<br />
+We could smell the lighting and we just stared at his door<br />
+And when we started to relax, it started up once more<br />
+<br />
+&rdquo;Fire two shots!&ldquo; he shouted and they went off right on cue<br />
+Both shots found their target and their powder hold it blew<br />
+The Man o&rsquo; War bust into flames and it began to pitch<br />
+And we stole enough from her to make sure we were rich<br />
+<br />
+He still wears more tattoos than clothes<br />
+With a ring on every finger and bone in his nose<br />
+When he starts his chanting we don&rsquo;t try to understand<br />
+But we always listen to him, cause he&rsquo;s our voodoo man<br />
+We always listen to him, cause he&rsquo;s our voodoo man<br />
+We always listen to him, cause he&rsquo;s our voodoo man<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org4c779d8" class="outline-2">
+<h2 id="org4c779d8"><span class="section-number-2">46.</span> Wellerman</h2>
+<div class="outline-text-2" id="text-46">
+<p class="verse">
+[Verse 1]<br />
+There once was a ship that put to sea<br />
+The name of the ship was the Billy of Tea<br />
+The winds blew up, her bow dipped down<br />
+O blow, my bully boys, blow (Huh!)<br />
+<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go<br />
+[Verse 2]<br />
+She had not been two weeks from shore<br />
+When down on her, a right whale bore<br />
+The captain called all hands and swore<br />
+He&rsquo;d take that whale in tow (Huh!)<br />
+<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tеa and rum<br />
+One day, when the tonguin&rsquo; is donе<br />
+We&rsquo;ll take our leave and go<br />
+<br />
+[Verse 3]<br />
+Before the boat had hit the water<br />
+The whale&rsquo;s tail came up and caught her<br />
+All hands to the side, harpooned and fought her<br />
+When she dived down low (Huh!)<br />
+<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go<br />
+<br />
+[Verse 4]<br />
+No line was cut, no whale was freed<br />
+The Captain&rsquo;s mind was not of greed<br />
+But he belonged to the Wellerman&rsquo;s creed<br />
+She took that ship in tow (Huh!)<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go<br />
+<br />
+[Verse 5]<br />
+For forty days, or even more<br />
+The line went slack, then tight once more<br />
+All boats were lost, there were only four<br />
+But still that whale did go (Huh!)<br />
+<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go<br />
+<br />
+[Verse 6]<br />
+As far as I&rsquo;ve heard, the fight&rsquo;s still on<br />
+The line&rsquo;s not cut and the whale&rsquo;s not gone<br />
+The Wellerman makes his regular call<br />
+To encourage the Captain, crew, and all (Huh!)<br />
+<br />
+[Chorus]<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go (Huh!)<br />
+Soon may the Wellerman come<br />
+To bring us sugar and tea and rum<br />
+One day, when the tonguin&rsquo; is done<br />
+We&rsquo;ll take our leave and go<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Cassandra Keil</p>
+<p class="date">Created: 2022-06-01 Wed 14:21</p>
+</div>
+</body>
+</html>
