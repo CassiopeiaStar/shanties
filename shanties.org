@@ -3,6 +3,7 @@
 #+OPTIONS: prop:t
 #+export_file_name: index.html
 
+#+latex: \clearpage
 * 1, 2, 3, 4
 :PROPERTIES:
 :Artist:   Alan Doyle
@@ -68,6 +69,7 @@ The band is blistered but we’ve got a little bit more
 When I say 1,2 you say 3,4
 1,2,3,4
 #+end_verse
+#+latex: \clearpage
 * A Pirates Life For Me
 #+begin_verse
 Yo ho, yo ho, a pirate's life for me
@@ -99,6 +101,7 @@ Drink up, me 'earties, yo ho
 Aye, but we're loved by our mommies and dads
 Drink up, me 'earties, yo ho
 #+end_verse
+#+latex: \clearpage
 * Barrett's Privateers
 #+begin_verse
 [Verse 1]
@@ -197,6 +200,7 @@ We'd fire no guns, shed no tears
 But I'm a broken man on a Halifax pier
 The last of Barrett's Privateers
 #+end_verse
+#+latex: \clearpage
 * Beneath the Black Flag
 #+begin_verse
 Out on the endless ocean
@@ -271,6 +275,7 @@ We row beneath the black flag
 A rollickin' we go!
 We bleed the kingdoms dry!
 #+end_verse
+#+latex: \clearpage
 * Binks' Brew
 :PROPERTIES:
 :Artist:   One Piece
@@ -331,11 +336,13 @@ Yo-hohoho, Yo-hoho-ho,
 Yo-hohoho, Yo-hoho-ho,
 Yo-hohoho, Yo-hoho-ho.
 #+end_verse
+#+latex: \clearpage
 * TODO Brave and Mighty Sailin' Captain
 :PROPERTIES:
 :Artist:   Musical Blades
 :END:
 
+#+latex: \clearpage
 * Bully in the Alley
 #+begin_verse
 [Chorus]
@@ -379,6 +386,7 @@ Way-hey, hey-hey, bully in the alley
 Help me, Bob, I'm bully in the alley
 Bully down in shinbone al!
 #+end_verse
+#+latex: \clearpage
 * Captain Kidd
 #+begin_verse
 My name is Captain Kidd
@@ -427,6 +435,7 @@ To shun bad company
 Or you'll wind up just like me
 As I sailed.
 #+end_verse
+#+latex: \clearpage
 * Captain Morgan
 :PROPERTIES:
 :Title:    Captain Morgan
@@ -501,6 +510,7 @@ We sail with Captain Morgan tonight"
 And an unforgettable story
 We sail with Captain Morgan tonight!"
 #+end_verse
+#+latex: \clearpage
 * Diggy Diggy Hole
 :PROPERTIES:
 :Artist:   Wind Rose
@@ -585,6 +595,7 @@ Diggy diggy hole, diggy diggy hole
 I am a dwarf and I'm digging a hole
 Diggy diggy hole, digging a hole
 #+end_verse
+#+latex: \clearpage
 * Don't Forget Your Old Shipmate
 #+begin_verse
 Safe and sound at home again, let the waters roar, Jack
@@ -646,6 +657,7 @@ Now we're safe ashore, Jack
 Don't forget yer old shipmate
 Faldee raldee raldee raldee rye-eye-doe!
 #+end_verse
+#+latex: \clearpage
 * Drunken Sailor
 #+begin_verse
 
@@ -734,6 +746,7 @@ Way hay and up she rises
 Way hay and up she rises
 Earl-eye in the morning!
 #+end_verse
+#+latex: \clearpage
 * Eight Bells
 :PROPERTIES:
 :Artist:   Jolly Rogers
@@ -831,6 +844,7 @@ Eight bells rang out…
 The night the Merry Widow went down
 The night the Merry Widow went down
 #+end_verse
+#+latex: \clearpage
 * Farewell and Adieu / Spanish Ladies
 #+begin_verse
 Farewell and adieu to you fair Spanish ladies
@@ -881,6 +895,7 @@ We’ll rant and we’ll rave across the salt seas
 Until we strike soundings in the Channel of England
 From Ushant to Scilly is thirty-four leagues
 #+end_verse
+#+latex: \clearpage
 * Finnegan's Wake
 #+begin_verse
 Tim Finnegan lived in Walken' Street
@@ -951,6 +966,7 @@ Welt the floor, your trotters shake;
 Wasn't it the truth I told you?
 Lots of fun at Finnegan's wake!
 #+end_verse
+#+latex: \clearpage
 * Flyin' Dutchman
 :PROPERTIES:
 :Title: Flyin' Dutchman
@@ -1200,6 +1216,7 @@ That ghostly ship is hunting us, it's bringing on the gale,
 N.C.
 She's called the Flying Dutchman and it's wraiths that fills her sails
 #+end_verse
+#+latex: \clearpage
 * Fucked with an Anchor
 :PROPERTIES:
 :Artist:   Jolly Rogers
@@ -1265,6 +1282,7 @@ You're all cunts so fuck you all
 
 (Wank!)
 #+end_verse
+#+latex: \clearpage
 * Haul Away Joe
 #+begin_verse
 [Verse 1]
@@ -1325,6 +1343,7 @@ Away Haul Away, we'll haul away, Joe
 Away! HO! Haul away, we'll hope for better weather
 Away Haul Away, we'll haul away, Joe
 #+end_verse
+#+latex: \clearpage
 * Health to the Company
 #+begin_verse
 [Verse 1]
@@ -1367,6 +1386,7 @@ Let us drink and be merry all out of one glass;
 Let us drink and be merry all grief to refrain
 For we may or might never all meet here again
 #+end_verse
+#+latex: \clearpage
 * Hoist the Colors
 #+begin_verse
 The king and his men
@@ -1404,6 +1424,7 @@ Hoist the colours high
 Heave ho, thieves and beggars
 Never shall we die!
 #+end_verse
+#+latex: \clearpage
 * Hoist Up the Thing
 :PROPERTIES:
 :Artist:   The Longest Johns
@@ -1465,6 +1486,7 @@ Turn hard to port! (This is SHERRY!) Now I've got it! (Screaming)
 Trust me, I'm in control! (MUMMY!)
 Trust me, I'm in control!
 #+end_verse
+#+latex: \clearpage
 * I'll Have A Beer
 :PROPERTIES:
 :Artist:   Jolly Rogers
@@ -1544,6 +1566,7 @@ Gin, rum
 Scotch and
 A beer
 #+end_verse
+#+latex: \clearpage
 * King of the Pirates (DaddyPhatSnaps)
 #+begin_verse
 Chorus (GameboyJones):
@@ -1628,6 +1651,7 @@ I will be captain of the seas
 King of the pirates, that'll be me
 I will be captain of the seas
 #+end_verse
+#+latex: \clearpage
 * Leave Her Johnny
 #+begin_verse
 [Verse 1]
@@ -1677,6 +1701,7 @@ Oh, leave her, Johnny, leave her!
 For the voyage is long and the winds don't blow
 And it's time for us to leave her
 #+end_verse
+#+latex: \clearpage
 * Legend of Davy Jones
 #+begin_verse
 Some say he steers a spectral ship
@@ -1737,6 +1762,7 @@ Each sleeping sailor's soggy bones
 The legend they call Davy Jones
 At forty fathoms deep
 #+end_verse
+#+latex: \clearpage
 * My Jolly Sailor Bold
 #+begin_verse
 Upon one summer's morning
@@ -1829,6 +1855,7 @@ I disdain all glittering gold
 There is nothing can console me
 But my jolly sailor bold
 #+end_verse
+#+latex: \clearpage
 * Nord Mead
 #+begin_verse
 We're merry men of Skyrim
@@ -1906,6 +1933,7 @@ Chug a mug of mead
 And another mug of mead
 Chug another mug of mead, warrior!
 #+end_verse
+#+latex: \clearpage
 * Oh, Better Far to Live and Die - Pirate King
 #+begin_verse
 King.
@@ -1964,6 +1992,7 @@ Hurrah for our Pirate King!
 King & Chorus.
 Hurrah for the/our Pirate King!
 #+end_verse
+#+latex: \clearpage
 * Old Maui
 #+begin_verse
 It's a damn tough life full of toil and strife
@@ -2026,6 +2055,7 @@ Rolling down to Old Maui
 We're homeward bound from the Arctic Grounds
 Rolling down to Old Maui
 #+end_verse
+#+latex: \clearpage
 * Pirates of the Black Flag
 #+begin_verse
 We welcome the night as black as our heart
@@ -2073,6 +2103,7 @@ Hope you have sweet dreams
 We're the Pirates of the Black Tide
 Hope you have sweet dreams
 #+end_verse
+#+latex: \clearpage
 * Pirates who don't do anything
 #+begin_verse
 [Intro: Narrator]
@@ -2156,6 +2187,7 @@ Pa: It’s definitely time for Wapner
 Lunt: Oh, I don’t like this show
 Larry: Hey, look! I found a quarter!
 #+end_verse
+#+latex: \clearpage
 * Professional Pirate
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
@@ -2246,6 +2278,7 @@ But most importantly
 When you're a professional pirate
 You are always in the best of company!
 #+end_verse
+#+latex: \clearpage
 * Randy Dandy Oh
 #+begin_verse
 Now we are ready to head for the Horn
@@ -2292,6 +2325,7 @@ Weigh, hey, roll and go!
 The anchor's on board an' the cable's all stored
 To be rollickin' randy dandy O!
 #+end_verse
+#+latex: \clearpage
 * Roll the Wood Pile Down
 :PROPERTIES:
 :Artist:   The Dreadnoughts
@@ -2344,6 +2378,7 @@ And we'll roll the woodpile down!
 That brown gal of mine's on the Georgia line
 And we'll roll the woodpile down!
 #+end_verse
+#+latex: \clearpage
 * Row me Bully boys
 #+begin_verse
 And it's row me bully boys
@@ -2408,6 +2443,7 @@ And we'll sing and we'll dance
 And bid farewell to France
 And it's row me bully boys row
 #+end_verse
+#+latex: \clearpage
 * Sailing For Adventure
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
@@ -2537,6 +2573,7 @@ We're all celebrating!
 [COMPANY]
 On the deep blue sea!
 #+end_verse
+#+latex: \clearpage
 * Sally Brown/Roll Boys, Roll
 #+begin_verse
 [Verse 1]
@@ -2585,6 +2622,7 @@ Roll, boys! Roll, boys, roll!
 Sally Brown, she's the girl for me, boys
 Weigh high, Miss Sally Brown!
 #+end_verse
+#+latex: \clearpage
 * Santiana
 :PROPERTIES:
 :Artist:   The Longest Johns
@@ -2654,6 +2692,7 @@ Away Santiana!
 We left him buried off Cape Horn
 Along the plains of Mexico
 #+end_verse
+#+latex: \clearpage
 * Shiver Me Timbers
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
@@ -2702,6 +2741,7 @@ You can bet your boots there'll be treachery
 Shiver my timbers, shiver my sails
 Dead men tell no tales
 #+end_verse
+#+latex: \clearpage
 * Space Shanty
 :PROPERTIES:
 :Artist:   The Senate
@@ -2748,6 +2788,7 @@ They won't stop us drinking on Venus or Mars
 So reach for the whiskey boys reach for the sky
 For the vacuum of space sucks the bottles all dry
 #+end_verse
+#+latex: \clearpage
 * The Last Shanty
 #+begin_verse
 [Verse 1]
@@ -2800,6 +2841,7 @@ If you see a sailing ship it might be your last
 Just get your civvies ready for another run-ashore
 A sailor ain't a sailor, ain't a sailor anymore
 #+end_verse
+#+latex: \clearpage
 * The Ship is Fine
 :PROPERTIES:
 :Artist:   Jolly Rogers
@@ -2901,6 +2943,7 @@ Just some subtle tweaks to improve the atmosphere!
 Nothing unrealistic or too drastic or severe
 Just some subtle tweaks to improve the atmosphere!
 #+end_verse
+#+latex: \clearpage
 * Twiddles
 :PROPERTIES:
 :Artist:   Misbehavin' Maidens
@@ -2987,6 +3030,7 @@ And it's Twiddle ee ai dee ai dee ai
 Twiddle ee ai dee ei
 There's other things to twiddle when the men have sailed away
 #+end_verse
+#+latex: \clearpage
 * Tyme Flies When You're Having Rum
 :PROPERTIES:
 :Artist:   Pirates for Sail
@@ -3096,6 +3140,7 @@ You divide by the rule of thumb
 Our voyage will be over soon enough
 Time flies when you're having rum
 #+end_verse
+#+latex: \clearpage
 * Voodoo Man
 :PROPERTIES:
 :Artist:   Jolly Rogers
@@ -3156,6 +3201,7 @@ But we always listen to him, cause he's our voodoo man
 We always listen to him, cause he's our voodoo man
 We always listen to him, cause he's our voodoo man
 #+end_verse
+#+latex: \clearpage
 * Wellerman
 #+begin_verse
 [Verse 1]
@@ -3232,3 +3278,5 @@ To bring us sugar and tea and rum
 One day, when the tonguin' is done
 We'll take our leave and go
 #+end_verse
+
+#+latex: \clearpage
