@@ -1,6 +1,7 @@
 #+title: Shanties
 #+HTML_HEAD_EXTRA: <style>p.verse{white-space: pre; font-family: monospace; line-height: 0.6;}</style>
 #+OPTIONS: prop:t
+#+export_file_name: index.html
 
 * 1, 2, 3, 4
 :PROPERTIES:
