@@ -1,10 +1,13 @@
 #+title: Shanties
 #+HTML_HEAD_EXTRA: <style>p.verse{white-space: pre; font-family: monospace; line-height: 0.6;}</style>
-#+OPTIONS: prop:t
+#+OPTIONS: prop:t author:nil date:nil
 #+export_file_name: index.html
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+
 
 #+latex: \clearpage
-* 1, 2, 3, 4
+* Lyrics
+** 1, 2, 3, 4
 :PROPERTIES:
 :Artist:   Alan Doyle
 :END:
@@ -70,7 +73,7 @@ When I say 1,2 you say 3,4
 1,2,3,4
 #+end_verse
 #+latex: \clearpage
-* A Pirates Life For Me
+** A Pirates Life For Me
 #+begin_verse
 Yo ho, yo ho, a pirate's life for me
 We pillage, we plunder, we rifle, and loot
@@ -102,7 +105,7 @@ Aye, but we're loved by our mommies and dads
 Drink up, me 'earties, yo ho
 #+end_verse
 #+latex: \clearpage
-* Barrett's Privateers
+** Barrett's Privateers
 #+begin_verse
 [Verse 1]
 Oh, the year was 1778
@@ -201,7 +204,7 @@ But I'm a broken man on a Halifax pier
 The last of Barrett's Privateers
 #+end_verse
 #+latex: \clearpage
-* Beneath the Black Flag
+** Beneath the Black Flag
 #+begin_verse
 Out on the endless ocean
 We tear along the gales
@@ -276,7 +279,7 @@ A rollickin' we go!
 We bleed the kingdoms dry!
 #+end_verse
 #+latex: \clearpage
-* Binks' Brew
+** Binks' Brew
 :PROPERTIES:
 :Artist:   One Piece
 :END:
@@ -337,13 +340,13 @@ Yo-hohoho, Yo-hoho-ho,
 Yo-hohoho, Yo-hoho-ho.
 #+end_verse
 #+latex: \clearpage
-* TODO Brave and Mighty Sailin' Captain
+** TODO Brave and Mighty Sailin' Captain
 :PROPERTIES:
 :Artist:   Musical Blades
 :END:
 
 #+latex: \clearpage
-* Bully in the Alley
+** Bully in the Alley
 #+begin_verse
 [Chorus]
 Help me, Bob, I'm bully in the alley
@@ -387,7 +390,7 @@ Help me, Bob, I'm bully in the alley
 Bully down in shinbone al!
 #+end_verse
 #+latex: \clearpage
-* Captain Kidd
+** Captain Kidd
 #+begin_verse
 My name is Captain Kidd
 As I sailed, as I sailed,
@@ -436,7 +439,7 @@ Or you'll wind up just like me
 As I sailed.
 #+end_verse
 #+latex: \clearpage
-* Captain Morgan
+** Captain Morgan
 :PROPERTIES:
 :Title:    Captain Morgan
 :Artist:   Jolly Rogers
@@ -511,7 +514,7 @@ And an unforgettable story
 We sail with Captain Morgan tonight!"
 #+end_verse
 #+latex: \clearpage
-* Diggy Diggy Hole
+** Diggy Diggy Hole
 :PROPERTIES:
 :Artist:   Wind Rose
 :END:
@@ -596,7 +599,7 @@ I am a dwarf and I'm digging a hole
 Diggy diggy hole, digging a hole
 #+end_verse
 #+latex: \clearpage
-* Don't Forget Your Old Shipmate
+** Don't Forget Your Old Shipmate
 #+begin_verse
 Safe and sound at home again, let the waters roar, Jack
 Safe and sound at home again, let the waters roar, Jack
@@ -658,7 +661,7 @@ Don't forget yer old shipmate
 Faldee raldee raldee raldee rye-eye-doe!
 #+end_verse
 #+latex: \clearpage
-* Drunken Sailor
+** Drunken Sailor
 #+begin_verse
 
 What do you do with a drunken sailor
@@ -747,7 +750,7 @@ Way hay and up she rises
 Earl-eye in the morning!
 #+end_verse
 #+latex: \clearpage
-* Eight Bells
+** Eight Bells
 :PROPERTIES:
 :Artist:   Jolly Rogers
 :END:
@@ -845,7 +848,7 @@ The night the Merry Widow went down
 The night the Merry Widow went down
 #+end_verse
 #+latex: \clearpage
-* Farewell and Adieu / Spanish Ladies
+** Farewell and Adieu / Spanish Ladies
 #+begin_verse
 Farewell and adieu to you fair Spanish ladies
 Farewell and adieu to you ladies of Spain
@@ -896,7 +899,7 @@ Until we strike soundings in the Channel of England
 From Ushant to Scilly is thirty-four leagues
 #+end_verse
 #+latex: \clearpage
-* Finnegan's Wake
+** Finnegan's Wake
 #+begin_verse
 Tim Finnegan lived in Walken' Street
 A gentleman Irishman mighty odd;
@@ -967,12 +970,11 @@ Wasn't it the truth I told you?
 Lots of fun at Finnegan's wake!
 #+end_verse
 #+latex: \clearpage
-* Flyin' Dutchman
+** Flyin' Dutchman
 :PROPERTIES:
 :Title: Flyin' Dutchman
 :Artist: Jolly Rogers
 :END:
-** Lyrics
 #+begin_verse
 The sky was grey and cloudy
 And the wind was from the west
@@ -1060,164 +1062,8 @@ If you see a battered frigate
 Give way and watch behind you
 Or you'll hear your captain cry
 #+end_verse
-** Chords
-#+begin_verse
-[Intro]
-Dm Dm
-
-[Verse]
-Dm
-The sky was grey and cloudy and the wind was from the west
-
-When we spied a battered frigate with her tattered sail full dressed
-
-Gm
-They signaled they had letters home they asked if we could take
-
-Dm
-They dropped 'em in a barrel they left bobbing in their wake
-
-
-Dm
-We reefed the sails and slowed the ship to fish the barrel out
-
-The old ship sailed to the distance and we saw her come about
-
-Gm
-The captain watched through a spyglass and we heard him catch his breath
-
-Dm
-And we saw the storm a-brewing had become a wall of death
-
-[Chorus]
-A                              G
-Turn this ship around me boys, turn around and run
-
-A                                     G
-This storm it wants a battle and it's sure that we're outgunned
-
-Dm                       F               G                A
-What of the ship that's out there do we leave her to the gale?
-
-N.C.
-She's called the Flying Dutchman and it's wraiths that fills her sails.
-
-Dm Dm Dm Dm
-
-[Verse]
-Dm
-The thunder growled like demons and the lightening stabbed the waves
-
-And the Dutchman she lept towards us riding fury from the graves
-
-Gm
-Our captain he stayed at the wheel, the crew the manned the lines,
-
-Dm
-And still that ship and storm were quickly closing in behind.
-
-
-
-Dm
-Our ship we crest a giant wave and crash to the trough below
-
-The crew held on to what they could, they were damned if they let go.
-
-Gm
-The rain and sea and storm winds crashed against our ship with wrath
-
-Dm
-And from the deck of that cursed ship, we could hear them laugh
-
-[Chorus]
-A                              G
-Turn this ship around me boys, turn around and run
-
-A                                     G
-This storm it wants a battle and it's sure that we're outgunned
-
-Dm                    F                G               A
-That ghostly ship is hunting us, it's bringing on the gale,
-
-N.C.
-She's called the Flying Dutchman and it's wraiths that fills her sails
-
-[Verse]
-Dm
-That was when we sighted land, it became a race wih time
-
-We believed it Santa Marta, the Dutchman closing in behind
-
-Gm
-"Risk it all" the captain cried "it's the only chance we've got,
-
-Dm
-Salvation if we make it and our souls if we get caught."
-
-Dm
-The storm was all around us and the Dutchman cut our winds,
-
-The beast nearly capsized us, and we watched our strong mast bend
-
-Gm
-We were almost to the harbour, we could see the natural break,
-
-Dm
-And each man willed her forward, for they knew what was at stake
-
-[Chorus]
-A                              G
-Turn this ship around me boys, turn around and run
-
-A                                     G
-This storm it wants a battle and it's sure that we're outgunned
-
-Dm                    F                G               A
-That ghostly ship is hunting us, it's bringing on the gale,
-
-N.C.
-She's called the Flying Dutchman and it's wraiths that fills her sails
-
-[Verse]
-Dm
-Once we charged into that harbour, the Dutchman heaved away
-
-And we heard their bitter screams, for the Devil lost his prey.
-
-Gm
-Once we made it safely to the leeward of the bay,
-
-Dm
-We cracked that barrel open to see what those letters say.
-
-
-Dm
-There must've been a hundred and that's when we realized,
-
-Those moldy parchments were addressed to those who'd long since died.
-
-Gm
-If you see a battered frigate 'neath a grey and stormy sky,
-
-Dm
-Give way and watch mehind you, or you'll hear your captain cry:
-
-
-[Chorus]
-A                              G
-Turn this ship around me boys, turn around and run
-
-A                                     G
-This storm it wants a battle and it's sure that we're outgunned
-
-Dm                    F                G               A
-That ghostly ship is hunting us, it's bringing on the gale,
-
-N.C.
-She's called the Flying Dutchman and it's wraiths that fills her sails
-#+end_verse
 #+latex: \clearpage
-* Fucked with an Anchor
+** Fucked with an Anchor
 :PROPERTIES:
 :Artist:   Jolly Rogers
 :END:
@@ -1283,7 +1129,7 @@ You're all cunts so fuck you all
 (Wank!)
 #+end_verse
 #+latex: \clearpage
-* Haul Away Joe
+** Haul Away Joe
 #+begin_verse
 [Verse 1]
 When I was just a little lad, or so me Mammi told me
@@ -1344,7 +1190,7 @@ Away! HO! Haul away, we'll hope for better weather
 Away Haul Away, we'll haul away, Joe
 #+end_verse
 #+latex: \clearpage
-* Health to the Company
+** Health to the Company
 #+begin_verse
 [Verse 1]
 Kind friends and companions, come join me in rhyme
@@ -1387,7 +1233,7 @@ Let us drink and be merry all grief to refrain
 For we may or might never all meet here again
 #+end_verse
 #+latex: \clearpage
-* Hoist the Colors
+** Hoist the Colors
 #+begin_verse
 The king and his men
 Stole the queen from her bed
@@ -1425,7 +1271,7 @@ Heave ho, thieves and beggars
 Never shall we die!
 #+end_verse
 #+latex: \clearpage
-* Hoist Up the Thing
+** Hoist Up the Thing
 :PROPERTIES:
 :Artist:   The Longest Johns
 :END:
@@ -1487,7 +1333,7 @@ Trust me, I'm in control! (MUMMY!)
 Trust me, I'm in control!
 #+end_verse
 #+latex: \clearpage
-* I'll Have A Beer
+** I'll Have A Beer
 :PROPERTIES:
 :Artist:   Jolly Rogers
 :Title:    I'll Have A Beer
@@ -1567,7 +1413,7 @@ Scotch and
 A beer
 #+end_verse
 #+latex: \clearpage
-* King of the Pirates (DaddyPhatSnaps)
+** King of the Pirates (DaddyPhatSnaps)
 #+begin_verse
 Chorus (GameboyJones):
 I don't know why you all think that you should doubt me
@@ -1652,7 +1498,7 @@ King of the pirates, that'll be me
 I will be captain of the seas
 #+end_verse
 #+latex: \clearpage
-* Leave Her Johnny
+** Leave Her Johnny
 #+begin_verse
 [Verse 1]
 I thought I heard the Old Man say:
@@ -1702,7 +1548,7 @@ For the voyage is long and the winds don't blow
 And it's time for us to leave her
 #+end_verse
 #+latex: \clearpage
-* Legend of Davy Jones
+** Legend of Davy Jones
 #+begin_verse
 Some say he steers a spectral ship
 That's ghostly, grey, and grand
@@ -1763,7 +1609,7 @@ The legend they call Davy Jones
 At forty fathoms deep
 #+end_verse
 #+latex: \clearpage
-* My Jolly Sailor Bold
+** My Jolly Sailor Bold
 #+begin_verse
 Upon one summer's morning
 I carefully did stray
@@ -1856,7 +1702,7 @@ There is nothing can console me
 But my jolly sailor bold
 #+end_verse
 #+latex: \clearpage
-* Nord Mead
+** Nord Mead
 #+begin_verse
 We're merry men of Skyrim
 So sturdy and so stout
@@ -1934,7 +1780,7 @@ And another mug of mead
 Chug another mug of mead, warrior!
 #+end_verse
 #+latex: \clearpage
-* Oh, Better Far to Live and Die - Pirate King
+** Oh, Better Far to Live and Die - Pirate King
 #+begin_verse
 King.
 Oh, better far to live and die
@@ -1993,7 +1839,7 @@ King & Chorus.
 Hurrah for the/our Pirate King!
 #+end_verse
 #+latex: \clearpage
-* Old Maui
+** Old Maui
 #+begin_verse
 It's a damn tough life full of toil and strife
 We whalermen undergo
@@ -2056,7 +1902,7 @@ We're homeward bound from the Arctic Grounds
 Rolling down to Old Maui
 #+end_verse
 #+latex: \clearpage
-* Pirates of the Black Flag
+** Pirates of the Black Flag
 #+begin_verse
 We welcome the night as black as our heart
 Can't see, don't want, never had a naval chart
@@ -2104,7 +1950,7 @@ We're the Pirates of the Black Tide
 Hope you have sweet dreams
 #+end_verse
 #+latex: \clearpage
-* Pirates who don't do anything
+** Pirates who don't do anything
 #+begin_verse
 [Intro: Narrator]
 And now it's time for silly songs with Larry
@@ -2188,7 +2034,7 @@ Lunt: Oh, I don’t like this show
 Larry: Hey, look! I found a quarter!
 #+end_verse
 #+latex: \clearpage
-* Professional Pirate
+** Professional Pirate
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
 :END:
@@ -2279,7 +2125,7 @@ When you're a professional pirate
 You are always in the best of company!
 #+end_verse
 #+latex: \clearpage
-* Randy Dandy Oh
+** Randy Dandy Oh
 #+begin_verse
 Now we are ready to head for the Horn
 Weigh, hey, roll an' go!
@@ -2326,7 +2172,7 @@ The anchor's on board an' the cable's all stored
 To be rollickin' randy dandy O!
 #+end_verse
 #+latex: \clearpage
-* Roll the Wood Pile Down
+** Roll the Wood Pile Down
 :PROPERTIES:
 :Artist:   The Dreadnoughts
 :END:
@@ -2379,7 +2225,7 @@ That brown gal of mine's on the Georgia line
 And we'll roll the woodpile down!
 #+end_verse
 #+latex: \clearpage
-* Row me Bully boys
+** Row me Bully boys
 #+begin_verse
 And it's row me bully boys
 We're in a hurry boys
@@ -2444,7 +2290,7 @@ And bid farewell to France
 And it's row me bully boys row
 #+end_verse
 #+latex: \clearpage
-* Sailing For Adventure
+** Sailing For Adventure
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
 :END:
@@ -2574,7 +2420,7 @@ We're all celebrating!
 On the deep blue sea!
 #+end_verse
 #+latex: \clearpage
-* Sally Brown/Roll Boys, Roll
+** Sally Brown/Roll Boys, Roll
 #+begin_verse
 [Verse 1]
 Oh! Sally Brown, she's the gal for me, boys
@@ -2623,7 +2469,7 @@ Sally Brown, she's the girl for me, boys
 Weigh high, Miss Sally Brown!
 #+end_verse
 #+latex: \clearpage
-* Santiana
+** Santiana
 :PROPERTIES:
 :Artist:   The Longest Johns
 :END:
@@ -2693,7 +2539,7 @@ We left him buried off Cape Horn
 Along the plains of Mexico
 #+end_verse
 #+latex: \clearpage
-* Shiver Me Timbers
+** Shiver Me Timbers
 :PROPERTIES:
 :Artist:   Muppet Treasure Island
 :END:
@@ -2742,7 +2588,7 @@ Shiver my timbers, shiver my sails
 Dead men tell no tales
 #+end_verse
 #+latex: \clearpage
-* Space Shanty
+** Space Shanty
 :PROPERTIES:
 :Artist:   The Senate
 :END:
@@ -2789,7 +2635,7 @@ So reach for the whiskey boys reach for the sky
 For the vacuum of space sucks the bottles all dry
 #+end_verse
 #+latex: \clearpage
-* The Last Shanty
+** The Last Shanty
 #+begin_verse
 [Verse 1]
 Well me father often told me when I was just a lad
@@ -2842,7 +2688,7 @@ Just get your civvies ready for another run-ashore
 A sailor ain't a sailor, ain't a sailor anymore
 #+end_verse
 #+latex: \clearpage
-* The Ship is Fine
+** The Ship is Fine
 :PROPERTIES:
 :Artist:   Jolly Rogers
 :END:
@@ -2944,7 +2790,7 @@ Nothing unrealistic or too drastic or severe
 Just some subtle tweaks to improve the atmosphere!
 #+end_verse
 #+latex: \clearpage
-* Twiddles
+** Twiddles
 :PROPERTIES:
 :Artist:   Misbehavin' Maidens
 :END:
@@ -3031,7 +2877,7 @@ Twiddle ee ai dee ei
 There's other things to twiddle when the men have sailed away
 #+end_verse
 #+latex: \clearpage
-* Tyme Flies When You're Having Rum
+** Tyme Flies When You're Having Rum
 :PROPERTIES:
 :Artist:   Pirates for Sail
 :END:
@@ -3141,7 +2987,7 @@ Our voyage will be over soon enough
 Time flies when you're having rum
 #+end_verse
 #+latex: \clearpage
-* Voodoo Man
+** Voodoo Man
 :PROPERTIES:
 :Artist:   Jolly Rogers
 :END:
@@ -3202,7 +3048,7 @@ We always listen to him, cause he's our voodoo man
 We always listen to him, cause he's our voodoo man
 #+end_verse
 #+latex: \clearpage
-* Wellerman
+** Wellerman
 #+begin_verse
 [Verse 1]
 There once was a ship that put to sea
@@ -3279,4 +3125,5118 @@ One day, when the tonguin' is done
 We'll take our leave and go
 #+end_verse
 
+#+latex: \clearpage
+
+* Chords
+** 1, 2, 3, 4
+:PROPERTIES:
+:Artist:   Alan Doyle
+:END:
+Whiskey, whiskey
+The singer’s getting sore
+We raised the roof
+Now we’re lowering the floor
+The band is blistered but we’ve got a little bit more
+When I say 1,2 you say 3,4
+G
+1,2,3,4
+
+C | D C
+G | C D
+
+G
+Altogether
+ C          G
+Altogether gone
+G                         D
+It’s now or never if you want
+       G
+another song
+
+G C G D C D
+
+G                  C              G
+On and on goes the ringing of the bell
+G               D                 G
+Off we go, this song won’t sing itself
+
+G C G D C D
+
+C                 D
+So soldiers at my side
+C                D
+It’s you and me tonight
+
+Chorus
+
+G
+Whiskey, whiskey
+    C                G
+The singer’s getting sore
+   G
+We raised the roof
+           D           G
+Now we’re lowering the floor
+     G                           C
+The band is blistered but we’ve got
+              G
+ a little bit more
+(No chords)
+When I say 1,2 you say 3,4
+1,2,3,4
+
+C | D C
+G | C D
+
+Verse
+G
+Mister moonlight
+    C             G
+You gotta let ‘em play
+G                   D
+If the devils wanna dance
+                         G
+Then the piper wants his pay
+
+G C G D C D
+
+G
+Hide me in a hiding place
+      C                G
+Where good sense never goes
+G
+Take me to the fountain
+          D         G
+Where the firewater flows
+
+G C G D C D
+
+         C           D
+Find our alibies and lies
+    C                D
+And lose ourselves tonight
+
+Chorus
+G
+Whiskey, whiskey
+    C                G
+The singer’s getting sore
+G
+We raised the roof
+          D            G
+Now we’re lowering the floor
+    G                           C
+The band is blistered but we’ve got
+              G
+ a little bit more
+(No chords)
+When I say 1,2 you say 3,4
+1,2,3,4
+
+Solo
+C D C G x2
+
+Spoken:
+
+G                            C
+Trying to get the whole room on the
+ dance floor
+G
+Is like trying to put a square peg
+C
+in a round hole
+G
+I’m not saying it ain’t something
+        C
+that we shouldn’t try to do
+G                          C
+Don’t do it for me though, do it for you
+G
+You’ve been minding your manners
+    C
+and behaving yourself
+G
+But there’s still a lot of bottles
+     C
+left upon the shelf
+G
+So wet my little whistle now and
+C
+give a dog a bone
+G                         C
+I can take it up a notch, can’t do it alone
+   C              D
+So soldiers at my side
+     C          D
+It’s you and me tonight
+
+Chorus
+G
+Whiskey, whiskey
+    C                G
+The singer’s getting sore
+G
+We raised the roof
+          D            G
+Now we’re lowering the floor
+G                               C
+The band is blistered but we’ve got
+              G
+ a little bit more
+(No chords)
+When I say 1,2 you say 3,4
+1,2,3,4
+#+latex: \clearpage
+** A Pirates Life For Me
+#+begin_verse
+[Hook]
+F      Bb       F        C7        F
+Yo ho, yo ho, a pirate's life for me
+
+[Verse 1]
+   Dm                      A7
+We pillage, we plunder, we rifle and loot
+Dm                       A7
+Drink up me hearties, yo ho
+   Bb         C          F            Dm
+We kidnap and ravage and don't give a hoot
+      G               C7
+Drink up me hearties, yo ho
+
+[Hook]
+F      Bb       F        C7        F
+Yo ho, yo ho, a pirate's life for me
+
+[Verse 2]
+Dm                       A7
+We extort, we pilfer, we filch and sack
+Dm                    A7
+Drink up me hearties, yo ho
+Bb         C            F      Dm
+Maraud and embezzle and even hijack
+G                       C7
+Drink up me hearties, yo ho
+
+[Hook]
+F      Bb       F        C7        F
+Yo ho, yo ho, a pirate's life for me
+
+[Verse 3]
+Dm                  A7
+We kindle and char, inflame and ignite
+Dm                       A7
+Drink up me hearties, yo ho
+   Bb          C           F        Dm
+We burn up the city, we're really a fright
+      G                  C7
+Drink up me hearties, yo ho
+
+[Hook]
+F      Bb       F        C7        F
+Yo ho, yo ho, a pirate's life for me
+
+[Verse 4]
+      Dm                   A7
+We're rascals, scoundrels, villains and knaves
+Dm                       A7
+Drink up me hearties, yo ho
+      Bb         C               F          Dm
+We're devils and black sheep and really bad eggs
+      G                  C7
+Drink up me hearties, yo ho
+
+[Hook]
+F      Bb       F        C7       F
+Yo ho, yo ho, a pirate's life for me
+
+[Verse 5]
+      Dm                        A7
+We're beggars and blighters and ne'er-do-well cads
+Dm                       A7
+Drink up me hearties, yo ho
+Bb            C            F           Dm
+Aye but we're loved by our mommies and dads
+G                        C7
+Drink up me hearties, yo ho
+
+[Hook]
+F      Bb       F        C7        F
+Yo ho, yo ho, a pirate's life for me
+#+end_verse
+#+latex: \clearpage
+** Barrett's Privateers
+#+begin_verse
+Asterisk  (*)  new measure, play same chord
+Period    (.)  1/8 note rest at start of a measure
+Underline (_)  sustain note into next measure
+
+[Verse 1]
+        C        *         G       C
+Oh, the year was seventeen seventy-eight
+      *      F      C          G     (*)
+How I wish I was in Sherbrooke now
+  C         G           C        *
+A letter of marque came from the king
+       *         *          G    F
+To the scummiest vessel I'd ever seen
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 2]
+      C     *       G         C
+Well, Elcid Barrett cried the town
+      *      F      C          G    (*)
+How I wish I was in Sherbrooke now
+    C            G        C          *
+For twenty brave men, all fishermen, who
+      *        *       G          F
+Would make for him the Antelope's crew
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 3]
+    C        *           G         C
+The Antelope sloop was a sickening sight
+      *      F      C          G    (*)
+How I wish I was in Sherbrooke now
+        C           G            C        *
+She'd a list to the port and her sails in rags
+        *           *                 G            F
+And the cook in the scuppers with the staggers and jags
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 4]
+       C            *      G      C
+On the King's birth-day we put to sea
+      *      F      C          G    (*)
+How I wish I was in Sherbrooke now
+        C          G           C    *
+We were ninety-one days to Mon-tego Bay
+x            x      G       F
+Pumping like madmen all the way
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 5]
+       C            *      G        C
+On the ninety-sixth day we sailed a-gain
+      *      F      C          G    (*)
+How I wish I was in Sherbrooke now
+       C            G      C       *
+When a bloody great Yankee hove in sight
+         *            *            G       F
+With our cracked four-pounders, we made to fight
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 6]
+    C      *       G         C
+The Yankee lay low down with gold
+      *      F      C          G     (*)
+How I wish I was in Sherbrooke now
+        C         G       C        *
+She was broad and fat and loose in stays
+       *                  *        G         F
+But to catch her took the Antelope two whole days
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 7]
+        C         *         G        C
+Then at length we stood two cables a-way
+      *      F      C          G     (*)
+How I wish I was in Sherbrooke now
+    C            G                C     *
+Our cracked four-pounders made an awful din
+         *       *             G        F
+But with one fat ball the Yank stove us in
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 8]
+    C        *         G              C
+The Antelope shook and pitched on her side
+      *      F      C          G     (*)
+How I wish I was in Sherbrooke now
+C           G              C       *
+Barrett was smashed like a bowl of eggs
+        *          *           G       F
+And the main-truck carried off both me legs
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+
+[Verse 9]
+   C      *         G            C
+So here I lay in me twenty-third year
+      *      F      C          G     (*)
+How I wish I was in Sherbrooke now
+     C        G              C        *
+It's been six years since we sailed a-way
+      *         *       G      F
+And I just made Halifax yester-day
+
+[Chorus]
+    G         C    *     F
+God damn them all, I was told,
+     C          F          C       F
+We'd cruise the seas for A-merican gold
+     G       C     G       F     (*)
+We'd fire no guns, shed no tears
+          C      F        C       F
+But I'm a broken man on a Halifax pier
+    *       *         G     C
+The last of Barrett's Priva-teers
+#+end_verse
+#+latex: \clearpage
+** Beneath the Black Flag
+#+begin_verse
+Beneath The Black Flag by Miracle of Sound (Gavin Dunne)
+
+Capo 2
+Intro:
+Em   C   G   D
+Em   C   G D Em
+                X2
+Verse:
+    Em             C
+Out on the endless ocean
+   Am             Em
+We tear along the gales
+     C              Am
+With rum inside our bellies warm
+D              Em
+And freedom in our sails
+
+  Em               C
+A wayward bunch of scoundrels
+  Am                   Em
+Assassins, thieves and slaves
+    C                    Am
+The rich and blue bloods fear us when
+   D             Em
+We hunt upon the waves
+
+Am              Em
+And when you see it coming
+     D               Em
+That flag of baleful black
+   Am               Em
+No point in turning tail there's no
+D             Bm
+Escaping our attack!
+
+Chorus:
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G       D     Em
+We own the sea & sky
+
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G         D        Em
+We bleed the kingdoms dry!!
+
+Em   C   G   D
+Em   C   G D Em
+
+Verse:
+  Em           C
+Defy the odds against us
+  Am              Em
+A pirate knows no fear
+    C              Am
+Our steel is ready and our
+     D            Em
+Retribution is severe
+
+
+   Em               C
+We plunder from the greedy
+     Am                 Em
+With blood and with our steel
+   C               Am
+We rob the rich of their
+           D                Em
+Ill-gotten gain & make them kneel
+
+  Am                    Em
+Behold the oceans's mysteries
+    D                Em
+The tales of ancient deeds
+   Am            Em
+We follow in the footsteps
+     D             Bm
+Of a silent secret creed
+
+Come on lads!!
+
+Chorus:
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G       D     Em
+We own the sea & sky
+
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G         D        Em
+We bleed the kingdoms dry!!
+
+F#m   E   D E F#m x2
+
+F#m E   D    E  F#m E   D E
+Justice runs in crimson rivers....
+
+Chorus:
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G       D     Em
+We own the sea & sky
+
+   Em
+YO-HO!
+   C
+YO-HO!
+   G               D
+We row beneath the black flag
+     Em         C
+A rollickin' we go!
+   G         D        Em
+We bleed the kingdoms dry!!
+
+Tabbed by Shadowstrlke
+#+end_verse
+#+latex: \clearpage
+** Binks' Brew
+#+begin_verse
+ONE PIECE – Bink’s Sake / Binkusu no Sake / ビンクスの酒
+Capo 1
+
+
+NOTE
+easier version and picking pattern at the end of the tab!
+
+
+CHORD CHART
+D5        xxx235
+Amaj7sus4 xxx234
+Dsus4     xxx233
+Aadd4     x0022x
+A-5       x0122x
+D/A       x0x232
+E/G#      4x2100
+D-5       xx0132
+Dadd4     xx0032
+
+
+[INTRO]
+(Piano Solo)
+D5   Amaj7sus4   Dsus4
+D  D/A  G  E/G#
+G       D       G       D
+E       A       E       A   Aadd4   A-5   A
+
+
+[CHORUS]
+D       D/A     D      D/A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/A     D      D-5   Dadd4
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/C#    Bm     A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+G       A       D      D-5   Dadd4
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+
+
+[BRIDGE]
+G  D  E  A
+
+
+[VERSE]
+D          G        D         G    D
+Binkusu no sake wo, todoke ni yuku yo
+ビンクス の  酒を     届けに     ゆく  よ
+G  G/F# G        E       A
+Umikaze kimakase namimakase
+海  風   気まかせ  波   まかせ
+D         G       D        G  D
+Shio no mukou de, yuuhi mo sawagu
+潮の     向こうで   夕日も    騒ぐ
+G    G/F# G           D    A  D
+Sora nya  wa wo kaku, tori no uta
+空   にゃ  輪をかく     鳥   の  唄
+
+D        G       D          G    D
+Sayonara minato, tsumugi no sato yo
+さよなら  港       つむぎの    里   よ
+G      G/F#   G       E       A
+DON to icchou utao, funade no uta
+ドンと  一丁    唄お   船出の    唄
+D      G       D          G  D
+Kinpa-ginpa mo shibuki ni kaete
+金波   銀波も    しぶきに    かえて
+G  G/F#  G          D    A   D
+Oretacha yuku zo, umi no kagiri
+おれ達ゃ  ゆくぞ      海の  限り
+
+
+[INTERLUDE]
+(Piano Solo)
+G       D       G       D
+E       A       E       A   Aadd4   A-5   A
+
+
+[VERSE]
+D          G        D         G    D
+Binkusu no sake wo, todoke ni yuku yo
+ビンクスの   酒を     届けに     ゆく  よ
+G   G/F# G        E        A
+Warera   kaizoku, umi watteku
+我ら      海賊     海   割ってく
+D         G        D         G    D
+Nami wo makura ni, negura wa fune yo
+波を      枕に      寝ぐらは    船   よ
+G     G/F# G        D     A   D
+Ho ni hata ni ketateru wa dokuro
+帆に   旗   に  蹴立てるは   ドクロ
+
+D         G        D        G    D
+Arashi ga kita zo, senri no sora ni
+嵐が       きたぞ    千里の    空   に
+G    G/F# G          E        A
+Nami ga  odoru yo, DORAMU narase
+波   が  おどるよ    ドラム   ならせ
+D       G       D         G  D
+Okubyou kaze ni fukarerya saigo
+おくびょう風に    吹かれりゃ  最後
+G   G/F# G       D   A    D
+Asu no  asahi ga nai ja nashi
+明日の   朝日が    ないじゃ なし
+
+
+[CHORUS]
+D       D/A     D      D/A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/A     D      D-5   Dadd4
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/C#    Bm     A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+G       A       D
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+
+D          G        D         G    D
+Binkusu no sake wo, todoke ni yuku yo
+ビンクスの   酒を     届けに     ゆく  よ
+G    G/F# G         Bm       A
+Kyou ka   asu ka to yoi no yume
+今日  か   明日かと   宵の      夢
+D          G        D      G   D
+Te wo furu kage ni, mou  aenai yo
+手をふる    影に      もう会えない よ
+G    G/F# G        D     A    D
+Nani wo kuyokuyo, asu mo tsukuyo
+何   を  くよくよ   明日も  月   夜
+
+D          G        D         G    D
+Binkusu no sake wo, todoke ni yuku yo
+ビンクスの   酒を     届けに     ゆく  よ
+G      G/F#   G       E       A
+DON to icchou utao, unaba no uta
+ドンと  一丁    唄お   海の      唄
+D       G       D         G    D
+Douse dare demo itsuka wa hone yo
+どうせ  誰でも    いつかは   ホネ  よ
+  G   G/F#  G          D  A   D
+Hatenashi, atenashi, waraibanashi
+果て なし   あてなし     笑い話
+
+
+[CHORUS]
+D       D/A     D      D/A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/A     D      D-5   Dadd4
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+D       D/C#    Bm     A
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+G       A       D
+Yo-hohoho, Yo-hohoho,
+ヨホホホ、    ヨホホホ
+
+Note: repeat chorus until everyone is dead
+
+
+EASIER VERSION
+(for steady picking pattern)
+
+e |-------x-----------x-----|
+B |-------x-----------x-----|
+G |-----x---x-------x---x---|
+D |-x-----------------------|
+A |-------------x-----------|
+E |-------------------------|
+    1     2     3     4
+
+D          G        D         G
+Binkusu no sake wo, todoke ni yuku yo
+ビンクスの   酒を     届けに     ゆくよ
+G       G/F#     E       A
+Umikaze kimakase namimakase
+海風     気まかせ  波ま   かせ
+D         G       D        G
+Shio no mukou de, yuuhi mo sawagu
+潮の     向こうで   夕日も    騒ぐ
+G         G/F#        A        D
+Sora nya  wa wo kaku, tori no uta
+空にゃ     輪をかく     鳥の     唄
+
+all verses work like this and the rest stays the same
+#+end_verse
+:PROPERTIES:
+:Artist:   One Piece
+:END:
+#+latex: \clearpage
+** TODO Brave and Mighty Sailin' Captain
+:PROPERTIES:
+:Artist:   Musical Blades
+:END:
+#+latex: \clearpage
+** Bully in the Alley
+#+begin_verse
+[Chorus]
+D
+Help me, Bob, I'm bully in the alley
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Help me, Bob, I'm bully in the alley
+G             A        D
+Bully down in shinbone al!
+
+[Verse 1]
+D
+Sally is the girl that I love dearly
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Sally is the girl that I spliced nearly
+G             A        D
+Bully down in shinbone al!
+
+[Chorus]
+D
+Help me, Bob, I'm bully in the alley
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Help me, Bob, I'm bully in the alley
+G             A        D
+Bully down in shinbone al!
+
+[Verse 2]
+D
+For seven long years I courted little Sally
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+But all she did was dilly and dally
+G             A        D
+Bully down in shinbone al!
+
+[Chorus]
+D
+Help me, Bob, I'm bully in the alley
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Help me, Bob, I'm bully in the alley
+G             A        D
+Bully down in shinbone al!
+
+[Verse 3]
+D
+I ever get back, I'll marry little Sally
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Have six kids and live in Shin-bone Alley
+G             A        D
+Bully down in shinbone al!
+
+[Chorus]
+D
+Help me, Bob, I'm bully in the alley
+G        Bm       A
+Way-hey, hey-hey, bully in the alley
+D
+Help me, Bob, I'm bully in the alley
+G             A        D
+Bully down in shinbone al!
+#+end_verse
+#+latex: \clearpage
+** Captain Kidd
+#+begin_verse
+-------------------------------------------------------------------------------
+          CAPTAIN KIDD by Great Big Sea
+-------------------------------------------------------------------------------
+Tabbed by: R. Pereira
+Email: cdnnavy8@hotmail.com
+
+Tuning: EADGBE
+
+Hello. This is my first TAB so any additions, corrections and comments would be
+appreciated. First off you should have a CAPO on the third fret. Afterwards just
+use the chord patterns for the chords listed. The rhythm pattern for playing the
+chords can easily be discerned by listening to the CD. As you’ll see the song is
+rather simple, but it’s a superb song for parties or by the campfire, and is easily
+memorized (the chords anyway). Plus it’s just a great song. What I have sounded okay
+by my ear when I played it with the studio CD, but as I said any corrections/improvement
+would be appreciated. Enjoy.
+
+NB: For those unfamiliar Dsus4 should be played as follows:
+                    Capo on 3rd
+Dsus4   |----|----|--X--|----|----|--3-|----|----|----
+        |----|----|--X--|----|----|--2-|----|----|----
+        |----|----|--X--|----|--1-|----|----|----|----
+        |----|----|--X--|----|-- -|----|----|----|---   Open
+        |----|----|--X--|----|----|----|----|----|---   X
+        |----|----|--X--|----|----|----|----|----|---   X
+
+Intro:  D Dsus4 D (quarter rest for bass) D Dsus4 D (quarter rest)
+
+Chorus:
+   D       Dsus4   D                      A
+My name is Captain Kidd as I sailed, as I sailed
+      D       Dsus4   D          A
+Oh my name is Captain Kidd as I sailed
+   G                        D                 A
+My name is Captain Kidd and God's laws I did forbid
+         G          A           D Dsus4 D
+And most wickedly I did as I sailed.
+
+   D      Dsus4      D                        A
+My father taught me well to shun the gates of hell
+    D         Dsus4 D           A
+But against him I rebelled as I sailed
+            D      Dsus4  D                       A
+He shoved a Bible in my hand but I left it in the sand
+      D     Dsus4      D            A
+And I pulled away from land as I sailed
+
+Chorus
+
+I murdered William Moore and I left him in his gore
+Twenty leagues away from shore as I sailed,
+And being crueler still, the gunner I did kill
+All his precious blood did spill as I sailed,
+
+Chorus
+(After Chorus comes the nice snare drum solo, which uses the same chords as the Chorus)
+
+I was sick and nigh to death and I vowed at every breath,
+Oh to walk in wisdom's path as I sailed
+But my repentance lasted not my vows I soon forgot
+Oh damnation is my lot as I sailed
+
+Chorus
+
+To the execution dock lay my head upon the block
+Laws no more I'll mock as I sail
+So take warning here and heed to shun bad company
+Or you'll wind up just like me as I sailed.
+
+Chorus repeating last line twice and ending on D
+#+end_verse
+#+latex: \clearpage
+** Captain Morgan
+:PROPERTIES:
+:Title:    Captain Morgan
+:Artist:   Jolly Rogers
+:END:
+#+begin_verse
+[Intro]
+E B E A E B E
+
+
+[Chorus]
+E
+Oooh captain, what did you do
+                          B7
+To make me start blamin' you
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7            E
+Just a sipping on that Captain Morgan Rum
+
+
+
+[Verse 1]
+E
+I went all the way down to Florida
+                              B7
+Past New York and half of Georgia
+   E                              A
+But I'm tryin' to stay warm, get away from the cold
+        E              B7        E
+But the Captain got a hold of my soul
+
+
+
+[Chorus]
+E
+Oooh captain, what did you do
+                          B7
+To make me start blamin' you
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7            E
+Just a sipping on that Captain Morgan Rum
+
+
+
+[Verse 2]
+E
+I'm camped out for a while
+                      B7
+Can't afford no big motel
+      E                      A
+But if you're asking me, I'm feeling kind of free
+        E               B7          E
+And I got to know that Captain very well
+
+
+
+[Chorus]
+E
+Oooh captain, what did you do
+                         B7
+To make me start blamin' you
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7            E
+Just a sipping on that Captain Morgan Rum
+
+
+
+[Solo]
+E B E A E B E
+
+
+
+[Chorus]
+E
+Oooh captain, what did you do
+                         B7
+To make me start blamin' you
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7             E
+Just a sipping all that Captain Morgan Rum
+
+
+
+[Verse 3]
+E
+Now I'm campout in the Everglades
+                              B7
+Got a big old tree to make my shade
+        E                          A
+With my Harley by my side, and the captain I'm satisfied
+         E         B7               E
+Tell you folk's I think I've got it made
+
+
+
+[Chorus]
+E
+Oooh captain, what did you do
+                         B7
+To make me start blamin' you
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7             E
+Just a sipping all that Captain Morgan Rum
+    E                            A
+But I know I gotta quit, but I'm havin' too much fun
+         E              B7             E
+Just a sipping all that Captain Morgan Rum
+#+end_verse
+#+latex: \clearpage
+** Diggy Diggy Hole
+:PROPERTIES:
+:Artist:   Wind Rose
+:END:
+#+begin_verse
+Fm
+Brothers of the mine rejoice!
+
+Db    Ab               Fm
+Swing, swing, swing with me
+
+Fm
+Raise your pick and raise your voice!
+
+Db   Ab             Fm
+Sing, sing, sing with me
+
+Fm            Eb
+Down and down into the deep
+
+Db                  Ab
+Who knows what we'll find beneath?
+
+Fm                Eb
+Diamonds, rubies, gold and more
+
+C
+Hidden in the mountain store
+
+
+Db          Ab     Eb            Fm
+Born underground, suckled from a teat of stone
+
+Db          Ab           Eb            Fm
+Raised in the dark, the safety of our mountain home
+
+Db         Ab       C            Fm
+Skin made of iron, steel in our bones
+
+Db
+To dig and dig makes us free
+
+Eb
+Come on brothers sing with me!
+
+
+[Chorus]
+
+Fm     Ab            Eb      Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab   Db          C
+Diggy diggy hole, diggy diggy hole
+
+Fm     Ab           Eb       Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab    C        Fm
+Diggy diggy hole, digging a hole
+
+
+Fm
+The sunlight will not reach this low
+
+Db    Ab        Fm
+Deep, deep in the mine
+
+Fm
+Never seen the blue moon glow
+
+Db     Ab           Fm
+Dwarves won't fly so high
+
+Fm               Eb
+Fill a glass and down some mead!
+
+Db                 Ab
+Stuff your bellies at the feast!
+
+Fm               Eb
+Stumble home and fall asleep
+
+C
+Dreaming in our mountain keep
+
+
+Db         Ab      Eb            Fm
+Born underground, grown inside a rocky womb
+
+Db         Ab              Eb                Fm
+The earth is our cradle; the mountain shall become our tom
+
+Db              Ab               C              Fm
+Face us on the battlefield; you will meet your doom
+
+Db
+We do not fear what lies beneath
+
+Eb
+We can never dig too deep
+
+
+[Chorus]
+Fm     Ab            Eb      Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab   Db          C
+Diggy diggy hole, diggy diggy hole
+
+Fm     Ab           Eb       Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab    C        Fm
+Diggy diggy hole, digging a hole
+
+[Chorus]
+Fm     Ab            Eb      Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab   Db          C
+Diggy diggy hole, diggy diggy hole
+
+Fm     Ab           Eb       Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab    C        Fm
+Diggy diggy hole, digging a hole
+
+
+Db        Ab       Eb             Fm
+Born underground, suckled from a teat of stone
+Db              Ab        Eb           Fm
+Raised in the dark, the safety of our mountain home
+Db            Ab     C           Fm
+Skin made of iron, steel in our bones
+Db
+To dig and dig makes us free
+Eb
+Come on brothers sing with me!
+
+
+[Chorus]
+Fm     Ab            Eb      Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab   Db          C
+Diggy diggy hole, diggy diggy hole
+
+Fm     Ab           Eb       Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab    C        Fm
+Diggy diggy hole, digging a hole
+
+[Chorus]
+Fm     Ab            Eb      Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab   Db          C
+Diggy diggy hole, diggy diggy hole
+
+Fm     Ab           Eb       Db
+I am a dwarf and I'm digging a hole
+
+Db         Ab    C        Fm
+Diggy diggy hole, digging a hole
+#+end_verse
+#+latex: \clearpage
+** Don't Forget Your Old Shipmate
+#+begin_verse
+G                  C      G
+Safe and sound at home again
+C        D      G
+Let the waters roar, Jack
+G                  C     G
+Safe and sound at home again
+C        D      G
+Let the waters roar, Jack
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C       G
+Don't forget your old shipmate
+G                       D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                      C       G
+Since we sailed from Plymouth Sound
+C           D        G
+Four years gone, or nigh, Jack
+G                C       G
+Was there ever chummies, now
+C        D      G
+Such as you and I, Jack?
+G
+Long we've tossed on the rolling main
+C                 D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                   C        G
+We have worked the self-same gun:
+C       D      G
+Quarterdeck division
+G              C      G
+Sponger I and loader you
+C            D        G
+Through the whole commission
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                C      G
+Oftentimes have we laid out
+C         D      G
+toil nor danger fearing,
+G                 C       G
+Tugging out the flapping sail
+C        D      G
+to the weather earing
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                 C      G
+When the middle watch was on
+C        D         G
+And the time went slow, boy
+G                   C       G
+Who could choose a rousing stave
+G                     C      G
+Who like Jack or Joe, boy?
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                    C     G
+There she swings, an empty hulk
+C      D      G
+Not a soul below now
+G              C        G
+Number seven starboard mess
+C        D       G
+Misses Jack and Joe now
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+
+
+G                 C           G
+But the best of friends must part
+C        D        G
+Fair or foul the weather
+G                 C      G
+Hand yer flipper for a shake
+C       D      G
+Now a drink together
+G
+Long we've tossed on the rolling main
+C                D
+Now we're safe ashore, Jack
+G                  C      G
+Don't forget your old shipmate
+G                        D       G
+Fal dee ral dee ral dee rye eye doe!
+#+end_verse
+#+latex: \clearpage
+** Drunken Sailor
+#+begin_verse
+[Verse 1]
+Em
+What shall we do with the drunken sailor?
+D
+What shall we do with the drunken sailor?
+Em
+What shall we do with the drunken sailor?
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 2]
+Em
+Put him in the long boat 'til he's sober
+D
+Put him in the long boat 'til he's sober
+Em
+Put him in the long boat 'til he's sober
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 3]
+Em
+Pull out the plug and wet him all over
+D
+Pull out the plug and wet him all over
+Em
+Pull out the plug and wet him all over
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 4]
+Em
+Put him in the bilge and make him drink it
+D
+Put him in the bilge and make him drink it
+Em
+Put him in the bilge and make him drink it
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 5]
+Em
+Put him in a leaky boat and make him bale her
+D
+Put him in a leaky boat and make him bale her
+Em
+Put him in a leaky boat and make him bale her
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 6]
+Em
+Tie him to the scuppers with the hose pipe on him
+D
+Tie him to the scuppers with the hose pipe on him
+Em
+Tie him to the scuppers with the hose pipe on him
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 7]
+Em
+Shave his belly with a rusty razor
+D
+Shave his belly with a rusty razor
+Em
+Shave his belly with a rusty razor
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 8]
+Em
+Tie him to the topmast while she's yardarm under
+D
+Tie him to the topmast while she's yardarm under
+Em
+Tie him to the topmast while she's yardarm under
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 9]
+Em
+Heave him by the leg in a runnin' bowline
+D
+Heave him by the leg in a runnin' bowline
+Em
+Heave him by the leg in a runnin' bowline
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 10]
+Em
+Keel haul him 'til he's sober
+D
+Keel haul him 'til he's sober
+Em
+Keel haul him 'til he's sober
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+
+
+[Verse 11]
+Em
+That's what we do with the drunken sailor!
+D
+That's what we do with the drunken sailor!
+Em
+That's what we do with the drunken sailor!
+Em  D         Em
+Ear-ly in the morning
+
+
+[Chorus]
+Em
+Hooray, and up she rises
+D
+Hooray, and up she rises
+Em
+Hooray, and up she rises
+Em  D         Em
+Ear-ly in the morning
+#+end_verse
+#+latex: \clearpage
+** Eight Bells
+#+begin_verse
+[Intro]
+
+Bm    G  A  Bm    G  A
+
+
+[Verse 1]
+
+ Bm
+"This will be your home me boys
+     G                      A
+So I trust you'll treat her right."
+    Bm
+Was how the captain's speech began
+     G              A
+Each voyage's first night
+   G
+He smiled, said it's tradition
+      A
+But I ask that you refrain
+     Bm                A
+From carving your name in the beam
+     G
+Next to her lofty main
+
+    Em
+The first night I was there
+          F#m
+Her mates held me in the air
+    Em
+And let me carve my name with theirs
+   F#m
+To show that I was there
+     G
+From boy to man we grew up as
+ A
+Across the waves we roamed
+Bm               A                      G
+As she burned we sobbed like sons who'd lost their childhood home
+
+
+[Chorus]
+
+       D
+Eight bells rang out in Dover
+       A
+Eight bells rang out in Wales
+       Bm
+Eight bells rang out in Liverpool
+     G
+And Down to Murphy's scales
+       D
+Eight bells rang out in Port Royale
+       A
+Eight bells rang out in Boston town
+       Bm
+Eight bells rang out in Nassau
+     G               A          Bm      G   A
+The night the Merry Widow went down
+
+
+[Verse 2]
+
+Bm
+As a mere mid-shipmans mate
+     G                A
+I'd stare up at that beam
+     Bm
+And knew that every name I saw
+       G               A
+Would share with me a dream
+ G                              A
+Some of them so faded, just a memory and a scratch
+     Bm              A           G
+But they grew much clearer with every new batch
+
+Em
+She made sure we made it back
+F#m
+To the lands we know
+     Em                                 F#m
+And with the tide we all return to the vessel we call home
+            G                                   A
+There were parts we could have salvaged but I think we all agreed
+     Bm                A           G
+That she deserved the honor of a burial at sea
+
+
+[Chorus]
+
+       D
+Eight bells rang out in Dover
+       A
+Eight bells rang out in Wales
+       Bm
+Eight bells rang out in Liverpool
+     G
+And Down to Murphy's scales
+       D
+Eight bells rang out in Port Royale
+       A
+Eight bells rang out in Boston town
+       Bm
+Eight bells rang out in Nassau
+     G               A          Bm      G   A
+The night the Merry Widow went down
+
+
+[Verse 3]
+
+       Bm                        G                A
+By the time I was the bosun, the list was 3 yards long
+       Bm                              G                    A
+Though she had seen so many years, she still stood tall and strong
+         G
+From her name she took her spirit
+A
+Bold and strong and true
+        Bm                 A                G
+And she raced the wind and never failed her brave and loyal crew
+
+    Em
+The ship she never foundered
+          F#m
+And her defenses never breached
+   Em                          F#m
+No matter her port of call her goal was always reached
+     G                                 A
+When we were told her day had come and she had sailed her last
+     Bm                  A
+That they would tear her down for scrap
+   G
+We couldn't let that pass
+
+
+[Chorus]
+
+       D
+Eight bells rang out in Dover
+       A
+Eight bells rang out in Wales
+       Bm
+Eight bells rang out in Liverpool
+     G
+And Down to Murphy's scales
+       D
+Eight bells rang out in Port Royale
+       A
+Eight bells rang out in Boston town
+       Bm
+Eight bells rang out in Nassau
+     G               A          Bm      G   A
+The night the Merry Widow went down
+
+
+[Verse 4]
+
+ Bm
+Through our grief we'd swore an oath
+           G             A
+That we'd carry out our plan
+     Bm                                     G                 A
+And damn the rest we would push on to the strength of our last man
+     G                                 A
+And as we stared at all the names of those that came before
+   Bm                 A                   G
+We cut the line and stole that ship and sailed her out once more
+
+  Em
+Beyond the reef we sailed her
+    F#m
+And set our love alight
+Em                                  F#m                   G
+We jumped ship and watched her burn from the shore that night
+                                   A
+As she sank beneath the waves, we knew one thing for sure
+Bm                  A
+She made more of a mark on us
+         G
+Than we ever did on her
+
+
+[Chorus]
+
+       D
+Eight bells rang out in Dover
+       A
+Eight bells rang out in Wales
+       Bm
+Eight bells rang out in Liverpool
+     G
+And Down to Murphy's scales
+       D
+Eight bells rang out in Port Royale
+       A
+Eight bells rang out in Boston town
+       Bm
+Eight bells rang out in Nassau
+     G               A          Bm
+The night the Merry Widow went down
+
+
+[Outro]
+
+       D
+Eight bells rang out...
+       A
+Eight bells rang out...
+       Bm
+Eight bells rang out...
+       G
+Eight bells rang out...
+       D
+Eight bells rang out...
+       A
+Eight bells rang out...
+       Bm
+Eight bells rang out...
+     G                A         Bm            G      A      Bm
+The night the Merry Widow went down
+     G                A         Bm     G      D      A      Bm
+The night the Merry Widow went down
+#+end_verse
+#+latex: \clearpage
+:PROPERTIES:
+:Artist:   Jolly Rogers
+:END:
+** Farewell and Adieu / Spanish Ladies
+#+begin_verse
+D                     G            A
+Farewell and adieu to you, Spanish Ladies,
+    A                                D
+Farewell and adieu to you, ladies of Spain;
+    D                            G            A
+For we've received orders for to sail for ol' England,
+       D         G              A        D
+But we hope in a short while to see you again.
+
+[Chorus]
+D                              G            A
+We'll rant and we'll roar like true British sailors,
+      A                                   D
+We'll rant and we'll roar all on the salt sea.
+D                                G              A
+Until we strike soundings in the channel of old England;
+     D         G         A           D
+From Ushant to Scilly is thirty five leagues.
+
+   D                         G             A
+We hove our ship to with the wind from sou'west, boys
+   A                                       D
+We hove our ship to, deep soundings to take;
+      D                          G           A
+'Twas forty-five fathoms, with a white sandy bottom,
+      D           G                A           D
+So we squared our main yard and up channel did make.
+
+    D                     G              A
+The first land we sighted was called the Dodman,
+     A                                          D
+Next Rame Head off Plymouth, off Portsmouth the Wight;
+   D                    G             A
+We sailed by Beachy, by Fairlight and Dover,
+    D       G               A              D
+And then we bore up for the South Foreland light.
+
+[Chorus]
+D                              G            A
+We'll rant and we'll roar like true British sailors,
+      A                                   D
+We'll rant and we'll roar all on the salt sea.
+D                                G              A
+Until we strike soundings in the channel of old England;
+     D         G         A           D
+From Ushant to Scilly is thirty five leagues.
+
+         D                       G              A
+Then the signal was made for the grand fleet to anchor,
+    A                                  D
+And all in the Downs that night for to lie;
+    D                          G           A
+Let go your shank painter, let go your cat stopper!
+     D           G            A                D
+Haul up your clewgarnets, let tacks and sheets fly!
+
+    D                   G            A
+Now let ev'ry man drink off his full bumper,
+    A                                D
+And let ev'ry man drink off his full glass;
+      D                      G          A
+We'll drink and be jolly and drown melancholy,
+    D             G              A            D
+And here's to the health of each true-hearted lass.
+#+end_verse
+#+latex: \clearpage
+** Finnegan's Wake
+#+begin_verse
+Artist: Dubliners
+Song: Finnegans Wake
+Tuning: Standard
+
+
+[Verse]
+    C                 Am               F               G
+Tim Finnegan lived in Walkin Street, a gentle Irishman mighty odd
+   C                 Am                      F                   G         C
+He had a brogue both rich and sweet, an' to rise in the world he carried a hod
+    C                    Am                    C                        Am
+You see he'd a sort of a tipplers way with the love for the liquor poor Tim was born
+   C               Am                   F                    G     C
+To help him on his way each day, he'd a drop of the craythur every morn
+
+
+[Chorus]
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+
+
+[Verse]
+    C               Am               F                     G
+One morning Tim got rather full, his head felt heavy which made him shake
+C                         Am                        F                    G         C
+Fell from a ladder and he broke his skull, and they carried him home his corpse to wake
+C                  Am                    C             Am
+Rolled him up in a nice clean sheet, and laid him out upon the bed
+  C                 Am                F                G      C
+A bottle of whiskey at his feet and a barrel of porter at his head
+
+[Chorus]
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+
+     C                Am               F            G
+His friends assembled at the wake, and Mrs Finnegan called for lunch
+C                    Am                 F                  G       C
+First she brought in tay and cake, then pipes, tobacco and whiskey punch
+                Am                  C                          Am
+Biddy O'Brien began to cry, "Such a nice clean corpse, did you ever see,
+C                  Am                      F                     G       C
+Tim avourneen, why did you die?", "Will ye hould your gob?" said Paddy McGee
+
+[Chorus]
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+
+      C                   Am          F                        G
+Then Maggie O'Connor took up the job, "Biddy" says she "you're wrong, I'm sure"
+C                Am                  F                  G      C
+Biddy gave her a belt in the gob and left her sprawling on the floor
+C                Am                 C                  Am
+Then the war did soon engage, t'was woman to woman and man to man
+    C              Am                 F                 G      C
+Shillelagh law was all the rage and a row and a ruction soon began
+
+[Chorus]
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+
+C              Am                     F                 G
+Mickey Maloney ducked his head when a bucket of whiskey flew at him
+   C                   Am              F                G    C
+It missed, and falling on the bed, the liquor scattered over Tim
+   C                  Am            C              Am
+Bedad he revives, see how he rises, Timothy rising from the bed
+       C                      Am                 F                        G         C
+Saying "Whittle your whiskey around like blazes, t'underin' blazes, do ye think I'm dead?"
+
+[Chorus]
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+
+C                     Am                    F                   G
+Whack fol the dah now dance to yer partner 'round the floor yer trotters shake
+C             Am                F              G          C
+Wasn't it the truth I told you? Lots of fun at Finnegan's Wake
+#+end_verse
+#+latex: \clearpage
+** Flyin' Dutchman
+:PROPERTIES:
+:Title: Flyin' Dutchman
+:Artist: Jolly Rogers
+:END:
+#+begin_verse
+[Intro]
+Dm Dm
+
+[Verse]
+Dm
+The sky was grey and cloudy and the wind was from the west
+When we spied a battered frigate with her tattered sail full dressed
+Gm
+They signaled they had letters home they asked if we could take
+Dm
+They dropped 'em in a barrel they left bobbing in their wake
+
+Dm
+We reefed the sails and slowed the ship to fish the barrel out
+The old ship sailed to the distance and we saw her come about
+Gm
+The captain watched through a spyglass and we heard him catch his breath
+Dm
+And we saw the storm a-brewing had become a wall of death
+
+[Chorus]
+A                              G
+Turn this ship around me boys, turn around and run
+A                                     G
+This storm it wants a battle and it's sure that we're outgunned
+Dm                       F               G                A
+What of the ship that's out there do we leave her to the gale?
+N.C.
+She's called the Flying Dutchman and it's wraiths that fills her sails.
+
+Dm Dm Dm Dm
+
+[Verse]
+Dm
+The thunder growled like demons and the lightening stabbed the waves
+And the Dutchman she lept towards us riding fury from the graves
+Gm
+Our captain he stayed at the wheel, the crew the manned the lines,
+Dm
+And still that ship and storm were quickly closing in behind.
+
+Dm
+Our ship we crest a giant wave and crash to the trough below
+The crew held on to what they could, they were damned if they let go.
+Gm
+The rain and sea and storm winds crashed against our ship with wrath
+Dm
+And from the deck of that cursed ship, we could hear them laugh
+
+[Chorus]
+A                              G
+Turn this ship around me boys, turn around and run
+A                                     G
+This storm it wants a battle and it's sure that we're outgunned
+Dm                    F                G               A
+That ghostly ship is hunting us, it's bringing on the gale,
+N.C.
+She's called the Flying Dutchman and it's wraiths that fills her sails
+
+[Verse]
+Dm
+That was when we sighted land, it became a race wih time
+We believed it Santa Marta, the Dutchman closing in behind
+Gm
+"Risk it all" the captain cried "it's the only chance we've got,
+Dm
+Salvation if we make it and our souls if we get caught."
+
+Dm
+The storm was all around us and the Dutchman cut our winds,
+The beast nearly capsized us, and we watched our strong mast bend
+Gm
+We were almost to the harbour, we could see the natural break,
+Dm
+And each man willed her forward, for they knew what was at stake
+
+[Chorus]
+A                              G
+Turn this ship around me boys, turn around and run
+A                                     G
+This storm it wants a battle and it's sure that we're outgunned
+Dm                    F                G               A
+That ghostly ship is hunting us, it's bringing on the gale,
+N.C.
+She's called the Flying Dutchman and it's wraiths that fills her sails
+
+[Verse]
+Dm
+Once we charged into that harbour, the Dutchman heaved away
+And we heard their bitter screams, for the Devil lost his prey.
+Gm
+Once we made it safely to the leeward of the bay,
+Dm
+We cracked that barrel open to see what those letters say.
+
+Dm
+There must've been a hundred and that's when we realized,
+Those moldy parchments were addressed to those who'd long since died.
+Gm
+If you see a battered frigate 'neath a grey and stormy sky,
+Dm
+Give way and watch mehind you, or you'll hear your captain cry:
+
+[Chorus]
+A                              G
+Turn this ship around me boys, turn around and run
+A                                     G
+This storm it wants a battle and it's sure that we're outgunned
+Dm                    F                G               A
+That ghostly ship is hunting us, it's bringing on the gale,
+N.C.
+She's called the Flying Dutchman and it's wraiths that fills her sails
+#+end_verse
+#+latex: \clearpage
+** Fucked with an Anchor
+:PROPERTIES:
+:Artist:   Jolly Rogers
+:END:
+#+begin_verse
+[Intro]
+D
+
+[Chorus]
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+Go!
+
+[Interlude]
+D D G A
+D D A A
+D D G A
+E A  A A D
+
+[Verse 1]
+Bm
+For thirty odd years I have lived with this curse
+   G
+My vocabulary was stunted at birth
+   Bm
+By a witch doctor from over the seas
+     A
+Casting a strange voodoo magic on me
+   Bm
+Now when I speak, it's rather absurd
+  G
+An endless tirade of four letter words
+   Bm
+I lash out in anger at all in my way
+   A                                 A A A
+Shocking unspeakable things that I say
+
+[Chorus]
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+
+[Interlude]
+D D G A
+D D A A
+D D G A
+E A  A A D
+D D A D
+Fuck you!
+
+[Verse 2]
+Bm
+Long I have waited to have my revenge
+G
+To bring that witch doctor to his bitter end
+Bm
+So I have gathered a ship and a crew
+A
+We're sailing to find him, we know what to do
+Bm
+On a dark moonless night, when he least suspects
+G
+We'll creep up behind him so hard to detect
+Bm
+We'll bring out our anchor by the light of the stars
+A                                           A A A
+And shove it inside of his big fuckin' arse!
+
+[Chorus]
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+D
+Fuck you, you're a fucking wanker
+G                      A
+We're gonna punch you right in the balls
+D
+Fuck you with a fucking anchor
+G           A        D    A   D
+You're all cunts so fuck you all
+
+[Solo]
+
+[Chorus]
+E
+Fuck you, you're a fucking wanker
+A                      B
+We're gonna punch you right in the balls
+E
+Fuck you with a fucking anchor
+A           B        E    B   E
+You're all cunts so fuck you all
+E
+Fuck you, you're a fucking wanker
+A                      B
+We're gonna punch you right in the balls
+E
+Fuck you with a fucking anchor
+A           B        E    B   E
+You're all cunts so fuck you all
+
+[Outro]
+B A E E
+       Wank!
+#+end_verse
+#+latex: \clearpage
+** Haul Away Joe
+#+begin_verse
+[Verse 1]
+     Am           Em              Dm          Em
+When I was just a little lad, or so me Mammi told me
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+     Am           Em              Dm                    Em
+That if I didn't kiss the girls me lips would grow all mouldy
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Chorus]
+Am        Em              Dm          Em
+Away! HO! Haul away, we'll haul away together
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+Am        Em               Dm              Em
+Away! HO! Haul away, we'll hope for better weather
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Verse 2]
+  Am              Em              Dm             Em
+I used to have an Irish girl but she got fat and lazy
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+    Am              Em              Dm                 Em
+But now I've got a Bristol girl and she just drives me crazy
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Chorus]
+Am        Em              Dm          Em
+Away! HO! Haul away, we'll haul away together
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+Am        Em               Dm              Em
+Away! HO! Haul away, we'll hope for better weather
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Verse 3]
+    Am           Em              Dm             Em
+Oh Louis was the king of France before the Revolut-i-on
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+    Am              Em                    Dm                Em
+But then he got his head chopped off & it spoiled his constitut-i-on
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Chorus]
+Am        Em              Dm          Em
+Away! HO! Haul away, we'll haul away together
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+Am        Em               Dm              Em
+Away! HO! Haul away, we'll hope for better weather
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Verse 4]
+   Am               Em               Dm           Em
+Ya call yourself a "Second Mate", ya cannae tie a bowline
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+     Am          Em                         Dm            Em
+You cannae even stand up straight when the packet, she's a-rollin'
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Chorus]
+Am        Em              Dm          Em
+Away! HO! Haul away, we'll haul away together
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+Am        Em               Dm              Em
+Away! HO! Haul away, we'll hope for better weather
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Verse 5]
+   Am             Em          Dm           Em
+Well now can't ya see... the black clouds a-gatherin'
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+   Am             Em          Dm           Em
+Well now can't ya see... the storm clouds a-risin'
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+
+
+[Chorus]
+Am        Em              Dm          Em
+Away! HO! Haul away, we'll haul away together
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+Am        Em               Dm              Em
+Away! HO! Haul away, we'll hope for better weather
+Am         Em         Dm   Em    Am
+Away Haul Away, we'll haul away, Joe
+#+end_verse
+#+latex: \clearpage
+** Health to the Company
+#+begin_verse
+[Verse 1]
+     Em             Bm            D          Em
+Kind friends and companions, come join me in rhyme
+     G       Bm   Em                    D
+Come lift up your voices in chorus with mine;
+     G       Bm   Em                    D
+Come lift up your voices all grief to refrain
+       Em           Bm        D          Em
+For we may or might never all meet here again
+
+
+[Chorus]
+         Em            Bm          D         Em
+Here's a health to the company and one to my lass
+       G         Bm Em                   D
+Let us drink and be merry all out of one glass;
+       G         Bm Em                   D
+Let us drink and be merry all grief to refrain
+       Em           Bm        D          Em
+For we may or might never all meet here again
+
+
+[Verse 2]
+         Em            Bm             D         Em
+Here's a health to the dear lass that I love so well
+        G         Bm  Em                      D
+For her style and her beauty, sure none can excel
+          G        Bm  Em                            D
+There's a smile on her countenance as she sits on my knee
+           Em          Bm            D        Em
+There's no man in this wide world as happy as me
+
+
+[Chorus]
+         Em            Bm          D         Em
+Here's a health to the company and one to my lass
+       G         Bm Em                   D
+Let us drink and be merry all out of one glass;
+       G         Bm Em                   D
+Let us drink and be merry all grief to refrain
+       Em           Bm        D          Em
+For we may or might never all meet here again
+
+
+[Verse 3]
+    Em           Bm            D        Em
+Our ship lies at anchor, she's ready to dock
+  G        Bm   Em                   D
+I wish her safe landing, without any shock
+   G    Bm       Em                     D
+If ever I should meet you by land or by sea
+       Em       D           A/C#        C   D
+I will always remember your kindness to me
+
+
+[Chorus]
+         Em            Bm          D         Em
+Here's a health to the company and one to my lass
+       G         Bm Em                   D
+Let us drink and be merry all out of one glass;
+       G         Bm Em                   D
+Let us drink and be merry all grief to refrain
+       Em           Bm        D          Em
+For we may or might never all meet here again
+
+         Em            Bm          D         Em
+Here's a health to the company and one to my lass
+       G         Bm Em                   D
+Let us drink and be merry all out of one glass;
+       G         Bm Em                   D
+Let us drink and be merry all grief to refrain
+       Em           Bm        D          Em
+For we may or might never all meet here again
+#+end_verse
+#+latex: \clearpage
+** Hoist the Colors
+#+begin_verse
+Hoist up the Colors - by Asaf Avidan And The Mojos.
+
+the song is in standard tuning (EADGBe)
+there are two guitar parts, the first one plays the main riff and some power chords and
+the 2nd one plays all the solo parts.
+
+Main riff\Intro
+(Played with palm mute)
+Pm -  -  -  -  -  -  -   -
+e-----------------------------|
+B-----------------------------|
+G-----------------------------|
+D------------------------5----|
+A--------0--7--------0--------|
+E--0--5--------0--5-----------|
+
+
+Verse 1: (play the main riff)
+
+Cut. Cut away. Let the axes fly
+Let a'loose them ropes and everything dry
+Leave the scars of the land far away ashore
+Let the strumpets cry like the waves will roar
+
+**(stop here with a A note and then keep it going with the riff in the next part)
+
+Let the pall dispurse. Let them see our stern
+Pray we nay be moored, pray our names be earned
+Let our bildge grow damp, let our futtocks crack
+May our Bows be strong, and the winds at our back
+
+Chorus :
+
+A            C
+Lucky fools! Hoist up them Colors!!
+A            C
+Lucky fools! Hoist up them Colors!!
+
+solo (Play in while the a chord is played)
+e-------------------17------------------------17----|
+B----17-20-17----17----20----17-20-17----17------20-|
+G-17----------17----------17----------17------------|
+D---------------------------------------------------|
+A---------------------------------------------------|
+E---------------------------------------------------|
+
+Verse 2: (main riff)
+Bring the anchor up, up, let the sails roll down
+Let them rats grow old, may we hang or drown
+Let the swell grow high. Nay we stillness feel
+Let the fathoms wail down below our keel
+
+Set! Set a'sail. Let the landlubbers stay
+Leave this Cradle of Dirt to the Ocean's spray
+Let the skies and seas be our only friends
+Let our journeys start, long before it ends!
+
+Chorus 2 :
+
+A            C
+Lucky fools! Hoist up them Colors!!
+A            C
+Lucky fools! Hoist up them Colors!!
+
+**(same solo here, but just keep playing in all and chorus)
+
+outro:
+
+First guitar:
+ C         C       A       A
+e----------------------------------|
+B----------------------------------|
+G-5-5-5----5-5-5---2-2-2---2-2-2---|
+D-5-5-5----5-5-5---2-2-2---2-2-2---|
+A-3-3-3----3-3-3---0-0-0---0-0-0---|
+E----------------------------------|
+
+2nd guitar:
+  C                           C
+e------------------------------------------------------|
+B---11--11---------------------11--11------------------|
+G-----------10--10--9---9--------------10--10--9---9---|
+D---10--10--10--10--10--10-----10--10--10--10--10--10--|
+A------------------------------------------------------|
+E------------------------------------------------------|
+  A                            A
+e-----------------------------------------------------|
+B---8--8--7--7-----------------8--8--7--7-------------|
+G---------------5--5-----------------------5--5-------|
+D---7--7--7--7--7--7-----------7--7--7--7--7--7-------|
+A-----------------------------------------------------|
+E-----------------------------------------------------|
+
+**(keep doing that a few times, and keep it when and words come)
+
+C C C     C C  C   A A A             A A A
+Take the fates... back to our hands! back to our hands!
+C C C     C C  C   A A A             A A A
+Take the fates... back to our hands! back to our hands
+
+Ending solo
+e----------------------------------------------------------------------|
+B------11------------11---------8--8--7--7------------8--8--7--7-------|
+G-8-10----10-8~--8-10----10-8~--------------5--5------------------5--5-|
+D-------------------------------7--7--7--7--7--7------7--7--7--7--7--7-|
+A----------------------------------------------------------------------|
+E----------------------------------------------------------------------|
+
+that's it.
+
+enjoy
+#+end_verse
+#+latex: \clearpage
+** Hoist Up the Thing
+:PROPERTIES:
+:Artist:   The Longest Johns
+:END:
+#+begin_verse
+[Verse 1]
+D                           G                   D
+Fresh out of college, with grades straight from Hell
+  D                            A
+I browsed for a trade at which I could excel
+D
+An ad for a ship in need of some manning
+D                            A         D
+Men, sails, and purpose, but lacking a captain
+
+[Verse 2]
+G                     D
+What luck, says I, to find such good fortune!
+  A                       D
+A few white lies later, I ran down the pier
+G                      D
+Bought me a coat and a cutlass or two
+A
+Jumped on the deck, and I yelled at the crew:
+
+[Chorus]
+G                   D
+Hoist up the thing! Batten down the whatsit!
+A                           D
+What's that thing spinning? Somebody should stop it!
+G                                    D
+Turn hard to port! (That's not port) Now I've got it!
+A                    D
+Trust me, I'm in control!
+
+[Verse 3]
+  D                           G         D
+I can't sing the shanties, it has to be said
+    D                          A
+And all of that grog just goes right to my head
+D                       G               D
+Whale meat is gross and I miss a girl's laugh
+D                       A
+Five weeks at sea, even Dave seems a catch!
+
+[Chorus]
+G                   D
+Hoist up the thing! Batten down the whatsit!
+ A                              D
+What's that thing spinning? Somebody should stop it!
+G                                    D
+Turn hard to port! (That's not port) Now I've got it!
+A                    D
+Trust me, I'm in control!
+
+[Verse 4]
+D                        G          D
+We've hit icy waters, no land to be seen
+D                              A
+The food's getting low and the beer has gone green
+        Bb                    Gm
+There's murmurs of discontent under the deck
+    F                    A
+If I don't act fast, it could be my neck!
+
+[Verse 5]
+   D                            G             D
+So pull up the charts and those weird gold machines
+  D                       A
+I see what it says but no clue what it means!
+     D                       G            D
+Just pull on some levers and yank on some chains
+D                           A
+Feign a bad back 'til we've landed again
+
+[Chorus]
+G                   D
+Hoist up the thing! Batten down the whatsit!
+A                               D
+What's that thing spinning? Somebody should stop it!
+G                                    D
+Turn hard to port! (That's not port) Now I've got it!
+A                   D
+Trust me, I'm in control!
+
+G                   D
+Hoist up the thing! Batten down the whatsit!
+A                               D
+What's that thing spinning? Somebody should stop it!
+G                                    D
+Turn hard to port! (That's not port) Now I've got it!
+A                   D
+Trust me, I'm in control!
+
+G                   D
+Hoist up the thing! Batten down the whatsit!
+A                               D
+What's that thing spinning? Somebody should stop it!
+G                                    D
+Turn hard to port! (That's not port) Now I've got it!
+A                   D
+Trust me, I'm in control!
+
+G                   D
+Hoist up the thing! Batten down the whatsit!
+A                               D
+What's that thing spinning? Somebody should stop it! (BLOODY HELL!)
+G                                    D
+Turn hard to port! (This is SHERRY!) Now I've got it! (Screaming)
+A             G     D
+Trust me, I'm in control! (MOMMY)
+A                   D
+Trust me, I'm in control!
+#+end_verse
+#+latex: \clearpage
+** TODO I'll Have A Beer
+:PROPERTIES:
+:Artist:   Jolly Rogers
+:Title:    I'll Have A Beer
+:END:
+#+latex: \clearpage
+** TODO King of the Pirates (DaddyPhatSnaps)
+#+latex: \clearpage
+** Leave Her Johnny
+#+begin_verse
+D                              G      D
+Oh the times were hard and the wages low
+A                  D
+Leave her, Johnny, leave her
+        G        D           G         D
+And the grub was bad and the gales did blow
+         D        A     D
+And it's time for us to leave her
+
+CHORUS:
+A                  D
+Leave her, Johnny, leave her
+    G                  D
+Oh, leave her, Johnny, leave her
+        G         D            G        Bm
+For the voyage is done and the winds do blow
+         G        A     D
+And it's time for us to leave her
+
+D                     G       D
+I thought I heard the Old Man say
+A                  D
+Leave her, Johnny, leave her
+        G    D        G         D
+You can go ashore and take your pay
+         D        A     D
+And it's time for us to leave her
+
+CHORUS:
+A                  D
+Leave her, Johnny, leave her
+    G                  D
+Oh, leave her, Johnny, leave her
+        G         D            G        Bm
+For the voyage is done and the winds do blow
+         G        A     D
+And it's time for us to leave her
+
+
+D                             G          D
+Oh her stern was foul and the voyage was long
+A                  D
+Leave her, Johnny, leave her
+      G       D           G         D
+The winds was bad and the gales was strong
+         D        A     D
+And it's time for us to leave her
+
+CHORUS:
+A                  D
+Leave her, Johnny, leave her
+    G                  D
+Oh, leave her, Johnny, leave her
+        G         D            G        Bm
+For the voyage is done and the winds do blow
+         G        A     D
+And it's time for us to leave her
+
+
+D                                   G       D
+And we'll leave her tight and we'll leave her trim
+A                  D
+Leave her, Johnny, leave her
+    G         D      G      D
+And heave the hungry packet in
+         D        A     D
+And it's time for us to leave her
+
+CHORUS:
+A                  D
+Leave her, Johnny, leave her
+    G                  D
+Oh, leave her, Johnny, leave her
+        G         D            G        Bm
+For the voyage is done and the winds do blow
+         G        A     D
+And it's time for us to leave her
+
+
+D                            G          D
+Oh, leave her, Johnny, leave her with a grin
+A                  D
+Leave her, Johnny, leave her
+            G      D      G            D
+For there's many a worser we've sailed in
+         D        A     D
+And it's time for us to leave her
+
+CHORUS:
+A                  D
+Leave her, Johnny, leave her
+    G                  D
+Oh, leave her, Johnny, leave her
+        G         D            G        Bm
+For the voyage is done and the winds do blow
+         G        A     D
+And it's time for us to leave her
+
+
+D                     G       D
+And now it's time to say goodbye
+A                  D
+Leave her, Johnny, leave her
+         G        D       G         D
+For the old pier-head's a-drawing nigh
+         D        A     D
+And it's time for us to leave her
+#+end_verse
+#+latex: \clearpage
+** Legend of Davy Jones
+#+begin_verse
+[Intro]
+Cm  G  Cm
+Fm  Cm G   Cm
+
+
+[Verse 1]
+     Cm     G        Cm
+Some say he steers a spectral ship
+       Cm
+That's grossly grey and grand
+     Fm                 Cm
+He's doomed to sail the seven seas
+    G                 Cm
+And ne'er set foot on land
+
+    Cm     G         Cm
+And if you chance to see him
+         Cm
+You will soon be dead from fright
+   Fm                 Cm
+So sailors tell their children
+     G               Cm
+On a dark and stormy night
+
+
+[Chorus]
+   Fm
+Oh forty fathoms deep he walks
+     Cm
+With rusty keys his locker locks
+     Fm
+Just like he's half asleep he stalks
+G
+Forty fathoms deep
+Fm
+Forty fathoms deep he owns
+     Cm
+Each sleeping sailor's soggy bones
+    Fm
+The legend they call Davy jones
+   G     G7      Cm
+At forty fathoms deep
+
+
+[Interlude]
+Cm   Dbm
+
+
+[Verse 2]
+    Dbm     Ab      Dbm
+Nor'east we sail to brimstone head
+    Dbm
+The captain crew and I
+   Gbm            Dbm
+At sixty knots we fairly flew
+   Ab               Dbm
+Beneath a darkening sky
+
+ Dbm     Ab   Dbm
+Atop the main mast I rode
+Dbm
+Near ten stories high
+     Gbm               Dbm
+Went up, there blew an icy squall
+    Ab              Dbm
+And over board went I
+
+
+[Chorus]
+   Gbm
+Oh forty fathoms deep he walks
+     Dbm
+With rusty keys his locker locks
+     Gbm
+Just like he's half asleep he stalks
+Ab
+Forty fathoms deep
+Gbm
+Forty fathoms deep he owns
+     Dbm
+Each sleeping sailor's soggy bones
+    Gbm
+The legend they call Davy jones
+   Ab            Dbm
+At forty fathoms deep
+
+
+[Interlude]
+Dbm
+
+
+[Verse 3]
+  Dbm     Ab         Dbm
+I hold my breath and say a prayer
+Dbm
+For those mates who died
+  Gbm             Dbm
+I turn my back on Davy jones
+    Ab             Dbm
+And cast my fears aside
+      Dbm   Ab       Dbm
+Raise up my head and kick my feet
+    Dbm
+And toward the light I go
+    Gbm              Dbm
+The heartless jailor left behind
+    Ab         Dbm
+The locker far below
+
+
+[Chorus]
+Gbm
+Forty fathoms deep he walks
+     Dbm
+With rusty keys his locker locks
+     Gbm
+Just like he's half asleep he stalks
+Ab
+Forty fathoms deep
+Gbm
+Forty fathoms deep he owns
+     Dbm
+Each sleeping sailor's soggy bones
+    Gbm
+The legend they call Davy jones
+   Ab            Dbm
+At forty fathoms deep
+
+
+[Outro]
+Dbm
+#+end_verse
+#+latex: \clearpage
+** My Jolly Sailor Bold
+#+begin_verse
+Email me for questions, comments or other things:
+daniquenathaliemeijer@hotmail.com
+
+My Jolly Sailor Bold
+(Mermaid song ~ Pirates Of The Caribbean 4)
+
+
+[Verse 1]
+
+'My name it is Maria...'
+e|------------------------------------------------|
+B|------------------------------------------------|
+G|-1-3-4-1-1-1-------------1-3-3-4----------------|
+D|--------------2-1---1-1-------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+
+'And I have left...'
+e|-----------------------------------------------|
+B|-----------------------------------------------|
+G|-1-3-4-1-1--------------0-3-0-1----------------|
+D|------------2-1---1-1-1------------------------|
+A|-----------------------------------------------|
+E|-----------------------------------------------|
+
+
+[Chorus]
+
+'My head is pierced...'
+e|-------------------------------------------------|
+B|----------4-4-4-5-4------------------------------|
+G|---1-3-4-------------4-3-1-1-3-3-3-4-------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+'There Is nothing...'
+e|------------------------------------------------|
+B|------------------------------------------------|
+G|-1-3-4-1-1-1--------------0-3-0-1---------------|
+D|--------------2-1---1-1-1-----------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+
+
+[Verse 2]
+
+'Come all you Pretty...'
+e|------------------------------------------------|
+B|------------------------------------------------|
+G|-1-3-4-1-1-1----------- 1-3-3-4-----------------|
+D|--------------2-1---1-1-------------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+
+'They like a Jolly...'
+e|------------------------------------------------|
+B|------------------------------------------------|
+G|-1-3-3-4-1-1-1------------0-3-0-1---------------|
+D|----------------2-1---1-1-----------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+
+
+
+[Chorus]
+
+'My head is pierced...'
+e|-------------------------------------------------|
+B|----------4-4-4-5-4------------------------------|
+G|---1-3-4-------------4-3-1-1-3-3-3-4-------------|
+D|-------------------------------------------------|
+A|-------------------------------------------------|
+E|-------------------------------------------------|
+
+'There Is nothing...'
+e|------------------------------------------------|
+B|------------------------------------------------|
+G|-1-3-4-1-1-1--------------0-3-0-1---------------|
+D|--------------2-1---1-1-1-----------------------|
+A|------------------------------------------------|
+E|------------------------------------------------|
+#+end_verse
+#+latex: \clearpage
+** Nord Mead
+#+begin_verse
+[Intro]
+Am C G D
+Am C G E    (x2)
+
+[Verse]
+      Am
+We're merry men of Skyrim
+    C
+So sturdy and so stout
+         G
+When the day is done
+
+When it's time for fun
+       E
+We'll drink and sing and shout
+
+
+    Am
+You weak livered milk drinkers
+    C
+Can let your throats run dry
+              G
+Cause there's just one drink
+
+That we will sink
+  E
+Until the day we die
+
+[Chorus]
+         Am                   C
+Drinking mead in the halls of Whiterun
+    G               D
+The maidens and the men
+   Am
+We swig our brew
+  C
+Until we spew
+        G              E
+Then we fill our mugs again
+
+        Am               C
+You can keep your filthy Skooma
+   G                 D
+It makes our bellies bleed
+              C
+Cause when we raise our flagon
+     G
+To another dead dragon
+         E
+There is just one drink we need
+
+[Post-chorus]
+     Am   C G D
+Nord mead
+     Am   C G E
+Nord mead
+
+Am
+Chug a mug of mead
+     C
+And another mug of mead
+      G
+Chug another mug of mead
+         D
+Till you fall down
+
+Am
+Chug a mug of mead
+     C
+And another mug mead
+      G                        E
+Chug another mug of mead, warrior
+
+[Instrumental]
+Am C G Am
+Am C G E
+
+[Interlude]
+  Am                C
+After the long hard days
+    G             Am
+Of hunting and of war
+     Am                    C
+Our throats are tired and thirsty
+        G                  E
+And our bodies drenched in gore
+
+       Am                 C
+But we won't waste our evenings
+        G                 Am
+Feeling tired and feeling spent
+   Am                 C
+We perk right up when we breathe in
+     G               E
+That wholesome honey scent
+
+[Verse]
+     Am
+That Cyrodilic Brandy
+     C
+Too fruity for these tongues
+        G
+You can keep your fancy alto wine
+   E
+It tastes like horker dung!
+
+   Am
+Balmora Blue tastes great to you
+    C
+But here we like it plain
+     G
+Just fill my mug with a mighty jug
+   E
+Of honey, heart and grain
+
+[Chorus]
+         Am                   C
+Drinking mead in the halls of Whiterun
+    G               D
+The maidens and the men
+   Am
+We swig our brew
+  C
+Until we spew
+        G              E
+Then we fill our mugs again
+
+        Am               C
+You can keep your filthy Skooma
+   G                 D
+It makes our bellies bleed
+              C
+Cause when we raise our flagon
+     G
+To another dead dragon
+         E
+There is just one drink we need
+
+[Post-chorus]
+     Am   C G D
+Nord mead
+     Am   C G E
+Nord mead
+
+Am
+Chug a mug of mead (Nord mead)
+     C
+And another mug of mead
+      G
+Chug another mug of mead
+         D
+Till you fall down
+
+Am
+Chug a mug of mead (Nord mead)
+     C
+And another mug mead
+      G                        E
+Chug another mug of mead, warrior
+
+[Outro]
+Am C G D
+Am C G E
+
+Am
+#+end_verse
+#+latex: \clearpage
+** TODO Oh, Better Far to Live and Die - Pirate King
+#+latex: \clearpage
+** Old Maui
+#+begin_verse
+[Verse 1]
+       Em         B7           G        D
+It's a damn tough life full of toil and strife
+   Em        B7   Em
+We whalermen undergo.
+       Em           B7            G      D
+And we won't give a damn when the gales are done
+    Em       B7        Em
+How hard the winds did blow.
+          G                       D
+For we're homeward bound from the Arctic ground
+       Em                  B7
+With a good ship, taut and free.
+       Em           B7           G         D
+And we won't give a damn when we drink our rum
+         Em       B7    Em
+With the girls of Old Maui.
+
+[Chorus]
+        G             D
+Rolling down to Old Maui, me boys
+        Em            B7
+Rolling down to Old Maui.
+      Em       B7             G      D
+We're homeward bound from the Arctic ground,
+        Em      B7    Em
+Rolling down to Old Maui.
+
+[Verse 2]
+     Em      B7            G         D
+Once more we sail with the northerly gale
+            Em       B7       Em
+Through the ice, and wind and rain.
+     Em      B7         G        D
+Them coconut fronds and tropical shores
+   Em         B7   Em
+We soon shall see again.
+        G                    D
+For six hellish months we've passed away
+       Em             B7
+On the cold Kamchatka Sea.
+    Em        B7             G      D
+But now we're bound from the Arctic ground
+        Em      B7    Em
+Rolling down to Old Maui.
+
+[Chorus]
+        G             D
+Rolling down to Old Maui, me boys
+        Em            B7
+Rolling down to Old Maui.
+      Em       B7             G      D
+We're homeward bound from the Arctic ground,
+        Em      B7    Em
+Rolling down to Old Maui.
+
+[Verse 3]
+     Em      B7            G         D
+Once more we sail with the northerly gale
+  Em        B7     Em
+Towards our island home.
+    Em      B7        G        D
+Our whaling done, our mainmast sprung,
+       Em        B7     Em
+And we ain't got far to roam.
+    G                    D
+Our stuns'l bones is carried away,
+     Em               B7
+What care we for that sound?
+   Em    B7      G      D
+A living gale is after us,
+      Em        B7       Em
+Thank God we're homeward bound.
+
+[Chorus]
+        G             D
+Rolling down to Old Maui, me boys
+        Em            B7
+Rolling down to Old Maui.
+      Em       B7             G      D
+We're homeward bound from the Arctic ground,
+        Em      B7    Em
+Rolling down to Old Maui.
+
+[Verse 4]
+    Em       B7                 G      D
+How soft the breeze through the island trees,
+        Em     B7  Em
+Now the ice is far astern.
+     Em     B7          G        D
+Them native maids, them tropical glades
+      Em      B7    Em
+Is a-waiting our return.
+     G                   D
+Even now their big brown eyes look out
+       Em               B7
+Hoping some fine day to see
+    Em    B7             G        D
+Our baggy sails runnin' 'fore the gales
+        Em      B7    Em
+Rolling down to old Maui.
+
+[Chorus]
+        G             D
+Rolling down to Old Maui, me boys
+        Em            B7
+Rolling down to Old Maui.
+      Em       B7             G      D
+We're homeward bound from the Arctic ground,
+        Em      B7    Em
+Rolling down to Old Maui.
+
+        G             D
+Rolling down to Old Maui, me boys
+        Em            B7
+Rolling down to Old Maui.
+      Em       B7             G      D
+We're homeward bound from the Arctic ground,
+        Em      B7    Em
+Rolling down to Old Maui.
+#+end_verse
+#+latex: \clearpage
+** TODO Pirates of the Black Flag
+#+latex: \clearpage
+** Pirates who don't do anything
+#+begin_verse
+[ARCHIBALD] (Spoken)
+N.C.
+And now it's time for silly songs with Larry
+The part of the show
+Where Larry comes out and sings a silly son.
+
+Joining Larry are Pa Grape and Mister Lunt
+Who together, make up the infamous gang of scallywags:
+'The Pirates Who Don't Do Anything'.
+
+
+[PA GRAPE, MISTER LUNT, LARRY]
+           C                    F
+We are the pirates who don't do anything
+        C                    G
+We just stay at home and lay around
+           C            F
+And if you ask us to do anything
+C          G
+We'll just tell you...
+
+
+[LARRY]
+            C
+We don't do anything
+
+
+[PA GRAPE]
+           C
+Well, I've never been to Greenland
+         F
+And I've never been to Denver
+         C                        G
+And I've never buried treasure in St. Louie or St. Paul
+         C
+And I've never been to Moscow
+         F
+And I've never been to Tampa
+         C            G             C
+And I've never been to Boston in the fall
+
+
+[PA GRAPE, MISTER LUNT, LARRY]
+C                              F
+We're the pirates who don't do anything
+        C                    G
+We just stay at home and lay around
+           C            F
+And if you ask us to do anything
+ C         G
+We'll just tell you...
+
+
+[MISTER LUNT] (Spoken)
+            C
+We don't do anything!
+
+
+[MISTER LUNT]
+         C
+And I've never hoist the mainstay
+         F
+And I've never swabbed the poop deck
+         C
+And I've never veer to starboard
+         G
+'Cause I never sail at all
+         C
+And I've never walked the gangplank
+         F
+And I've never owned a parrot
+         C             G             C
+And I've never been to Boston in the fall
+
+
+[PA GRAPE, MISTER LUNT, LARRY]
+                 C                    F
+'Cause we're the pirates who don't do anything
+        C                    G
+We just stay at home and lay around
+       C                F
+And if you ask us to do anything
+ C         G                    C
+We'll just tell you we don't do anything
+
+
+[LARRY]
+ C
+Well, I've never plucked a rooster
+        F
+And I'm not too good at ping pong
+         C
+And I've never thrown my mashed potatoes
+G
+Up against the wall
+         C
+And I've never kissed a chipmunk
+         F
+And I've never gotten head lice
+         C             G             C
+And I've never been to Boston in the fall
+
+
+[PA GRAPE] (Spoken)
+N.C.
+Huh? What are you talking about?
+What does a rooster or mashed potatoes
+Have to do with being a pirate?
+
+
+[MISTER LUNT] (Spoken)
+N.C.
+Hey, that's right
+We're supposed to sing about pirate-y things!
+
+
+[PA GRAPE] (Spoken)
+N.C.
+And who's ever kissed a chipmunk?
+That's just nonsense! Why even bring it up?
+Am I right? What do you think?
+
+
+[MISTER LUNT] (Spoken):
+N.C.
+I think you look like Cap'n Crunch.
+
+
+[PA GRAPE] (Spoken)
+N.C.
+Huh? No I don't!
+
+
+[MISTER LUNT] (Spoken)
+N.C.
+Do too!
+
+
+[PA GRAPE] (Spoken)
+N.C.
+Do not!
+
+
+[MISTER LUNT] (Spoken)
+N.C.
+You're making me hungry.
+
+
+[PA GRAPE (Spoken)
+N.C.
+That's it, you're walking the plank!
+
+
+[MISTER LUNT] (Spoken)
+N.C.
+Says who?
+
+
+[PA GRAPE] (Spoken)
+N.C.
+Says the Cap'n, that's who!
+
+
+[MISTER LUNT] (Spoken)
+N.C.
+Oh yeah?
+Aye, aye, Cap'n Crunch!
+
+
+[PA GRAPE] (Spoken)
+N.C.
+Arrrgh!
+
+
+[MISTER LUN] (Spoken)
+N.C.
+Yikes!
+
+
+[LARRY]
+         C
+And I've never licked a spark plug
+         F
+And I've never sniffed a stinkbug
+         C
+And I've never painted daises
+     G
+On a big red rubber ball
+    C
+And I've never bathed in yogurt
+      F
+And I don't look good in leggings
+
+
+[PA GRAPE] (Spoken)
+N.C.
+You just don't get it.
+
+
+[PA GRAPE, MISTER LUNT, LARRY]
+          C             G             C
+And we've never been to Boston in the fall!
+#+end_verse
+#+latex: \clearpage
+** Professional Pirate
+:PROPERTIES:
+:Artist:   Muppet Treasure Island
+:END:
+#+begin_verse
+Intro
+Em D   Em
+Em D/F# G
+G       D
+C  D Em D/F# G
+
+Verse
+
+G                                                D
+When I was just a lad looking for my true vocation
+B                 G                    F#m       D
+My father said "Now son, this choice deserves deliberation
+B                    Em                  D            G
+Though you could be a doctor or perhaps a financier
+C                G               D           G      B
+My boy why not consider a more challenging career"
+
+Chorus
+
+Em D Em
+Hey ho ho
+         Em       D/F#      G
+You'll cruise to foreign shores
+G                             D
+And you'll keep your mind and body sound
+   C        D    G
+By working out of doors
+A    Am                                Em
+True friendship and adventure are what we can't live without
+Em  Am   Bm       C
+And when you're a professional pirate
+        D               G     B
+That's what the job's about
+
+Em
+
+Verse
+D/F# G                                          D
+Now take Sir Francis Drake, the Spanish all despise him
+B            G                 F#m         D
+But to the British he's a hero and they idolize him
+B                   Em               D         G
+It's how you look at buccaneers that makes them bad or good
+C               G             D      G         B
+And I see us as members of a noble brotherhood
+
+Chrous
+Em  D Em
+Hey ho ho
+Em     D/F#    G
+We're honorable men
+G                      D               C       D         G
+And before we lose our tempers we will always count to ten
+Am                               Em
+On occasion there may be someone you have to execute
+Em  Am   Bm       C
+But when you're a professional pirate
+D                        G              B
+You don't have to wear a suit..... what?
+
+Em
+
+Bridge
+Em
+I could have been a surgeon
+Esus4           Em
+I like taking things apart
+Em
+Bad Polly: I could have been a lawyer
+Am
+But I just had too much heart
+G                    Am
+I could have been in politics
+Bm                           C
+Cause I've always been a big spender
+G
+And me...
+D                     Am       Em  B
+I could have been a contender
+
+Em
+
+Verse
+G                                         D
+Some say that pirates steal and should be feared and hated
+B                    G               F#m          D
+I say we're victims of bad press it's all exaggerated
+B                         Em           D            G
+We'd never stab you in the back, we'd never lie or cheat
+C                     G                D              G       B
+We're just about the nicest guys you'd ever want to meet
+
+
+(Long John's speech)
+Em D Em
+Em D/F# G
+G  D  C  G
+Am      Em
+Em  Am  Bm  C
+D  G   B
+
+
+Em D Em
+Hey ho ho
+     Em   D/F#    G
+It's one for all for one
+           G               D                  C              G
+And we'll share and share alike with you and love you like a son
+A     Am                                   Em
+We're gentlemen of fortune and that's what we're proud to be
+Em   Am     Bm    C
+And when your a professional pirate
+
+
+Coda
+D
+You'll be honest brave and free
+D
+The soul of decency
+G
+You'll be loyal and fair and on the square
+C
+And most importantly
+Em   Am     Bm    C
+When you're a professional pirate
+D       C                G
+You're always in the best of company
+D  G
+#+end_verse
+#+latex: \clearpage
+** Randy Dandy Oh
+#+begin_verse
+[Verse]
+ Am
+Now we are ready to head for the Horn,
+Am   G    Am
+Way, hey, roll an' go!
+    C                              G
+Оur boots an' our clothes boys are all in the pawn,
+      Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+Heave a pawl, oh, heave away,
+Am   G    Am
+Way, hey, roll and go!
+     C                        G
+The anchor's on board an' the cable's all stored,
+       Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+Он, man the stout caps'n and heave with a will,
+Am   G    Am
+Way, hey, roll and go!
+C                         G
+Soon we'll be drivin' her 'way down the hill.
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+Heave a pawl, oh, heave away,
+Am   G    Am
+Way, hey, roll and go!
+    C                         G
+The anchor's on board an' the cable's all stored,
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+[Verse]
+Am
+Heave away, bullies, ye parish-rigged bums,
+Am   G    Am
+Way, hey, roll and go!
+         C
+Take yer hands from yer pockets
+    G
+and don't suck yer thumbs.
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+Heave a pawl, oh, heave away,
+Am   G    Am
+Way, hey, roll and go!
+    C                         G
+The anchor's on board an' the cable's all stored,
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+We're outward bound for Vallipo Bay,
+Am   G    Am
+Way, hey, roll and go!
+    C                         G
+Get crackin', me lads, it's a hell of a way!
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+
+Am
+Heave a pawl, oh, heave away,
+Am   G    Am
+Way, hey, roll and go!
+    C                         G
+The anchor's on board an' the cable's all stored,
+        Am              Cmaj9/B  Am
+To be rollickin' randy dandy О!
+#+end_verse
+#+latex: \clearpage
+** TODO Roll the Wood Pile Down
+:PROPERTIES:
+:Artist:   The Dreadnoughts
+:END:
+#+latex: \clearpage
+** Row me Bully boys
+#+begin_verse
+Song Name:   Row Me Bully Boys
+Tuning: E Standard (EADGBE)
+
+Capo 3
+
+D
+Row me bully boys
+G
+Steady and surely boys
+D                     A
+Don't ye dare stop﻿ or slow
+        D
+Till at long last we're home
+       G
+On our way we will go
+   D      A          D
+So row me bully boys row
+
+
+D
+Row me bully boys
+G
+I am so weary boys
+D                       A
+We left home ten years ago
+         D
+So we'll fly out our sails
+          G
+And drink all of the ale
+    D      A          D
+And row me﻿ bully boys row
+
+
+D
+Row me﻿ bully boys
+G
+No need to worry boys
+D                         A
+We'll be home sooner than no
+           D
+Then we'll drink and we'll feast
+        G
+Have no care in the least
+         D      A          D
+So let's row me bully boys row
+
+D
+Row﻿ me bully boys
+G
+We're in a hurry boys
+D                       A
+We've got a long way to go
+          D
+And we'll sing and we'll dance
+        G
+And bid farewell to france
+         D      A          D
+And it's row me bully boys row
+#+end_verse
+#+latex: \clearpage
+** Sailing For Adventure
+:PROPERTIES:
+:Artist:   Muppet Treasure Island
+:END:
+#+begin_verse
+[Intro]
+C
+
+[Verse 1]
+         C                      F
+When the course is laid and the anchor's weighed
+  C                     G
+A sailor's blood begins racing
+         C                      F
+With our hearts unbound and our flag unfurled
+      G                    C
+We're under way and off to see the world
+G                    C
+Under way and off to see the world
+
+[Chorus 1]
+Bb     F
+Hey ho we'll go
+Bb C         F
+Anywhere the wind is blowing
+Bb    F
+Manly men are we
+C                            F
+Sailing for adventure on the deep blue see
+
+C
+Sam: "Safely now, Mr. Silver. Let's not get sloppy, just
+C
+because we're singing!"
+
+[Verse 2]
+       C                     F
+Danger walks the deck we say what the heck
+   C                         G
+We laugh at the perils we're facing
+      C                    F
+Every storm we ride is its own reward
+    G                     C
+And people die by falling overboard
+G                     C
+people die by falling overboard
+
+[Chorus 2]
+Bb     F
+Hey ho we'll go
+Bb C         F
+Anywhere the wind is blowing
+Bb        F
+Hoist the sails and sing
+C                            F
+Sailing for adventure on the big, blue wet thing
+
+[Bridge 1]
+Bbm                             Fm
+I love to see 'em cry when they walk the plank
+    Bbm           Fm
+I prefer to cut a throat
+F#
+I love to hang 'em high and watch their little feet try
+                               C#
+to walk in the air while their faces turn blue
+N.C.
+Just kidding
+F                            G
+It's a good life on a boat
+
+[Verse 3]
+          C                  F
+There are distant lands with burning sands
+     C               G
+That call across the oceans
+          C                 F
+There are bingo games every fun-filled day
+    G                 C
+And Margaritas at the midnight buffet
+G                 C
+Margaritas at the midnight buffet
+
+[Chorus 3]
+Bb     F
+Hey ho we'll go
+Bb  C        F
+Anywhere the wind is blowing
+Bb          F
+Should have took a train
+C                            F
+Sailing for adventure on the bounding main
+
+[Bridge]
+    C     D       G
+The salty breezes whisper
+    C          D    Em
+Who knows what lies ahead
+  C               D       Em       D              G
+I just know I was born to live the life my father lead
+    F#         G#     C#
+The stars will be our compass
+    F#   G#     A#m
+Wherever we may roam
+        C#
+And our mates will always be
+     G
+Just like a family
+    F#                C#             F#            F    G
+And though we may put into port, the sea is always home
+C                     F                                 C
+All right, Mr. Bimbo! I didn't know you had such a good singing voice
+   G
+Your welcome!
+
+[Pre-Chorus]
+C                               F
+We'll chase our dreams standing on our own
+G                       C
+Over the horizon to the great unknown
+
+[Chorus 4]
+C#     G#
+Hey ho we'll go
+C# D#        G#
+Anywhere the wind is blowing
+C#       G#
+Bold and brave and free
+
+[Coda]
+D#
+Sailing for adventure
+N.C.
+It's so nauseating
+D#
+Sailing for adventure
+N.C.
+So exhilarating
+D#
+Sailing for adventure
+N.C.
+We're all celebrating!
+D#     G         G#
+On the deep blue sea
+#+end_verse
+#+latex: \clearpage
+** Sally Brown/Roll Boys, Roll
+#+begin_verse
+[Verse 1]
+
+G                            C       G
+I shipped on board of a Liverpool liner
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 2]
+
+G                 C          G
+Sally Brown is a nice young lady
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 3]
+
+G                                    C        G
+She's tall and she's dark but she's not too shady
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 4]
+
+G                              C      G
+She drinks stock rum and she chews tobacco
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 5]
+
+G                            C     G
+Her mother doesn't like no tarry sailor
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 6]
+
+G                         C            G
+She wants her to marry a one legged captain
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 7]
+
+G                             C                G
+Sally wouldn't wed me so I shipped across the water
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 8]
+
+G                       C        G
+And now I am courting Sally's daughter
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+
+
+[Verse 9]
+
+G                          C        G
+I shipped on board of a Liverpool liner
+     C     D7      G
+Way, hay, roll and go
+                  C
+And we roll all night
+        D              G
+And we roll 'till the day
+                                         D7    G
+I'm goin' to spend my money along with Sally Brown
+#+end_verse
+#+latex: \clearpage
+** Santiana
+:PROPERTIES:
+:Artist:   The Longest Johns
+:END:
+#+begin_verse
+Gmaj7: xx0032
+
+[Verse 1]
+
+    Em       G        D
+Oh! Santiana gained a day
+ Em       G D
+Away Santiana!
+   D             Bm7         D
+"Napoleon of the West", they say
+  Em      Bm7       Em
+Along the plains of Mexico
+
+
+[Chorus]
+N.C Em                  G         D
+Well, heave 'er up and away we'll go
+ Em     Gmaj7 D
+Away Santiana!
+D                  Bm7        D
+ Heave 'er up and away we'll go
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Verse 2]
+        Em                      G          D
+She's a fast clipper ship and a bully good crew
+ Em       G D
+Away Santiana!
+       D                    Bm7     D
+And an old salty yank for a captain too
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Chorus]
+N.C Em                  G         D
+Well, heave 'er up and away we'll go
+ Em     Gmaj7 D
+Away Santiana!
+D                  Bm7        D
+ Heave 'er up and away we'll go
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Verse 3]
+Em       G          D
+Santiana fought for gold
+ Em       G D
+Away Santiana!
+D                            Bm7     D
+Around Cape Horn through the ice and snow
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Chorus]
+N.C Em                  G         D
+Well, heave 'er up and away we'll go
+ Em     Gmaj7 D
+Away Santiana!
+D                  Bm7        D
+ Heave 'er up and away we'll go
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Verse 4]
+      Em              G         D
+T'was on the field of Molly-Del-Ray
+ Em       G D
+Away Santiana!
+     D                 Bm7   D
+Well both his legs got blown away
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Chorus]
+N.C Em                  G         D
+Well, heave 'er up and away we'll go
+ Em     Gmaj7 D
+Away Santiana!
+D                  Bm7        D
+ Heave 'er up and away we'll go
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Verse 5]
+   Em               G      D
+It was a fierce and bitter strife
+ Em       G D
+Away Santiana!
+    D              Bm7      D
+The general Taylor took his life
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Chorus]
+N.C Em                  G         D
+Well, heave 'er up and away we'll go
+ Em     Gmaj7 D
+Away Santiana!
+D                  Bm7        D
+ Heave 'er up and away we'll go
+ Em       Bm7       Em
+Along the plains of Mexico
+
+
+[Verse 6]
+Em        G      D
+Santiana, now we mourn
+ Em  G   Gmaj7 D
+Away Santiana!
+   D               Bm7      D
+We left him buried off Cape Horn
+ Em       Bm7       Em
+Along the plains of Mexico
+#+end_verse
+#+latex: \clearpage
+** Shiver Me Timbers
+:PROPERTIES:
+:Artist:   Muppet Treasure Island
+:END:
+#+begin_verse
+Shiver Me Timbers by Tom Waits
+INTRO:
+
+G    C    G    Em7
+G    A7   Am   D7
+
+
+G              C     G               Em7
+I'm leaving my family leaving all my friends
+G            A7           Am            D7
+My body's at home but my hearts in the wind
+          G              C               G             Em7
+Where the clouds are like headlines on a new front page sky
+   G             A7             Am        D7   G
+My tears are salt water and the moons full and high
+
+G                 C           G           Em7
+And I know Martin Eden's gonna be proud of me
+G           A7           Am           D7
+Many before me have been drawn by the sea
+     G                C    G          Em7
+To be up in the crow's nest singing my say
+G         A7             Am     D7  G
+Shiver me Timbers as I'm sailing away
+
+
+CHORUS:
+
+         Em                    B7
+ Now the fog's lifting and the sand's shifting
+ G               A7
+ I'm drifting on out
+                                D7sus4     D7
+ Old captain Ahab he ain't got nothing on me
+    Em           B7
+ So swallow me , follow me
+ G               A7
+ I'm travelling alone
+                                   D7sus4      D7
+ Blue waters my daughter I'm gonna skip like a stone
+
+  G              C      G               Em7
+So please call my misses tell her not to cry
+G                  A7             Am          D7
+Cause my goodbye is written by the moon in the sky
+G      C                G         Em7
+Nobody knows me I can't fathom my stayin'
+G         A7             Am     D7  G
+Shiver me timbers as I'm sailing away
+
+(CHORUS)
+
+G              C     G               Em7
+I'm leaving my family leaving all my friends
+G            A7           Am            D7
+My body's at home but my hearts in the wind
+          G              C               G             Em7
+Where the clouds are like headlines on a new front page sky
+G         A7             Am     D7   G
+Shiver me timbers as I'm sailing away
+
+
+END
+#+end_verse
+#+latex: \clearpage
+** Space Shanty
+:PROPERTIES:
+:Artist:   The Senate
+:END:
+#+begin_verse
+[Intro]
+Time: 6/8
+ G x2 C  D
+
+[Verse]
+        G
+Oh the whiskey is floating won't stay in me glass
+     D
+I'm weightless and spinning and drunk off me ass
+        G                          ~
+Oh the whiskey is floating in a sphere o'er me head
+       D                                 C        G
+If we don't clear this wormhole we'll surely be dead
+
+[Chorus]
+     G                                        C
+So reach for the whiskey, boys, reach for the stars
+      G                          D
+They won't stop us drinkin' on Venus or Mars
+     G                                          C
+So reach for the whiskey, boys, reach for the sky
+         Am7         C               D           G
+For the vacuum of space sucks them bottles all dry
+
+[Verse 2]
+        G
+Oh infinite booty awaits us in space
+       D
+We'll pillage and plunder with fervor and grace
+             G
+That's what my astronomical unit is for
+       D                       C         G
+Let's party where no-one has partied before
+
+[Chorus]
+     G                                        C
+So reach for the whiskey, boys, reach for the stars
+      G                          D
+They won't stop us drinkin' on Venus or Mars
+     G                                          C
+So reach for the whiskey, boys, reach for the sky
+         Am7         C               D           G
+For the vacuum of space sucks them bottles all dry
+
+[Bridge]
+  Em
+Alone in the cockpit I gaze at the stars
+                             D
+I drink, and I think of my home (he thinks of his home) of my home...
+
+[Verse 3]
+       G
+Our thrusters are the hottest that you've ever felt
+       D
+They might just unbuckle your asteroid belt
+        G
+We're honing our moonwalking skills as we speak
+       D                  C              G
+We'll dance on Uranus by this time next week
+
+[Chorus]
+     G                                        C
+So reach for the whiskey, boys, reach for the stars
+      G                          D
+They won't stop us drinkin' on Venus or Mars
+     G                                          C
+So reach for the whiskey, boys, reach for the sky
+         Am7         C               D          G
+For the vacuum of space sucks them bottles all dry
+#+end_verse
+#+latex: \clearpage
+** The Last Shanty
+#+begin_verse
+spotify:track:69HEUcXd73lvnQVb34m53L
+https://www.youtube.com/watch?v=ugpTBrhWDss
+Worked out on request for jesse.moores from Australia
+Please: rate (stars left unter sheet) or/and add favorite (heart right above)
+When you are looking for chords of another nice song you could send me a Personal Message.
+ATTENTION: You are experencied? Than you don't have to use Capo. USE TRANSPOSE BUTTON +2.
+LEGEND: * means "play short" and stop
+
+[Verse 1] (a capella, so, no guitar = chords needed)
+         C                         C
+Well, me father often told me when I was just a lad:
+  C                               G
+a sailor's life is very hard, the food is always bad.
+     C                              C
+But, now I've joined the Navy, I'm aboard a man-o-war,
+    C                               Am*    G* C
+and now I've found a sailor ain't a sailor anymore.
+
+[Chorus] (still a capella, no guitar-chords needed)
+      C                       C
+Don't haul on the rope, don't climb up the mast,
+C            Am              D7            G7
+if you see a sailing ship it might be your last.
+     C                           C
+Just get your civvies ready for another run-ashore,
+  C              Am              F      G  C
+a sailor ain't a sailor, ain't a sailor anymore.
+
+[Interlude]
+C         C
+C    Am   F G  C
+
+[Verse 2]
+          C                       C
+Well, the killick of our mess, he says we had it soft,
+   C                                G
+it wasn't like that in his day when we were up aloft.
+   C                                    C
+We like our bunks and sleeping bags but what's a hammock for?
+C                              Am G          C
+Swinging from the deckhead, or lying on the floor?
+
+[Chorus]
+      C                       C
+Don't haul on the rope, don't climb up the mast,
+C            Am              D7            G7
+if you see a sailing ship it might be your last.
+     C                           C
+Just get your civvies ready for another run-ashore,
+  C              Am              F      G  C
+a sailor ain't a sailor, ain't a sailor anymore.
+
+[Interlude]
+C         C
+C    Am   F G  C
+
+[Verse 3]
+     C                      C
+They gave us an engine that first went up and down,
+C                             G
+then with more technology the engine went around.
+   C                              C
+We know our steam and diesels but what's a mainyard for?
+  C                            Am     G  C
+A stoker ain't a stoker with a shovel anymore.
+
+[Chorus]
+      C                       C
+Don't haul on the rope, don't climb up the mast,
+C            Am              D7            G7
+if you see a sailing ship it might be your last.
+     C                           C
+Just get your civvies ready for another run-ashore,
+  C              Am              F      G  C
+a sailor ain't a sailor, ain't a sailor anymore.
+
+[Interlude]
+C         C
+C    Am   F G  C
+
+[Verse 4]
+     C                           C
+They gave us an Aldiss Lamp, so, we could do it right,
+     C                   G
+they gave us a radio, we signaled day and night.
+   C                              C
+We know our codes and cyphers but what's a sema for?
+  C*
+A bunting-tosser doesn't toss the bunting anymore.
+
+[Chorus]
+      C                       C
+Don't haul on the rope, don't climb up the mast,
+C            Am              D7            G7
+if you see a sailing ship it might be your last.
+     C                           C
+Just get your civvies ready for another run-ashore,
+  C              Am              F      G  C
+a sailor ain't a sailor, ain't a sailor anymore.
+
+[Interlude]
+F      F      F      C            F      F      C      F
+F      F      F      C            F      F      C      F
+Dm     Dm     C      C            Dm     Dm     C      Dm
+Dm     Dm     C      C            Dm     Dm     C      Am
+F      F      F      C            F      F      C      F
+F      F      F      C            F      F      Bb C   F
+
+[Interlude] (Key Change to E (with Capo on II)
+D        D
+
+[Verse 5]
+D*
+Two cans of beer a day and that's your bleeding lot,
+    N.C.
+and now we've got an extra one because they stopped The Tot.
+    D*    D*                       D*   D*
+So, we'll put on our civvy-clothes find a pub ashore.
+  D*
+A sailor's just a sailor just like he was before.
+
+[Chorus]
+      D                       D
+Don't haul on the rope, don't climb up the mast,
+D            Bm              E7            A7
+if you see a sailing ship it might be your last.
+     D                           D
+Just get your civvies ready for another run-ashore,
+  D              Bm              G      A  D
+a sailor ain't a sailor, ain't a sailor anymore.
+
+[End-Chorus]
+      D                       D
+Don't haul on the rope, don't climb up the mast,
+D            Bm              E7            A7
+if you see a sailing ship it might be your last.
+     D                           D
+Just get your civvies ready for another run-ashore,
+  D              Bm              G      A  D
+a sailor ain't a sailor, ain't a sailor anymore.
+  D              Bm              G      A  D
+A sailor ain't a sailor, ain't a sailor anymore.
+  D              Bm              G      A  D      D*
+A sailor ain't a sailor, ain't a sailor anymore.
+
+#+end_verse
+#+latex: \clearpage
+** The Ship is Fine
+:PROPERTIES:
+:Artist:   Jolly Rogers
+:Key:      C
+:END:
+#+begin_verse
+Before every chorus play this:
+E--3------
+A-----0--2
+D---------
+G---------
+B---------
+E---------
+Also where there is a Ddim7 just play anything that sounds broken. Have fun ;)
+
+
+
+[Intro]
+
+Dm G C G C
+
+
+[Chorus]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+
+
+[Verse 1]
+
+ C
+I would have a great big deck
+ G
+Plated in solid gold!
+ G
+'Cause being teased about my little deck
+ C
+Is really gettin' old! (happens a lot)
+     C
+I'd sail from south tortuga
+         A7
+All the way up to Quebec
+       Dm             G
+And in each port I'd shout: Hey, sailor!
+       C        G        C
+Wanna ride my great big deck?
+
+(It's enormous! - it's okay, it's okay)
+
+
+[Chorus]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+
+
+[Verse 2]
+
+Let's see, uh
+         C
+I'd get rid of all the water
+          G
+From down in the ballast hole (but we'll tip over!)
+       G
+And replace it with some good dark rum
+      C
+Where it can stay nice and cold!
+       C
+Every man aboard the ship can drink
+   A7
+Until he's had his fill
+     Dm              G
+And the only rude we'd enforce
+           C       G          C
+Is that noone's allowed to spill!
+
+(How about that? Take that, you'd have to replace it later)
+
+
+[Chorus]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+
+
+[Verse 3]
+
+ C
+I'd strip her down just to a rudder
+ G
+A mast and a wheel (minimalism!)
+ G
+I'd make her long and hard - and hollow
+     C
+And cover her in steel! (urr!)
+ C
+She'd be a giant floating cannon
+   A7
+No need for cabins and walls! (we-we need them)
+ Dm                 G
+And everyone would shiver
+           C       G           C
+When they saw the size of my balls!
+
+(I'm shivering already, you've seen them? They're huge!)
+
+
+[Chorus]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+
+
+[Verse 4]
+
+      C
+I'd replace the bunks and hammocks
+      G
+With big four-poster beds (ooh, okay!)
+      G
+And I'd get rid of most the crew like you, lot
+     C
+And hire trollops on instead
+      C
+She'd be a floating brothel
+       A7
+And I'd be her captain bow
+              Dm           G
+I'd have more fun than any pirate
+          C       G       C
+And I'd make a lot more gold (arrogant jerk)
+
+
+[Chorus]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+
+
+[Verse 5]
+
+ C
+I'd get rid of all the sails
+                    G
+And find something better than the wind (what?)
+      G                              C
+Perhaps some sort of intermittent combustion engine
+          C
+With reciprocating pistons
+       A7
+And a fuel source based on heat!
+      Ddim7
+We could - hey! - woah, woah, woah!
+ N.C.
+Well, forget it you mooks
+ N.C
+Let's go with devin's brothel plan
+ N.C
+Wouldn't that be sweet? (Yeaah!)
+
+
+[Outro]
+
+ C
+There's not a thing wrong with this ship
+ G
+In fact, she is just fine
+ G
+But there would be some changes
+ C
+If if this vessel it were mine
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+ C                           A7
+Nothing unrealistic or too drastic or severe
+ Dm                G             C         G       C
+Just some subtle tweaks to improve the atmosphere!
+#+end_verse
+#+latex: \clearpage
+** Twiddles
+:PROPERTIES:
+:Artist:   Misbehavin' Maidens
+:END:
+#+begin_verse
+E-D-E
+
+         E                              D
+When the ships all go a-sailing and the men are off and gone
+D                            A           E
+What about the women who are up and left alone
+       E                               D
+Do you think we sit and twiddle thumbs until our men come home
+        D                              A                  E
+There's other things to twiddle when a girl's left on her own
+
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+        D                                 A              E-D-E
+There's other things to twiddle when your man has gone away
+
+
+
+      E                         D
+Well I remember Nelly she was young and she was gay
+    D                                 A              E
+She won the heart of Captain Dan but then he sailed away
+    D                                  E
+He left her high and dry with just a kiss upon the chin
+    D                              A                  E
+But as his ship went sailing out another ship sailed in
+
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+        D                                 A              E-D-E
+There's other things to twiddle when your man has gone away
+
+
+E                                D
+Then there was Lucinda Brown as fair as any maid
+    D                            A             E
+Her true love went a voyaging a sailor man by trade
+     D                                    E
+Oh keep the fire burning love those were the words he spoke
+        D                           A             E
+So she found herself another man to keep the fire stoked
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+        D                                 A              E-D-E
+There's other things to twiddle when your man has gone away
+
+
+E                                D
+When Lucinda's man came back and knocked upon her door
+    D                               A          E
+She was as glad to see him as she'd ever been before
+E                                 D
+He left her lying in the bed but Lucy didn't care
+            D                D                A            E
+Course the poor guy in the closet sure could use a little air
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+        D                                 A              E-D-E
+There's other things to twiddle when your man has gone away
+
+
+        E                               D
+Oh you hear a lot of stories 'bout the sailors and their sport
+ D                            A             E
+About how every lad has got a girl in every port
+       E                            D
+But if you added two and two you'd figure out right quick
+       D                              A            E
+That's just because the lasses have a lad on every ship
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+        D                                 A              E-D-E
+There's other things to twiddle when your man has gone away
+
+
+
+E                        D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+         D                                 A           E
+There's lots of times a man will leave you broken with dismay
+E                         D
+Twiddly-i dee-li dee-lo twiddly-i dee-lay
+              D                  A                 E       D    E
+There's other willy's willing to twiddle when your willy's gone away
+#+end_verse
+#+latex: \clearpage
+** TODO Tyme Flies When You're Having Rum
+:PROPERTIES:
+:Artist:   Pirates for Sail
+:END:
+#+latex: \clearpage
+** Voodoo Man
+:PROPERTIES:
+:Artist:   Jolly Rogers
+:END:
+#+begin_verse
+[Intro]
+
+Am C F E Am
+
+[Verse]
+Am
+He was a nice young sailor lad, as green as green could be
+        C                           Am
+When he first joined our crew for a life of piracy
+       F                                Am
+When a storm nearly capsized us, he was thrown from the ship
+E
+Stranded on Hispaniola, right there on the western tip
+
+[Verse 2]
+Am
+When the crew next saw him they could not believe their eyes
+          C                                 Am
+There was little left of the young man that one could recognize
+    F                               Am
+His hair was long a braided, and he looked ready for war
+       E
+But he smiled and said " Hello mates. I'm your new Bokor "
+
+[Chorus]
+F                              Am
+Now he wears more tattoos than clothes
+       F                        Am          E
+With a ring on every finger and bone in his nose
+E                                    G
+When he starts his chanting we don't always understand
+       F             E             Am
+But we always listen to him, cause he's our voodoo man
+
+[Verse 3]
+Am
+The captain said "Now listen boys, I think we should turn back
+C                                  Am
+There's a storm a brewing and that beast is building fast."
+    F                                  Am
+The bokur said "Just wait a minute and Captain keep your course"
+       E
+And he went back to his cabin but the storm it just got worse
+
+[Bridge]
+F                   G            Am
+We heard howls, and moans, and a bang, and a crash
+F                  G     Am
+We saw thick black smoke and a fiery flash
+G                                       F
+We could smell the lighting and we just stared at his door
+    E                                           Am
+And when we started to relax, it started up once more
+
+[Verse 4]
+Am
+He rushed out and said "We'll need every inch of sail."
+C                             Am
+And a swath of clear blue sky split the monstrous gale
+    F                         Am
+The wind filed every sail and tightened every line
+E
+As we passed we saw the storm crashed back in behind
+
+[Chorus]
+F                              Am
+Now he wears more tattoos than clothes
+       F                        Am          E
+With a ring on every finger and bone in his nose
+E                                    G
+When he starts his chanting we don't always understand
+       F             E             Am
+But we always listen to him, cause he's our voodoo man
+
+[Verse 5]
+Am
+While hunting down a merchant ship around the rocky shore
+   C                           Am
+We came around the island to a massive Man o' War
+    F                                       Am
+The captain said " Now listen boys. We're about to meet our doom."
+        E
+And the bokur shouted "Never fear"
+E
+And he ran down to his room
+
+[Bridge]
+F                   G            Am
+We heard howls, and moans, and a bang, and a crash
+F                  G     Am
+We saw thick black smoke and a fiery flash
+G                                       F
+We could smell the lighting and we just stared at his door
+    E                                           Am
+And when we started to relax, it started up once more
+
+[Verse 6]
+Am
+"FIRE TWO SHOTS" he shouted and they went off right on cue
+C                                       Am
+Both shots found their target and their powder hold it blew
+    F                               Am
+The Man o' War bust into flames and it began to pitch
+E
+And we stole enough from her to make sure we were rich
+
+[Chorus]
+F                                Am
+He still wears more tattoos than clothes
+       F                        Am           E
+With a ring on every finger and bone in his nose
+E                                    G
+When he starts his chanting we don't try to understand
+       F             E             Am
+But we always listen to him, cause he's our voodoo man
+   F             E             Am
+We always listen to him, cause he's our voodoo man
+   F             E             E               Am
+We always listen to him, cause he's our voodoo man
+#+end_verse
+#+latex: \clearpage
+** Wellerman
+:PROPERTIES:
+:Key:      Am
+:END:
+#+begin_verse
+[Verse 1]
+
+   Am
+There once was a ship that put to sea
+         Dm                      Am
+And the name of the ship was the Billy o' Tea
+     Am
+The winds blew hard, her bow dipped down
+ E                    Am
+Blow, me bully boys, blow (huh!)
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                Am
+To bring us sugar and tea and rum
+F                  C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+
+[Verse 2]
+
+    Am
+She had not been two weeks from shore
+      Dm            Am
+When down on her a right whale bore
+     Am
+The captain called all hands and swore
+      E                 Am
+He'd take that whale in tow (huh!)
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                Am
+To bring us sugar and tea and rum
+F                  C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+
+[Verse 3]
+
+   Am
+Before the boat had hit the water
+      Dm              Am
+The whale's tail came up and caught her
+     Am
+All hands to the side, harpooned and fought her
+      E                Am
+When she dived down below (huh!)
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                 Am
+To bring us sugar and tea and rum
+F                 C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+
+[Verse 4]
+
+    Am
+No line was cut, no whale was freed;
+     Dm                Am
+The Captain's mind was not of greed
+    Am
+But he belonged to the whaleman's creed;
+     E                Am
+She took the ship in tow (huh!)
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                 Am
+To bring us sugar and tea and rum
+F                 C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+
+[Verse 5]
+
+     Am
+For forty days, or even more
+     Dm                    Am
+The line went slack, then tight once more
+     Am
+All boats were lost (there were only four)
+      E                  Am
+But still that whale did go
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                 Am
+To bring us sugar and tea and rum
+F                 C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+
+[Verse 6]
+
+   Am
+As far as I've heard, the fight's still on;
+     Dm                     Am
+The line's not cut and the whale's not gone
+     Am
+The Wellerman makes his regular call
+     Dm                    Am
+To encourage the Captain, crew, and all
+
+[Chorus]
+
+ F            C
+Soon may the Wellerman come
+    Dm                 Am
+To bring us sugar and tea and rum
+F                 C
+One day, when the tonguin’ is done,
+       E                 Am G
+We’ll take our leave and go
+
+
+ F            C
+Soon may the Wellerman come
+    Dm                 Am
+To bring us sugar and tea and rum
+F                 C
+One day, when the tonguin’ is done,
+       E                 Am
+We’ll take our leave and go
+#+end_verse
 #+latex: \clearpage
